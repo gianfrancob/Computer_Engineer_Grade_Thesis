@@ -1,0 +1,46 @@
+% The following two lines are provided in case you
+% want to build this document with arara:
+% arara: pdflatex: { synctex: on }
+% arara: pdflatex: { synctex: on }
+\documentclass[oneside]{scrbook}
+
+\title{A Sample PhD Thesis}
+\author{A. N. Other}
+\date{July 2013}
+\titlehead{A Thesis submitted for the degree of Doctor of Philosophy}
+\publishers{School of Something\\University of Somewhere}
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Acknowledgements}
+
+I would like to thank my supervisor, Professor Someone. This
+research was funded by the Imaginary Research Council.
+
+\chapter{Abstract}
+
+A brief summary of the project goes here.
+
+\mainmatter
+
+\include{intro}
+
+\include{techintro}
+
+\include{method}
+
+\include{results}
+
+\include{conc}
+
+\backmatter
+
+% The bibliography will go here
+\end{document}

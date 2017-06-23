@@ -1,0 +1,98 @@
+% The following 2 lines are provided in case you want
+% to build this document using arara:
+% arara: pdflatex: { synctex: on }
+% arara: pdflatex: { synctex: on }
+\documentclass[oneside,12pt]{scrbook}
+
+\usepackage{lipsum}
+
+\usepackage{setspace}
+\usepackage{scrpage2}
+
+\pagestyle{scrheadings}
+\ihead{}
+\chead{}
+\ohead[]{\headmark}
+\ifoot[123456789]{123456789}% registration number
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+
+\renewcommand*{\headfont}{\normalfont \itshape}
+\renewcommand*{\pnumfont}{\normalfont \bfseries}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{1in}
+\begin{Large}\bfseries
+A Sample PhD Thesis\par
+\end{Large}
+\vspace{1.5in}
+\begin{large}\bfseries
+A. N. Other\par
+\end{large}
+\vfill
+A Thesis submitted for the degree of Doctor of Philosophy
+\par
+\vspace{0.5in}
+School of Something
+\par
+University of Somewhere
+\par
+\vspace{0.5in}
+July 2013
+\par
+\end{titlepage}
+
+\doublespacing
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Acknowledgements}
+
+I would like to thank my supervisor, Professor Someone. This
+research was funded by the Imaginary Research Council.
+
+\chapter{Abstract}
+
+A brief summary of the project goes here.
+
+\mainmatter
+
+\chapter{Introduction}
+\label{ch:intro}
+
+\lipsum
+
+\chapter{Technical Introduction}
+\label{ch:techintro}
+
+\lipsum
+
+\chapter{Method}
+\label{ch:method}
+
+\lipsum
+
+\chapter{Results}
+\label{ch:results}
+
+\lipsum
+
+\chapter{Conclusions}
+\label{ch:conc}
+
+\lipsum
+
+\backmatter
+
+% A glossary and list of acronyms may go here
+% or may go in the front matter after the abstract.
+
+% The bibliography will go here
+
+\end{document}

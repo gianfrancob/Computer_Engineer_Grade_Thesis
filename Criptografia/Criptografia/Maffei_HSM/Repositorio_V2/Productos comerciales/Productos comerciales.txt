@@ -1,0 +1,54 @@
+NORMAS DE SEGURIDAD PRODUCTOS COMERCIALE
+
+-------------------------------------------------------------------
+
+-> NORMAS DE SEGURIDAD: nShield Connect
+
+* FIPS 140-2 
+
+* NIST SP 800-131A
+http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf
+
+* Common Criteria EAL4+
+http://en.wikipedia.org/wiki/Evaluation_Assurance_Level
+
+* RoHS, WEEE
+http://www.reclam-industry.com/pdf/RoHS.pdf
+
+* Certificaciones UL, CE, FCC
+http://csrc.nist.gov/publications/PubsFIPS.html
+
+
+-> CRIPTOGRAFIA
+
+* Asymmetric public key algorithms: RSA (1024, 2048, 
+4096, 8192), Diffie-Hellman, DSA, El-Gamal, KCDSA, 
+ECDSA, ECDH
+
+* Symmetric algorithms: AES, ARIA, Camellia, CAST, 
+DES, RIPEMD160 HMAC, SEED, Triple DES 
+
+*  Hash/message digest: SHA-1, SHA-2 (224, 256, 
+384, 512bit) 
+
+* Full Suite B implementation with fully licensed Elliptic 
+Curve Cryptography (ECC) including Brainpool and 
+custom curves
+-------------------------------------------------------------------
+
+-> NORMAS DE SEGURIDAD: Luna SA 5.0 
+
+* FIPS 140-2 approved DRBG (SP 800-90 CTR mode)
+* RSA, DSA and ECDSA signing
+
+-> CERTIFICACIONES:
+
+* U/L 1950 (EN60950) & CSA C22.2 
+* FCC Part 15 - Class B 
+* RoHS  
+* BAC & EAC
+
+-> Cryptographic Algorithms
+
+Full Suite B support
+Asymmetric Key with Diffi e-Hellman (1024-4096 bit), RSA (1024-8192 bit) & (PKCS#1 v1.5, OAEP PKCS#1 v2.0), Digital Signing via RSA (1024-8192 bit), DSA (1024 & 2048 bit), (PKCS#1 v1.5) & Symmetric Keys through 3DES, (double & triple key lengths), AES, RC2, RC4, RC5, CAST-128. Message Digest is SHA-1, SHA-224, SHA-256, SHA-384 & SHA-512, MD-5 & MAC are HMAC-MD5, HMAC SHA-1, SSL3-MD5-MAC, SSL3-SHA-1-MAC, Elliptic Curve Cryptography (ECC), Korean Algorithms. ECC Brainpool Curves (named & user-defi ned)
