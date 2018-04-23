@@ -1,0 +1,23 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<> COVERAGE FILE: /scratch/otarif/simulations/encr_datapath/cov_work/scope/test/icc_0edd78ce_00000000.ucd <>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+        Coverage Summary Report, Module-Based
+        =====================================
+
+B = Block, BR = Branch, E = Expression
+TF = Toggle full transition, T^ = Toggle rise transition
+Tv = Toggle fall transition
+S = FSM state, TR = FSM transition
+C = Cumulative coverage for that coverage type including sub hierarchy
+
+encr_datapath
+-------------
+B:  100% (44/44)         BC:  100% (831/831/261) 
+E:  100% (51/51/4)       EC:  100% (134/134/4)   
+TF:  76% (3605/4713)     TFC:  81% (19192/23663) 
+T^:   0% (0/4713)        T^C:   4% (955/23663)   
+Tv:   0% (0/4713)        TvC:   0% (0/23663)     
+S:   --% (0/0)           SC:   --% (0/0)         
+TR:  --% (0/0)           TRC:  --% (0/0)         
+

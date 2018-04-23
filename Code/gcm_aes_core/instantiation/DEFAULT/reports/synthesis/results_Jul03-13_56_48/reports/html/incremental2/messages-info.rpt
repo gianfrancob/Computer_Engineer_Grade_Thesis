@@ -1,0 +1,40 @@
+
+  =================
+   Message Summary
+  =================
+
+Num  Sev      Id                        Message Text                    
+------------------------------------------------------------------------
+  1 Info ENC_MSV-301 Design has no library or power domains.            
+                     No power domains will be created for Encounter.    
+  1 Info MAP-127     Enabling some advanced optimizations in            
+                     incremental optimization.                          
+                     Enabling this attribute can potentially improve    
+                     Qor and increase runtime.                          
+  4 Info PHYS-90     Generating design database.                        
+                     The database contains all the files required to    
+                     restore the design in the specified application.   
+  1 Info POPT-56     Clock-gating instances are decloned.               
+  2 Info POPT-96     One or more cost groups were automatically         
+                     created for clock gate enable paths.               
+                     This feature can be disabled by setting the        
+                     attribute lp_clock_gating_auto_cost_grouping       
+                     false.                                             
+  4 Info ST-110      Connection established with super-threading        
+                     server.                                            
+                     RC is entering super-threading mode and has        
+                     established a connection with a CPU server         
+                     process.  This is enabled by the root attributes   
+                     'super_thread_servers' or 'auto_super_thread'.     
+  4 Info ST-112      A super-threading server has been shut down        
+                     normally.                                          
+                     A super-threaded optimization is complete and a    
+                     CPU server was successfully shut down.             
+  4 Info ST-120      Attempting to launch a super-threading server.     
+                     RC is entering super-threading mode and is         
+                     launching a CPU server process.  This is enabled   
+                     by the root attribute 'super_thread_servers' or    
+                     'auto_super_thread'.                               
+  1 Info SYNTH-7     Incrementally optimizing.                          
+  1 Info SYNTH-8     Done incrementally optimizing.                     
+

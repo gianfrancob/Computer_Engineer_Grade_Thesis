@@ -1,0 +1,13 @@
+
+  =================
+   Message Summary
+  =================
+
+Num  Sev      Id                        Message Text                    
+------------------------------------------------------------------------
+  1 Info ENC_MSV-301 Design has no library or power domains.            
+                     No power domains will be created for Encounter.    
+  4 Info PHYS-90     Generating design database.                        
+                     The database contains all the files required to    
+                     restore the design in the specified application.   
+

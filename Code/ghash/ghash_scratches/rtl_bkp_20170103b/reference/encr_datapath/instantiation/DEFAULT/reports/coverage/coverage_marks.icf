@@ -1,0 +1,19 @@
+
+#DEFAULT of case statement
+mark -covered -b -module encr_frame_reassembler 55
+mark -covered -b -module encr_frame_reassembler 61
+mark -covered -b -module frame_disassembler 95
+
+
+#Single cylce testes at otn_encr_level
+mark -covered -e -module encr_datapath 10 1
+mark -covered -e -module encr_datapath 11 1
+mark -covered -e -module encr_datapath 12 1
+mark -covered -e -module encr_datapath 12 2
+
+#Condition never reached checked with designer
+mark -covered -b -module frame_disassembler 65
+
+#Sbox LUT not taking all values
+mark -covered -b -module Sbox *
+

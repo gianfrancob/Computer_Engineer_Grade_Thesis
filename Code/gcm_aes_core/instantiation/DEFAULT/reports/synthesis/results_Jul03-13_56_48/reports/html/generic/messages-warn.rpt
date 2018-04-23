@@ -1,0 +1,45 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev      Id                       Message Text                    
+------------------------------------------------------------------------
+  1 Warning CDFG-236 Detected non-positive value for replication        
+                     prefix.                                            
+                     The prefix expression of a replication generally   
+                     must evaluate to a positive constant.  The value   
+                     of a replication with a non-positive prefix        
+                     depends on the setting of the attribute            
+                     'hdl_zero_replicate_is_null'.  If true, the        
+                     replication is treated as a zero-width             
+                     expression.  If false, the replication evaluates   
+                     to 1'b0.                                           
+ 10 Warning CDFG-472 Unreachable statements for case item.              
+  6 Warning CDFG-485 Loop condition is always false.                    
+                     Loop body will not be synthesized.                 
+  4 Warning CDFG-508 Removing unused register.                          
+                     A flip-flop or latch that was inferred for an      
+                     unused signal or variable was removed. Use         
+                     'set_attribute hdl_preserve_unused_registers true  
+                     /' to preserve the flip-flop or latch.             
+ 29 Warning CDFG-818 Using default parameter value for module           
+                     elaboration.                                       
+  1 Warning LBR-500  Found CCS construct in one or more libraries.      
+ 20 Warning LBR-66   Library cell only has usable test_cell function.   
+                     This library has a valid test_cell function, but   
+                     its regular cell function is either missing or     
+                     not completely understood (e.g. if the cell has a  
+                     state_table construct).                            
+ 20 Warning LBR-9    Library cell has no output pins defined.           
+                     Add the missing output pin(s), then reload the     
+                     library. Otherwise, the library cell will be       
+                     marked as unusable and as timing model.            
+  1 Warning PA-17    Did not find power models for RTL power analysis.  
+                     The RTL power analysis results are more accurate   
+                     when detailed power models are used. Use command   
+                     'build_rtl_power_models' to build detailed power   
+                     models.                                            
+ 47 Warning PHYS-15  Wire parameter is missing.                         
+                     Check the parameter in technology section.         
+

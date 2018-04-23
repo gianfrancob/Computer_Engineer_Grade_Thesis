@@ -1,0 +1,5 @@
+bitfields:
+  - port_name           : i_rf_static_mode
+    length              : 8
+    default             : 0x8
+    description         : "to complete [FIXME]"

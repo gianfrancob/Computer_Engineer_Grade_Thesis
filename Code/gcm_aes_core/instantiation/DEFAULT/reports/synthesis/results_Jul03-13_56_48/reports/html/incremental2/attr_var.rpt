@@ -1,0 +1,1374 @@
+ROOT ATTRIBUTES
+============================================================
+
+// (root)
+    Attributes:
+      applet_replay = {-location {/home/gbarbiani/.localApps/rc/14.2 /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/applets} measure_snapshot} {-location {/home/gbarbiani/.localApps/rc/14.2 /tools/cad/cadence/RC/14.28... <51 more characters>
+      auto_ungroup = none
+      command_log = cmd.log
+      cpu_runtime = 3927.553 seconds
+      dont_report_library = true
+      elapsed_runtime = 3694 seconds
+      encounter_executable = /clariphy/tools/cadence/edi/14.26.000_Hotfix/Linux/bin/encounter/
+      gui_auto_update = false
+      gui_enabled = true
+      hdl_error_on_blackbox = true
+      hdl_error_on_latch = true
+      hdl_error_on_logic_abstract = true
+      hdl_error_on_negedge = true
+      hdl_generate_index_style = %s_%d_
+      hdl_generate_separator = _
+      hdl_max_loop_limit = 8096
+      hdl_parameter_naming_style = 
+      hdl_rename_cdn_flop_pins = {q Q} {d D} {clk CP} {aclr CDN} {apre SDN} {sena E}
+      hdl_search_path = . 
+      hdl_track_filename_row_col = true
+      hdl_unconnected_input_port_value = 0
+      hdl_undriven_output_port_value = 0
+      hdl_undriven_signal_value = 0
+      information_level = 7
+      interconnect_mode = ple
+      iopt_enable_floating_output_check = true
+      iopt_force_constant_removal = true
+      iopt_ultra_optimization = true
+      lec_executable = /clariphy/tools/cadence/conformal/12.10.300/Linux/bin/lec
+      lef_library = /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/lef/clariphy_VHV.tcl /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/lef/tcbn16ffplusglbwp7d5t16p96cpd.lef /projects/M200/RevA0/RELEASE/AP... <453 more characters>
+      lef_manufacturing_grid = 0.001 microns
+      lef_units = 2000
+      lib_search_path = ./override /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/lib /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/lef
+      library =   tcbn16ffplusglbwp7d5t16p96cpdssgnp0p63v0c_ccs.lib  tcbn16ffplusglbwp7d5t16p96cpdmbssgnp0p63v0c_ccs.lib  tcbn16ffplusllbwp7d5t16p96cpdlvtssgnp0p63v0c_ccs.lib  tcbn16ffplusllbwp7d5t16p96cpdulvtssgnp0p... <128 more characters>
+      lp_insert_clock_gating = true
+      lp_power_unit = mW
+      measure_cg_sort_parameter = slack
+      measure_lock_timeout = 120000
+      measure_minimal_fields = true
+      measure_name_field = Snapshot Name
+      memory_usage = 2654.00 M bytes
+      optimize_merge_flops = false
+      optimize_merge_latches = false
+      peak_memory = 3229.00 M bytes
+      platform_wordsize = 64 bits
+      print_error_info = true
+      program_name = Encounter(R) RTL Compiler
+      program_version = RC14.28 - v14.20-s067_1
+      qos_report_power = true
+      qrc_tech_file = /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/qrctech/cworst_CCworst_T/qrcTechFile
+      real_runtime = 3239.218 seconds
+      script_search_path = ./override /projects/PD_cdsp/pd/branches/PD.6.0/rc/common /projects/PD_cdsp/pd/branches/PD.6.0/rc /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core//test /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core//t... <81 more characters>
+      startup_license = Genus_Synthesis
+      statistics_db_runtime = 45.0
+      statistics_run_id = gcm_aes_core.Jul03-13:58:02
+      super_thread_peak_memory = 10747.000 M bytes
+      super_thread_servers = localhost localhost localhost localhost
+      use_area_from_lef = true
+      write_vlog_top_module_first = true
+
+
+
+DESIGN ATTRIBUTES(/designs/gcm_aes_core)
+============================================================
+
+/designs/gcm_aes_core/ (design)
+    Attributes:
+      arch_filename = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v
+      arch_name = gcm_aes_core
+      cell_area_comb_opto = 52134.63552005988
+      cell_area_macro = 0.0
+      cell_area_seq_opto = 52071.229440021634
+      cell_count_buffer = 721
+      cell_count_cgic = 634
+      cell_count_comb = 123669
+      cell_count_ff = 42130
+      cell_count_inv = 8594
+      cell_count_latch = 0
+      cell_count_macro = 0
+      cell_count_seq = 42764
+      dft_scan_map_mode = force_all
+      dft_scan_output_preference = non_inverted
+      entity_filename = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v
+      entity_name = gcm_aes_core
+      hdl_all_filelist = {default -v2001 {SYNTHESIS} {/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes... <4935 more characters>
+      hdl_filelist = {default -v2001 {SYNTHESIS} {/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes... <4935 more characters>
+      hdl_parameters = {NB_BLOCK 128 0 128} {N_BLOCKS 2 0 2} {LOG2_N_BLOCKS 1 0 1} {NB_DATA 256 0 256} {NB_KEY 256 0 256} {NB_IV 96 0 96} {NB_INC_MODE 2 0 2} {LOG2_NB_DATA_T 8 0 8} {NB_TIMER 10 0 10} {USE_LUT_IN_SUBBYTES 0 ... <59 more characters>
+      hdl_user_name = gcm_aes_core
+      language = Verilog
+      library_name = default
+      lp_dynamic_power = 113.54
+      lp_total_power = 113.54
+      max_capacitance = 390.0 femtofarads
+      max_fanout = 200.000
+      max_transition = 200.0 picoseconds
+      number_of_routing_layers = 9
+      rc_current_verification_directory = fv/gcm_aes_core
+      sdp_files = 
+      seq_reason_deleted = {u_gcm_aes_ghash_fsm/extra_valid_aad unloaded} {u_key_scheduler_switcher/update_bus unloaded} {u_key_scheduler_switcher/timer unloaded} {u_key_scheduler_switcher/timer_limit unloaded} {u_gcm_aes_ghash... <258981 more characters>
+      setup_views = /designs/gcm_aes_core/mmmc/analysis_views/default_emulate_view
+      state = mapped
+
+
+
+GLOBAL VARIABLES
+============================================================
+
+   .rc.pane = workarea,forgotten 0 counter 0 -panerelief flat workarea,allowresize 1 -highlightthickness 0 -orientation vertical -handlebg #c80000 workarea,size 682 -borderwidth 0 -separatoractivebg red movePending 0 -highlightcolor black -command {} workarea,rsize 682 maxReqW 1 -highlightbackground #c3c3c3 -background #d9d9d9 w:root .rc.pane maxReqH 1 -dynamicgeometry 1 -handleactivebg #ececec totalsize 682 className tixPanedWindow ClassName TixPanedWindow -paneborderwidth 1 workarea,expand 1.0 nItems 1 rootCmd ::.rc.pane:root -options {} items workarea -takefocus 0 -cursor {} workarea,min 0 -relief flat w:workarea .rc.pane.workarea -width 0 context tixPanedWindow workarea,max 100000 repack 0 -height 0 -separatorbg gray25
+   .rc.pane.workarea.fr.pane = counter 0 btn,1 .rc.pane.workarea.fr.pane.btn1 -handlebg #c80000 browser,size 250 -highlightcolor black movePending 0 className tixPanedWindow w:viewer .rc.pane.workarea.fr.pane.viewer repack 0 viewer,allowresize 1 -highlightthickness 0 viewer,size 796 -borderwidth 0 -highlightbackground #c3c3c3 -handleactivebg #ececec maxReqH 1 viewer,expand 0 nItems 2 -options {} items {browser viewer} viewer,min 0 -relief flat viewer,max 100000 sep,1 .rc.pane.workarea.fr.pane.sep1 context tixPanedWindow viewer,forgotten 0 -panerelief flat browser,forgotten 0 -command {} w:root .rc.pane.workarea.fr.pane -background #d9d9d9 maxReqW 1 -dynamicgeometry 1 ClassName TixPanedWindow rootCmd ::.rc.pane.workarea.fr.pane:root browser,expand 0 -takefocus 0 -cursor {} -width 0 -separatorbg gray25 -orientation horizontal browser,allowresize 1 -separatoractivebg red viewer,rsize 796 browser,rsize 250 w:browser .rc.pane.workarea.fr.pane.browser -paneborderwidth 1 totalsize 1046 browser,min 0 -height 0 browser,max 100000
+   .rc.pane.workarea.fr.pane.browser.fr.nb.nb = counter 0 -highlightthickness 0 minW 123 -borderwidth 0 hdl,createcmd {} hdl,raisecmd {} w:logical .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical w:nbframe .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe minH 35 pad-y1 36 -highlightcolor black pad-y2 2 -highlightbackground #c3c3c3 w:root .rc.pane.workarea.fr.pane.browser.fr.nb.nb -background #d9d9d9 -dynamicgeometry 0 logical,raisecmd {} topchild logical className tixNoteBook ClassName TixNoteBook rootCmd ::.rc.pane.workarea.fr.pane.browser.fr.nb.nb:root w:hdl .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl nWindows 2 -options {} -takefocus 0 windows {logical hdl} pad-x1 2 -ipadx 0 -cursor {} w:top .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe pad-x2 2 -relief flat -ipady 0 -width 0 context tixNoteBook repack 0 -height 0 logical,createcmd {}
+   .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name = -disabledforeground #606060 -anchor e curIndex {} w:entry .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame.entry -selection {} -highlightcolor black w:frame .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame -state normal className tixComboBox w:slistbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox -selectmode browse entryfg black -prunehistory 1 -highlightthickness 0 state 0 -value {} -labelside left -borderwidth 0 -label {} -highlightbackground #c3c3c3 -fancy 0 -options {} -relief flat ignore 0 context tixComboBox -browsecmd {} w:arrow .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame.arrow -command {vrc_hdl_load_file .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl} w:root .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name -tickbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/tick.xbm -background #d9d9d9 w:listbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.listbox -historylimit 10 ClassName TixComboBox rootCmd ::.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name:root -padx 0 -takefocus 0 -pady 0 -cursor {} -crossbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cross.xbm -arrowbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cbxarrow.xbm -width 40 w:label .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.label -listwidth {} -listcmd {} -disablecallback 0 w:shell .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell -grab global -dropdown 1 -validatecmd {} -variable {} -height 0 -editable 0 -history 0
+   .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox = counter 0 x,last 1.0 -anchor e x-last 1.0 vsbPadY 0 -highlightthickness 0 -sizebox 0 -scrollbar auto hsbPadX 0 lastScbW 14 -borderwidth 1 -browsecmd {tixComboBox:LbBrowse .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name} w:vsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.vsb lastScbH 14 -highlightcolor black -command {tixComboBox:LbCommand .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name} x-first 0.0 -highlightbackground #c3c3c3 -background white w:root .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox w:hsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.hsb w:listbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.listbox y-first 0.0 -state normal lastSpec 00 className tixScrolledListBox ClassName TixScrolledListBox pw:client .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.listbox lastMW 1 rootCmd ::.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox:root lastMH 1 y,last 1.0 -options {listbox.selectMode "browse"} y-last 1.0 -takefocus 1 -cursor {} x,first 0.0 -relief flat y,first 0.0 -width 0 context tixScrolledListBox -scrollbarspace y repack 0 -height 0
+   .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text = counter 0 x,last 1.0 vsbPadY 0 -highlightthickness 0 -scrollbar both -sizebox 0 hsbPadX 0 lastScbW 14 -borderwidth 0 w:vsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text.vsb lastScbH 14 -highlightcolor black -highlightbackground #c3c3c3 w:root .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text -background gray94 w:hsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text.hsb lastSpec 11 className tixScrolledText ClassName TixScrolledText pw:client .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text.text lastMW 1 rootCmd ::.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text:root lastMH 1 y,last 0.058823529411764705 -options {} -takefocus 0 -cursor {} x,first 0.0 -relief flat y,first 0.0 -width 0 context tixScrolledText -scrollbarspace both w:text .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text.text repack 0 -height 0
+   .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree = pw:f1 .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.f1 counter 0 x,last 1.000000 vsbPadY 0 -sizebox 0 -scrollbar auto -highlightthickness 2 hsbPadX 0 lastScbW 14 -borderwidth 1 -browsecmd vrc_logical_add_clipboard -opencmd vrc_logical_open_branch indStyle tixStyle0 w:vsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.vsb lastScbH 14 -command vrc_logical_command -highlightcolor black -background gray94 w:root .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree -ignoreinvoke 1 -highlightbackground #d9d9d9 w:hsb .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.hsb lastSpec 00 className tixTree ClassName TixTree -closecmd vrc_logical_close_branch pw:client .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.f1 lastMW 244 rootCmd ::.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree:root lastMH 640 y,last 1.000000 -options {
+        hlist.width 35
+        hlist.height 5
+        hlist.wideSelection false
+    } -takefocus 0 -cursor {} x,first 0.000000 -relief flat w:hlist .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.f1.hlist y,first 0.000000 -width 0 -scrollbarspace both context tixTree repack 0 -height 0
+   .rc.pane.workarea.fr.pane.viewer.fr.nb = counter 0 physical,createcmd {} -highlightthickness 0 w:schematic .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic minW 141 -borderwidth 0 w:nbframe .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe minH 35 pad-y1 36 -highlightcolor black schematic,raisecmd vrc_sch_raise_viewer pad-y2 2 -highlightbackground #c3c3c3 w:root .rc.pane.workarea.fr.pane.viewer.fr.nb -background #d9d9d9 -dynamicgeometry 0 topchild schematic className tixNoteBook ClassName TixNoteBook rootCmd ::.rc.pane.workarea.fr.pane.viewer.fr.nb:root physical,raisecmd vrc_phy_raise_viewer nWindows 2 -options {} -takefocus 0 windows {schematic physical} pad-x1 2 -ipadx 0 -cursor {} w:top .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe pad-x2 2 -relief flat -ipady 0 schematic,createcmd {} -width 0 context tixNoteBook w:physical .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical repack 0 -height 0
+   .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name = -disabledforeground #606060 -anchor w curIndex {} w:entry .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame.entry -selection {} -highlightcolor black w:frame .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame -state normal className tixComboBox w:slistbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox -selectmode browse entryfg black -prunehistory 1 -highlightthickness 0 state 0 -value {} -labelside left -borderwidth 0 -label {} -highlightbackground #c3c3c3 -fancy 0 -options {
+      listbox.height 4
+  } -relief flat ignore 0 context tixComboBox -browsecmd {} w:arrow .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame.arrow -command {vrc_sgn_load_from_history .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic} w:root .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name -tickbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/tick.xbm -background #d9d9d9 w:listbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.listbox -historylimit 10 ClassName TixComboBox rootCmd ::.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name:root -padx 0 -takefocus 0 -pady 0 -cursor {} -crossbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cross.xbm -arrowbitmap @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cbxarrow.xbm -width 0 w:label .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.label -listwidth {} -listcmd {} -disablecallback 0 w:shell .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell -grab global -dropdown 1 -validatecmd {} -variable {} -height 0 -editable 0 -history 0
+   .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox = counter 0 x,last 1.0 -anchor w x-last 1.0 vsbPadY 0 -highlightthickness 0 -sizebox 0 -scrollbar auto hsbPadX 0 lastScbW 14 -borderwidth 1 -browsecmd {tixComboBox:LbBrowse .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name} w:vsb .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.vsb lastScbH 14 -highlightcolor black -command {tixComboBox:LbCommand .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name} x-first 0.0 -highlightbackground #c3c3c3 -background white w:root .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox w:hsb .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.hsb w:listbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.listbox y-first 0.0 -state normal lastSpec 00 className tixScrolledListBox ClassName TixScrolledListBox pw:client .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.listbox lastMW 1 rootCmd ::.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox:root lastMH 1 y,last 1.0 -options {listbox.selectMode "browse"} y-last 1.0 -takefocus 1 -cursor {} x,first 0.0 -relief flat y,first 0.0 -width 0 context tixScrolledListBox -scrollbarspace y repack 0 -height 0
+   CDN_Info = product libscore
+   CSV_TCL_DIR = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/sgn10.10/tcl
+   DISTRIBUTED = 1
+   FILELISTDIR = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core//test
+   OPT_DYNAMIC = false
+   OPT_LEAKAGE = false
+   OUTDATA = ../outData
+   PROJDIR = /projects/M200/RevA0/RELEASE/APR/projdir7.5T
+   PROJ_COMMON_RTL_LIBRARY = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules
+   PROJ_COMMON_RTL_UTILS = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl
+   PROJ_RTL_MODULES = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules
+   RPT = ./rpt
+   RTLS_Cache = rc,op_type,rotate_left_vlog_unsigned shift rc,op_type,gt_leq_signed comp rc,op_type,add_unsigned add rc,op_type,mult_unsigned mult rc,op_type,square_mixed mult rc,op_type,addsub_unsigned add rc,op_type,addsub_unsigned_carry add rc,op_type,rotate_right_vlog_unsigned shift rc,op_type,decrement_signed sub rc,op_type,increment_unsigned add rc,op_type,eq_neq_signed comp rc,op_type,cmp6_unsigned comp rc,op_type,remainder_unsigned div rc,op_type,mult_signed mult rc,op_type,bmux mmux rc,op_type,shared_div_mod_unsigned div rc,op_type,arith_shift_right_vlog_unsigned shift rc,op_type,arith_shift_left_vhdl_signed shift rc,op_type,divide_signed div rc,op_type,cmp6_signed comp rc,op_type,csa_signed add rc,op_type,mult_mixed mult rc,op_type,arith_shift_right_vhdl_signed shift rc,op_type,super_mult_signed mult rc,op_type,nequal_unsigned comp rc,op_type,mux mux rc,op_type,modulus_signed div rc,op_type,add_carry_gen add rc,op_type,rotate_left_vhdl_unsigned shift rc,op_type,decrement_unsigned sub kw,gbII_module_root subdesigns rc,op_type,add_equal_minus_one add rc,op_type,shared_div_rem_signed div rc,op_type,rotate_right_vhdl_unsigned shift rc,op_type,blend_signed comb_others rc,op_type,sub_unsigned sub rc,op_type,abs abs rc,op_type,shift_left_vhdl_signed shift rc,op_type,nequal_signed comp rc,op_type,rotate_left_vhdl_signed shift rc,op_type,spl_carry_gen add rc,op_type,csa_mux add rc,op_type,inverse_square_unsigned mult rc,op_type,detect0 comb_others idx,dimension 2 rc,op_type,detect1 comb_others rc,op_type,add_signed add rc,op_type,arith_shift_left_vlog_unsigned shift rc,op_type,csa_unsigned add rc,op_type,sub_signed_carry sub rc,op_type,sub_signed sub rc,op_type,arith_shift_right_vhdl_unsigned shift rc,op_type,gt_signed comp rc,op_type,equal_unsigned comp clkpin,category {memory register flop latch} rc,op_type,leq_unsigned comp rc,op_type,increment_signed add power,all,category {memory register latch logic bbox clock pad pm} rc,op_type,arith_shift_left_vlog_signed shift rc,op_type,gt_leq_unsigned comp rc,op_type,geq_unsigned comp rc,op_type,lt_signed comp rc,op_type,shift_right_vhdl_signed shift rc,op_type,arith_shift_right_vlog_signed shift rc,op_type,leq_signed comp kw,list,gbII {
+    designs instances_hier instances_seq instances_comb 
+    pins_in pins_out ports_in ports_out nets subdesigns
+} rc,op_type,square_unsigned mult gbII_root,idx,end 9 rc,op_type,add_unsigned_carry add rc,op_type,combo_op comb_others rc,op_type,sub_unsigned_carry sub rc,op_type,gt_unsigned comp kw,gbII_root designs rc,op_type,shift_left_vlog_signed shift rc,op_type,arith_shift_left_vhdl_unsigned shift rcg,mbw 3 rc,op_type,mult_signed_const mult rc,op_type,rotate_left_vlog_signed shift idx,category 0 rc,op_type,rotate_right_vhdl_signed shift rc,op_type,add_signed_carry add rc,op_type,sub_carry_gen sub ecg,mbw 3 rc,op_type,super_mult_unsigned mult rc,op_type,addsub_signed_carry add rc,op_type,complex_shift shift rc,op_type,shift_right_vlog_unsigned shift rc,op_type,shared_div_rem_unsigned div idx,range 3 rc,op_type,shared_div_mod_signed div rc,op_type,shift_left_vlog_unsigned shift rc,op_type,shift_right_vlog_signed shift power,inst,category {memory register latch logic bbox pad pm} rc,op_type,mult_unsigned_const mult rc,op_type,eq_neq_unsigned comp rc,op_type,geq_signed comp init 0 sudesign,attrs {
+    area cell_area cell_count comp_builder_info hdl_component_type
+    implementation instances leaf_area logic_abstract lp_clock_gating_cell
+} rc,op_type,csa_and_adder add rc,op_type,divide_unsigned div rc,op_type,square_signed mult idx,bit0 4 rc,op_type,lt_unsigned comp rc,op_type,addsub_signed add rc,op_type,rotate_right_vlog_signed shift rc,op_type,shift_right_vhdl_unsigned shift rc,op_type,modulus_unsigned div rc,op_type,inverse_square_signed mult rc,op_type,lead0 comb_others idx,bname 1 rc,op_type,lead1 comb_others rc,op_type,wallace_csa mult func,types {
+    buf inv and nand nor or xor xnor ao aoi oa oai
+    mux decoder comp shift add sub mult div
+    memory register flop latch icgc
+    iso srpg ls els
+    pad tri bbox other
+} rc,op_type,remainder_signed div rc,op_type,mux_any mmux rc,op_type,blend_unsigned comb_others rc,op_type,equal_signed comp gbII_root /designs/ rc,op_type,shift_left_vhdl_unsigned shift rc,op_type,csa_bmux add
+   RTLS_CellInfo = group,seq {memory register flop latch icgc} cell_group,univ {seq dpx logic pm} group,alu {add sub mult div} group,pm {iso srpg ls els} pin_type,univ {data address clock enable select reset set scan tie rail vdd gnd save restore} port,types {
+    clock
+    data
+    reset
+    clear
+    enable
+    test_enable
+    test_clock
+    supply
+    rw_control
+    address
+    max
+} rtl_type,univ {memory register flop latch icgc add sub mult div decoder comp shift mmux buf inv and nand or nor xor xnor ao aoi oa oai mux tri tie pad fadd hadd iso srpg ls els} group,macro {add sub mult div decoder comp shift mmux} rtl_group,univ {seq macro alu dpx logic pm} group,dpx {decoder comp shift mmux} group,logic {buf inv and nand or nor xor xnor ao aoi oa oai mux tri tie pad fadd hadd} cell_type,univ {memory register flop latch icgc add sub mult div decoder comp shift mmux buf inv and nand or nor xor xnor ao aoi oa oai mux tri tie pad fadd hadd iso srpg ls els}
+   RTLS_ExeInfo = firefox,exe /usr/bin/firefox dot,exe /lan/rc/atools/1.4/lnx64b25c26/bin/dot gnuplot,exe gnuplot
+   RTLS_PropInfo = clock_gated {inst module} wire_cap net avg_activity net pin_cap pin leakage inst cap_source net duty_cycle net load inst frequency net slew net load_cap pin switching_power net internal inst port_type pin
+   RUNDIR = ../
+   SCRIPTDIR = /projects/PD_cdsp/pd/branches/PD.6.0
+   USER = RTL_RELEASE
+   __LIBSCORE_INI__ = 1
+   _attr_new_value = 
+   _bfh = 19
+   _bfw = 16
+   _cdr = 
+   _colors = {#f4a460} #0000ff #ff0000 #00d000 #d0d000 #a52a2a #ffa500 #d000d0 #00d0d0 #a52a2a #ffff00 #008000 #ff00ff #ffc0cb #00ffff #800080
+   _drv = 
+   _drv_capacitance = 
+   _drv_capacitance_count = 0
+   _drv_fanout = 
+   _drv_fanout_count = 0
+   _drv_transition = 
+   _drv_transition_count = 0
+   _gui = 
+   _gui_busy = 1
+   _gui_debug = 0
+   _gui_dump_stack_trace = 0
+   _gui_frc = 0
+   _gui_hide = 1
+   _gui_hide_found = 0
+   _gui_hide_protected = 0
+   _gui_init_done = 1
+   _gui_message = 0
+   _gui_mode = 1
+   _gui_model_enable = 0
+   _gui_nlview = 0
+   _gui_pv_suspend = 0
+   _gui_shutdown = 0
+   _gui_stack_trace = 0
+   _gui_stop = 0
+   _gui_sync = 0
+   _help_tips = .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl {HDL source viewer.} .rc.statusbar.busy.canvas {Busy indicator.} .rc.statusbar.info.canvas {Persistent message display.} .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name {History list
+Select entry to view.} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.tb.cnum {Column number of cursor
+Update value and <Return> to change.} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.tb.lnum {Line number of cursor
+Update value and <Return> to change.} .rc.statusbar.msg.canvas {Transient message display.} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name {History list
+Select entry to view.} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical {Logical hierarchy display.} .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.tb.cpage {Current page
+Update value and <Return> to change.} .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.tb.tpage {Total pages.} .rc.statusbar.progress.canvas {Progress bar.}
+   _lec_path = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc/results_Jul03-13:56:48/lec
+   _lint = 
+   _log_path = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc/results_Jul03-13:56:48/log
+   _nlv_list = 
+   _nlv_shift_key = 0
+   _output_path = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc/results_Jul03-13:56:48/output
+   _pcanvas = 
+   _phy_edit_action = 
+   _phy_edit_mode = 0
+   _phy_edit_move = 0
+   _phy_marker = 0
+   _phy_modal_airlines = 0
+   _phy_modal_steiner_trees = 0
+   _phy_orient_convert = rotatel,FS FW flipv,FE E fliph,FS N flipv,S FS rotater,FN FW rotatel,FE FS rotatel,S E flipv,E FE flipv,FW W fliph,S FN fliph,FE W rotater,N E rotatel,E N rotatel,FW FN flipv,W FW fliph,FW E fliph,E FW rotatel,W S rotater,FS FE fliph,W FE rotater,FE FN rotater,S W flipv,FN N rotater,E S rotater,FW FS rotatel,FN FE fliph,FN S flipv,N FN rotater,W N rotatel,N W fliph,N FS flipv,FS S
+   _phy_pcount = 0
+   _phy_pdata = 
+   _phy_pdata_slack_values = 
+   _phy_pdata_unconstrained = 
+   _phy_plan_mode = 0
+   _phy_select = .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,name {} .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,type {}
+   _phy_tpath = 
+   _phy_tpath_table_data = 
+   _phy_x = 0
+   _phy_y = 0
+   _phys_pdata_static_update = 0
+   _phys_pdata_unconstrained_update = 0
+   _power = 0
+   _reports_path = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc/results_Jul03-13:56:48/reports
+   _rpt_endp_data = 
+   _rtopts = 
+   _scrollbar_priv = 
+   _selection = 
+   _selection_count = 
+   _sgn_list = 
+   _sgn_shift_key = 0
+   _sh = 987
+   _skipsync = 0
+   _sw = 1920
+   _table_resize = 
+   _tch_counter = 0
+   _td = 
+   _trace = 0
+   _vbgw_action = 
+   _vbgw_bt = 2
+   _vbgw_bx = 0
+   _vbgw_by = 0
+   _vbgw_var1 = 0
+   _vbgw_var2 = 0
+   _vbrows_cmd = 
+   _vrc_attr_cbox = 
+   _vrc_attr_data = 
+   _vrc_attr_hidden = 
+   _vrc_attr_id = 0
+   _vrc_attr_option = 
+   _vrc_attr_readonly = 
+   _vrc_attr_table_wid = 
+   _vrc_attr_toggle = 
+   _vrc_attr_vdir = 
+   _vrc_dft_fanin = 0
+   _vrc_dft_increg = 0
+   _vrc_novus_gui = 1
+   _vrc_power_inst_table = 
+   _vrc_power_inst_table_wid = 
+   _vrc_power_net_table = 
+   _vrc_power_net_table_wid = 
+   _vrc_rpt_tim_data = 
+   _vrc_sch_view = 
+   _vrc_vbrows_id = 0
+   _xp = 0
+   age = 376
+   all_cells_are_standard = 0
+   argc = 9
+   argv = -files /projects/PD_cdsp/pd/branches/PD.6.0/rc/rc_master.tcl
+   argv0 = /tools/cad/cadence/RC/14.28.000/Linux/tools/synth/bin/64bit/rc
+   auto_execs = /clariphy/tools/cadence/edi/14.26.000_Hotfix/Linux/bin/encounter/ /clariphy/tools/cadence/edi/14.26.000_Hotfix/Linux/bin/encounter/
+   auto_index = ::tk::dialog::color::RedrawColorBars {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::IconList_CurSelection {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::spinbox::ClosestGap {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::color::StartMove {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::spinbox::GetSelection {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::safe::loadTk {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::tk::IconList_Double1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::dialog::file::chooseDir::OkCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::tk::spinbox::Invoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::safe::Set {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} tk_focusPrev {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/focus.tcl} ::tk::dialog::color::XToRgb {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::MotifFDialog_SetFilter {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::TextKeyExtend {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::MessageBox {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/msgbox.tcl} ::safe::interpCreate {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::Unset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} tk_getFileType {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::TextClosestGap {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} pkg_mkIndex {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/package.tcl} ::tk::FocusOK {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/focus.tcl} ::tk::dialog::file::UpdateWhenIdle {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_Motion1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScrollButtonDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::IconList_FocusOut {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScrollButton2Down {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::ScrollDrag {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::dialog::file::OkCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::RecolorTree {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/palette.tcl} ::safe::FileInAccessPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::error::SaveToLog {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} tcl_startOfPreviousWord {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/word.tcl} auto_mkindex {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::auto_mkindex_parser::init {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::EntryPreviousWord {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tcl::HistIndex {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} auto_reset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::auto_mkindex_parser::cleanup {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::dialog::color::RedrawFinalColor {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::ConsoleHistory {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::ListBoxKeyAccel_Goto {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::safe::PathToken {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tcl::HistRedo {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::spinbox::KeySelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::MotifFDialog_FileTypes {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::dialog::color::ReleaseMouse {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::TextUpDownLine {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::safe::Log {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::ScaleButtonDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::tk::ListboxBeginToggle {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::Darken {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/palette.tcl} ::tk::MbMotion {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MotifFDialog_BrowseDList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::dialog::file::Config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::CancelRepeat {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::safe::CheckFileName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::error::Details {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} ::tk::FocusGroup_BindIn {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::EntryAutoScan {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} tk_textPaste {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::dialog::file::SetFilter {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::safe::tkTopLevel {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::tk::dialog::file::chooseDir::Done {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::tk::IconList_FocusIn {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ListboxMotion {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::ConsoleExit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::safe::NestedOkName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::MenuNextEntry {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::EntryPaste {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::RestoreFocusGrab {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::tk::dialog::color::HandleRGBEntry {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::MbButtonUp {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ListBoxKeyAccel_Set {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::MotifFDialog_SetListMode {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::ScreenChanged {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::safe::setLogCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::TextResetAnchor {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::TextAutoScan {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::dialog::file::Create {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::MotifFDialog {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::safe::InterpStatics {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::file::ListBrowse {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScaleDrag {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::safe::StaticsOkName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} tk_dialog {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/dialog.tcl} ::tk::spinbox::MouseSelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::file::SetPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tcl::HistKeep {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::IconList_Config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} tcl_endOfWord {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/word.tcl} ::tk::TextKeySelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::safe::disallowTk {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::safe::IsInterp {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::InterpInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tcl::tm::UnknownHandler {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::ListBoxKeyAccel_Reset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::IconList_Invoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} tcl_startOfNextWord {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/word.tcl} ::safe::TkInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::tk::dialog::file::chooseDir:: {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::tk::ConsoleOutput {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::IconList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_CtrlBtn1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tcl::tm::path {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::IconList_Create {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ButtonInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/button.tcl} ::tk::IconList_AutoScan {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::dialog::file::chooseDir::ListBrowse {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::tk::TextScrollPages {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::IconList_ReturnKey {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::dialog::file::EntFocusIn {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::dialog::file::EntFocusOut {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_Reset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_DeleteAll {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::safe::interpFindInAccessPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::AliasEncoding {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::IconList_KeyPress {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::safe::tkDelete {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::tcl::HistChange {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::http::mapReply {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::tk::spinbox::Paste {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::safe::Lappend {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::file::SetPathSilently {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScaleEndDrag {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::tcl::HistAdd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::TextPrevPara {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} tcl_wordBreakAfter {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/word.tcl} ::tk::EntryInsert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::dialog::color::ResizeColorBars {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::IconList_Btn1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::auto_mkindex_parser::slavehook {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::ListboxBeginExtend {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::safe::Toplevel {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::IconList_Arrange {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScrollEndDrag {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::safe::InterpNested {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::http::wait {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::safe::interpInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} tclPkgUnknown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/package.tcl} tclParseConfigSpec {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::FocusGroup_Create {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::auto_mkindex_parser::fullname {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::EntryTranspose {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::EntryMouseSelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::dialog::color::CreateSelector {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::EventMotifBindings {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::tk::ConsoleInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::MotifFDialog_BrowseFList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::safe::CheckInterp {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tcl::HistInfo {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::TabToWindow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::tk::MenuLeave {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ListboxCancel {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::MenuMotion {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tcl::tm::list {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::EntryButton1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::dialog::file::ListInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::dialog::file:: {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::TextNextPara {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::safe::AliasLoad {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::http::geturl {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::tk::MotifFDialog_ActivateDList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::IconList_Goto {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} tclListValidFlags {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::MenuFind {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::safe::GetAccessPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::color:: {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::ConsoleInsert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::safe::VirtualPathListName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::MotifFDialog_OkCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} history {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::TraverseToMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::dialog::file::VerifyFileName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::MotifFDialog_Update {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tcl::tm::remove {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::dialog::color::MoveSelector {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::ScrollButtonUp {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::IconList_UpDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_See {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScrollByPages {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tcl::tm::add {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::spinbox::ButtonDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::file::chooseDir::DblClick {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::tk::IconList_LeftRight {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::spinbox::AutoScan {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::MbEnter {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::safe::Subset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} parray {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/parray.tcl} ::tk::EntryGetSelection {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} tk_menuBar {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/obsolete.tcl} tk_setPalette {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/palette.tcl} ::tk::classic::restore {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/obsolete.tcl} ::tk::ListboxBeginSelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::IconList_Index {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::PostOverPoint {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ListboxSelectAll {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::MenuRightArrow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MenuFirstEntry {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::IconList_DrawSelection {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::TextSelectTo {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::MenuInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::IconList_Leave1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ListboxUpDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::ScrollToPos {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::safe::interpConfigure {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::EntrySeeInsert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::safe::AddSubDirs {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::interpAddToAccessPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::MenuDup {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tearoff.tcl} ::pkg::create {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/package.tcl} ::tk::EntryClosestGap {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::dialog::file::ResolveFile {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} tk_textCut {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::spinbox::PreviousWord {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::auto_mkindex_parser::commandInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::MenuDownArrow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::dialog::file::SetSelectMode {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::http::reset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::tk::dialog::error::Destroy {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} ::tk::EntrySetCursor {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::TextNextPos {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::MenuFindName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::safe::Exists {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::http::unregister {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::tk::dialog::color::HandleSelEntry {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::safe::TranslatePath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::AliasSource {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::spinbox::Insert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::color::DrawColorScale {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::safe::NestedOk {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::error::bgerror {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} ::tk::spinbox::Transpose {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::GenerateMenuSelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MotifFDialog_ActivateFEnt {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::MotifFDialog_Config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::safe::PathListName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::ListboxAutoScan {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::TearOffMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tearoff.tcl} ::safe::InterpStateName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::safe::StaticsOk {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::ConsolePrompt {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::MbPost {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ListBoxKeyAccel_Key {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::ScaleButton2Down {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::tk::MotifFDialog_ActivateSEnt {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::IconList_ShiftBtn1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::ScrollSelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::EntryBackspace {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::MotifFDialog_MakeSList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::TextPaste {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::unsupported::ExposePrivateCommand {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/unsupported.tcl} ::tk::ScrollStartDrag {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::FocusGroup_Out {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::PlaceWindow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::tk::ScaleIncrement {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::auto_mkindex_parser::mkindex {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::safe::DeleteHookName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::color::OkCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::MenuEscape {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MotifFDialog_ActivateFList {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::ScrollTopBottom {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} tcl_wordBreakBefore {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/word.tcl} ::tk::MotifFDialog_Create {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} tcl_findLibrary {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::ButtonAutoInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/button.tcl} ::tk::CheckRadioInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/button.tcl} ::tk::unsupported::ExposePrivateVariable {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/unsupported.tcl} ::tk::dialog::file::chooseDir::Config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/choosedir.tcl} ::safe::interpDelete {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::color::Config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::ScaleControlPress {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::auto_mkindex_parser::hook {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::MenuUnpost {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} tk_textCopy {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::dialog::color::BuildDialog {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::http::formatQuery {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::safe::AliasSubset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::dialog::color::InitValues {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::ListBoxKeyAccel_Unset {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::IconList_Get {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::TextTranspose {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::IconList_Add {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::MotifFDialog_FilterCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::ConsoleAbout {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} tk_bindForTraversal {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/obsolete.tcl} ::tk::dialog::file::UpDirCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::SetFocusGrab {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tk.tcl} ::tk::ScaleActivate {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scale.tcl} ::tk::MenuButtonDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tcl::HistClear {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::FocusGroup_In {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} tk_popup {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MotifFDialog_InterpFilter {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::TraverseWithinMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::MotifFDialog_CancelCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::safe::allowTk {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::tk::FocusGroup_Destroy {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::FDGetFileTypes {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::RestoreOldGrab {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::dialog::file::ActivateEnt {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::MenuNextMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::TextPrevPos {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} bgerror {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} ::tk::MbLeave {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ScrollByUnits {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/scrlbar.tcl} ::tk::FirstMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::ensure_psenc_is_loaded {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/mkpsenc.tcl} ::http::register {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} ::tk::dialog::file::Done {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::MotifFDialog_LoadFiles {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::dialog::file::InvokeBtn {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tcl::tm::roots {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/tm.tcl} ::tk::spinbox::SeeInsert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::EntryKeySelect {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/entry.tcl} ::tk::MenuLeftArrow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::safe::tkInterpInit {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/safetk.tcl} ::safe::PathNumberName {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::ConsoleInvoke {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::ListboxDataExtend {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::tk::spinbox::SetCursor {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::color::EnterColorBar {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::TextButton1 {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::ListboxExtendUpDown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/listbox.tcl} ::auto_mkindex_parser::command {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::spinbox::Motion {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} ::tk::dialog::color::RgbToX {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} tk_focusNext {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/focus.tcl} ::tk::dialog::file::JoinFile {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} tk_menuSetFocus {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::dialog::color::CancelCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::dialog::file::CancelCmd {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::tk::IconList_Selection {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::safe::SyncAccessPath {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::tk::ConsoleSource {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl} ::tk::MenuUpArrow {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::safe::InterpCreate {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} ::http::config {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/http/http.tcl} auto_mkindex_old {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/auto.tcl} ::tk::SaveGrabInfo {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/menu.tcl} ::tk::spinbox::ButtonUp {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} tk_bisque {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/palette.tcl} ::tk::dialog::color::LeaveColorBar {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::TextInsert {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::dialog::color::SetRGBValue {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/clrpick.tcl} ::tk::spinbox::Backspace {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/spinbox.tcl} tk_focusFollowsMouse {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/focus.tcl} tclPkgSetup {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/package.tcl} ::tcl::MacOSXPkgUnknown {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/package.tcl} ::tk::FocusGroup_BindOut {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/comdlg.tcl} ::tk::MotifFDialog_BuildUI {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/xmfbox.tcl} ::tk::dialog::error::Return {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/bgerror.tcl} ::tk::dialog::file::Update {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/tkfbox.tcl} ::safe::InterpSetConfig {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/safe.tcl} tk_optionMenu {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/optMenu.tcl} ::tcl::HistEvent {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl/history.tcl} ::tk::TextSetCursor {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/text.tcl} ::tk::ConsoleBind {tcl_source /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/console.tcl}
+   auto_noexec = 1
+   auto_path = /tools/cad/cadence/RC/14.28.000/Linux/tools/../etc/rtls/tcl_scripts /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk /tools/cad/cadence/RC/14.28.000/Linux/tools/synth/bin/lib /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk/ttk /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tix
+   bbox = /designs/gcm_aes_core
+   blt_library = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/blt8.0
+   blt_patchLevel = 8.0p2-unoff
+   blt_useTclNamespaces = 1
+   blt_useTkNamespaces = 0
+   blt_version = 8.0
+   btime = 1466578800
+   celltrk = 7.5T
+   cg = /designs/gcm_aes_core/timing/cost_groups/vir_CORE_CLOCK
+   chan = file36
+   check_fanout = true
+   clk_name = CORE_CLOCK
+   clk_names = CORE_CLOCK
+   clk_period = 1.300
+   clk_periods = 1.300
+   clk_port = i_clock
+   clk_ports = i_clock
+   common_props = 
+    area
+    file_name
+    line_number
+
+   cost_groups = false
+   cpf_referenced_objects_original_preserve_table = 
+   cpf_revision = 1.0
+   ctime = 1499115408
+   cwdLibName = GB
+   date = Jul03-13:56:48
+   debugVtPartitioning = 0
+   design = gcm_aes_core
+   domain_name_arg = 
+   dp_area = false
+   driving_cell = BUFFD4BWP7D5T16P96CPD
+   driving_lib = tcbn16ffplusglbwp7d5t16p96cpdssgnp0p63v0c_ccs
+   driving_pin = Z
+   dstclk = /designs/gcm_aes_core/timing/clock_domains/domain_1/vir_CORE_CLOCK
+   env = ATRENTA_LICENSE_FILE 27000@las-lic01 APACHEDA_LICENSE_FILE 1881@las-lic01:1881@las-lic02 AGNI_LICENSE_FILE /inphi/tools/license_server/agnisys/license.dat SOS_MAIL_ADDR gbarbiani@inphi.com HOME /home/gbarbiani INCISIV_VER 14.20.009_Hotfix TB_PATH /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb LANG C VOV_LIMIT_datasize_hard unlimited SOS_TIMEOUT 360 LOGNAME gbarbiani SSH_CLIENT {172.30.71.239 32780 22} QTLIB /usr/lib64/qt-3.3/lib ICCAP_VERSION NONE EXT_VERSION 17.10.000 CVL_MYSQL_HOST 192.168.140.29 SHELL /bin/tcsh SSV_VERSION 17.10.000 CLIOSOFT_DIR /tools/cad/cliosoft/sos/current/Linux FISHTAIL_VERSION NONE IUSHOME /tools/cad/cadence/IUS/15.20.029/Linux SLICKEDIT_LICENSE_SERVER 27200@las-lic01 SCRIPTDIR /projects/PD_cdsp/pd/branches/PD.6.0 SNPSLMD_QUEUE 1 W3264_ENV /home/gbarbiani/.kshrc GNOME_DESKTOP_SESSION_ID this-is-deprecated USER gbarbiani GLIBCXX_FORCE_NEW 1 QUESTASIM_VERSION NONE MANPATH /inphi/tools/sge/man:/usr/share/man:/usr/man:/usr/local/share/man:/usr/local/man:/usr/X11R6/man:/tools/cad/rtda/2013.03/linux64/man VOV_JOBID 207850580 SOC_VERSION EDI_17.10.000 CVL_101_RTL_TAG /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/rtl/ VOV_LIMIT_openfiles 8192 RFDE_VERSION NONE ALGROHOME /tools/cad/cadence/SPB/17.20.021/Linux ETS_INSTALL_PATH /tools/cad/cadence/ETS/13.18.000/Linux SOS_CDS_EXIT yes CVL_MYSQL_DB m200_verification USERNAME cad SI_INTEGRATE4_DIR /inphi/tools/linux/ansoft/integrate4 CDS_DIR /tools/cad/cadence/IC/06.16.14/Linux ICCHOME /inphi/tools/linux/ccar MMSIM_VERSION MMSIM16.10.387 AFS_ADE_HB_MULTI_TONE 1 GDM_KEYBOARD_LAYOUT us UNAME Linux SPYGLASS_HOME /tools/cad/atrenta/spyglass/5.5.1/Linux/SPYGLASS_HOME VOV_LIMIT_coredumpsize_hard unlimited PEAKVIEW_VERSION 4.0.4 CDS_LIC_ONLY 1 CDS_SET_LOCALE C VOV_RETRACE_FAST 1 UNAME_P x86_64 GENUS_VERSION GENUS16.23.000 CLS_CLSBD_CONNECT_TIMEOUT 2 VTK_LIBRARY /tools/cad/rtda/2013.03/linux64/tcl/tk VOV_PROJECT_NAME vncwlv_2012.03 VOV_LIMIT_filesize_hard unlimited GDM_LANG en_US.UTF-8 SC_INSTALL_DIR /inphi/tools/linux/systemc-2.0.1 PV_COLOR_DIR /tools/cad/cadence/PVS/15.23.000/Linux/tools/pvs/samples/color_setup SIWAVE_INSTALL_DIR /inphi/tools/linux/ansoft/siwave4 CDSHOME /tools/cad/cadence/IC/06.16.14/Linux META_QUEUE 1 SIGRITY_LICENSE_FILE 27050@las-lic01 NOVAS_IDLE_LICENSE_CHECKBACK 15 SITE_VARDES_RCFILE /tools/cad/inphi/inphitools/Released/solido/site.vardesrc BDA_CFG_FILE /tools/cad/inphi/inphitools/Released/toolsetup/bda/bdacfg VOV_HOST_HTTP_NAME las-gridmaster.inphi-corp.local QUESTACORE_ROOT /tools/cad/mentor/questacore/Linux/10.5d_1/questasim SCV_INSTALL_DIR /inphi/tools/linux/scv-1.0b4 AFS_ADE_HB_OSC 1 TIX_LIBRARY /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tix VARDES_VERSION 4.2.11 SOS_OPTIMIZE_STARTUP_READ 1 SIGRITY_EDA_DIR /tools/cad/cadence/ASI/16.60.005/Linux/ASI/Base LM_LICENSE_FILE 27011@las-lic01:5179@las-lic01:5179@las-lic02:5283@las-lic01:27005@las-lic01:5290@las-lic01:5500@las-lic01:5500@las-lic02:8360@las-lic01:25007@las-lic02:27012@las-lic02:39484@las-lic01:27015@las-lic01 SPYGLASS_VERSION 5.5.1 INPHI_CSH_TRACELEVEL 0 MGC_DFT_HOME /tools/cad/mentor/tessent/2017.2/Linux VNCSWD /tools/cad/rtda/vnc QUESTAVDE_ROOT /tools/cad/mentor/vde/10.5d_1/Linux MODE_HOME /tools/cad/lumerical/mode/2017a.R4/Linux MGC_HOME /tools/cad/mentor/calibre/2017.2_28/Linux/aoi_cal_2017.2_28.22 TERM xterm QUESTACORE_VERSION 10.5d_1 AMSHOME /tools/cad/cadence/IUS/15.20.029/Linux Inphi_GRIDSYSTEM nc VELOCE_VERSION NONE CDS_LANG en_US.UTF-8 IUS_LDV_AMS_VERSION INCISIV15.20.029 MGC_CALGUI_RELEASE_LICENSE_TIME 0.25 ETS_HOME /tools/cad/cadence/ETS/13.18.000/Linux/tools LBS_CLUSTER_MASTER las-ws-151.inphi-corp.local NCROOT /tools/cad/cadence/IUS/15.20.029/Linux QTINC /usr/lib64/qt-3.3/include ALTOS_VERSION NONE CDS_LOAD_ENV CSF LEC_VERSION 17.10.140 PROJDIR /projects/M200/RevA0/RELEASE/APR/projdir7.5T VCS_HOME /inphi/tools/linux/synopsys_vcs_2008.12 SKILLCAD_VERSION skillcad_v4.1O GTK_RC_FILES /etc/gtk/gtkrc:/home/gbarbiani/.gtkrc-1.2-gnome2 VOV_LIMIT_cputime_hard unlimited CDN_SYNTH_ROOT /tools/cad/cadence/RC/14.28.000/Linux/tools INPHI_NONC false VMANAGER_CONFIG_HOME /projects/M200/RevA0/Work/gbarbiani/DIGITAL/trunk/regressions/ HOST las-ge448.inphi-corp.local MATLAB_VERSION matlab2017a RC_INSTALL_PATH /tools/cad/cadence/RC/14.28.000/Linux AGNI_LICENSE_SERVER 172.30.70.51:2464 ATPG_VERSION NONE SNPSLMD_LICENSE_FILE 27000@las-lic01:27000@las-lic02 VERA_HOME /tools/cad/synopsys/vera/D-2009.12-15/vera_vD-2009.12-15_amd64 LICENSE_ROOT /inphi/tools/license_server VOV_GROUP /time/users LBS_BASE_SYSTEM LBS_SGE CVL_TAG trunk XILINXD_LICENSE_FILE 2900@las-lic01 VOV_LIMIT_stacksize 10485760 SIM_LOCATION inc ICFB_VERSION IC616_06.16.14 LNZSITE /tools/cad/inphi/inphitools/Released/peakview VOV_LIMIT_coredumpsize unlimited GNOME_KEYRING_PID 22182 ALLEGRO_VERSION SPB17.20.021 DFT_VERSION dft_2017.2 DISTRIBUTED 1 TIMEVISION_VERSION 2016.Dec-SP3 GDMSESSION gnome CDS_INST_DIR /tools/cad/cadence/IC/06.16.14/Linux CLIOLMD_LICENSE_FILE 21541@las-lic01 AFS_CFG_FILE /tools/cad/mentor/amsv/2017.2/Linux/bda_root/.afscfg NC_LOGDIR /scratch/logs/nclogs/gbarbiani VOV_UMASK 022 CDS_LIC_QUEUE_POLL 1 SISOFT_VERSION 2010.06 CCAR_VERSION ccar AP_VERSION NONE SITE_VARDES_SIMCONFIG /tools/cad/inphi/inphitools/Released/solido/simulator-config.xml _ *107849*/tools/cad/cadence/RC/14.28.000/Linux/tools/synth/bin/64bit/rc LC_ALL C PROJ_COMMON_RTL_SCRIPT /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/script LD_LIBRARY_PATH /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/64bit:/tools/cad/cadence/RC/14.28.000/Linux/tools/lib:/tools/cad/rtda/2013.03/linux64/lib:/tools/cad/cadence/IUS/15.20.029/Linux/tools/lib:/tools/cad/cadence/IUS/15.20.029/Linux/tools/inca/lib:/usr/lib64:/tools/cad/inphi/inphitools/Released/bin:/tools/cad/mathworks/matlab/R2017a/Linux/bin/glnxa64:/tools/cad/cadence/mmsim/16.10.387/Linux/tools/lib/64bit:/tools/cad/cadence/mmsim/16.10.387/Linux/tools/ultrasim/lib:/tools/cad/cadence/IC/06.16.14/Linux/tools/lib:/inphi/tools/linux/ccar/tools.lnx86/lib:/inphi/tools/linux/systemc-2.0.1/lib-linux:/inphi/tools/linux/scv-1.0b4/lib-linux:/tools/cad/cliosoft/sos/current/Linux/lib:/tools/cad/cliosoft/sos/current/Linux/lib/64bit:/tools/gnu/anaconda/lib:/tools/gnu/anaconda/lib:/tools/gnu/anaconda/lib:/tools/gnu/anaconda/lib VOV_PIPELOG {las-ws-151.inphi-corp.local 13000} CDS_AUTO_64BIT ALL RUN_BLOCK_TEST_JOBS 4 MGC_RVE_RELEASE_LICENSE_TIME 0.25 VOV_LIMIT_memoryuse_hard unlimited ASIDIR /tools/cad/cadence/ASI/16.60.005/Linux KDE_IS_PRELINKED 1 MDV_XLM_HOME /tools/cad/cadence/IUS/15.20.029/Linux VCS_VERSION synopsys_vcs_2008.12 HCLMD_LICENSE_FILE 5175@las-lic01 HELIC_VERSION NONE INPHI_CADROOT /tools/cad/inphi/inphitools/Released WINDOWID 46137348 DEVICE_VERSION 2017a.R4 ECAD_TRANSLATORS_INSTALL_DIR /tools/cad/ansys2/EM/17.2/LayoutIntegrations17.2/Linux PVS_VERSION 15.23.000 TCL_LIBRARY /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl VOV_LIMIT_cputime unlimited INPHI_PROCROOT /projects/cad/foundry_data BDA_LICENSE_FILE 5286@las-lic01 CDS_PROMPT_CKOUT all RTLSCORE_ROOT /tools/cad/cadence/RC/14.28.000/Linux/tools/../etc/rtls INPHI_CHAMBER inphi_main TK_LIBRARY /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk GROUP wheel INCISIV_HOME_ENV_VAR /tools/cadence/incisiv/14.20.009_Hotfix/Linux VOV_LIMIT_stacksize_hard unlimited AMBIT_MSG_PATH /tools/cad/cadence/RC/14.28.000/Linux/tools/../etc/syntechEtc/msgc CCONSULT_VERSION F-2011.12-SP1-1 HOSTTYPE x86_64-linux MDVHOME /tools/cad/cadence/MDV/2016.11.001 BDA_ROOT /tools/cad/mentor/amsv/2017.2/Linux/bda_root REDHAWK_VERSION NONE AMBIT_BDF_PATH /tools/cad/cadence/RC/14.28.000/Linux/tools/../etc/syntechEtc/bdfc LM_PROJECT default MATLAB /tools/cad/mathworks/matlab/R2017a/Linux ENCOUNTER /tools/cadence/edi/14.26.000_Hotfix/Linux/bin/encounter QUESTA_ADMS_VERSION NONE LDVHOME /tools/cad/cadence/IUS/15.20.029/Linux CPI_PATH /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_fw/cpi SLICKEDIT_VERSION 19.0.0.4 ASIDIRASI /tools/cad/cadence/ASI/16.60.005/Linux/ASI ASI_VERSION 16.60.005 MACHTYPE x86_64 QTDIR /usr/lib64/qt-3.3 GENUS_INSTALL_PATH /tools/cad/cadence/GENUS/16.23.000/Linux RTLCOMPILER /tools/cad/cadence/RC/14.28.000/Linux/tools ENABLE_EMIR_USABILITY_IMPROVEMENT TRUE SYNTH /tools/cad/cadence/RC/14.28.000/Linux/tools/synth SGE_QMASTER_PORT 6444 ORBIT_SOCKETDIR /tmp/orbit-gbarbiani CDS_XTERM {xterm -en C} MC_PWD_FILE /tmp/mc-gbarbiani/mc.pwd.25313 HL3DEM_VERSION NONE PROJ_RTL_MODULES /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules VTIX_LIBRARY /tools/cad/rtda/2013.03/linux64/tcl/tix CDS_AUTO_CKOUT none MC_SID 26645 SHLVL 5 PROJ_COMMON_RTL_UTILS /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl PATH /tools/cad/cadence/RC/14.28.000/Linux/bin:/tools/cad/cadence/RC/14.28.000/Linux/tools/bin/64bit:/tools/cad/cadence/RC/14.28.000/Linux/tools/bin:/tools/cad/rtda/2013.03/linux64/scripts:/tools/cad/rtda/2013.03/linux64/bin:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_fw/cpi/scripts/:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/script:/opt/rh/devtoolset-3/root/usr/bin:/tools/cad/gnu/anaconda/bin:/tools/cad/csvn/5.2.0/Linux/csvn/bin:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_fw/cpi/scripts/:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/script:/opt/rh/devtoolset-3/root/usr/bin:/tools/cad/gnu/anaconda/bin:/tools/cad/csvn/5.2.0/Linux/csvn/bin:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_fw/cpi/scripts/:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/script:/opt/rh/devtoolset-3/root/usr/bin:/tools/cad/gnu/anaconda/bin:/tools/cad/csvn/5.2.0/Linux/csvn/bin:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_fw/cpi/scripts/:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/scripts:/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/script:/opt/rh/devtoolset-3/root/usr/bin:/tools/cad/gnu/anaconda/bin:/tools/cad/csvn/5.2.0/Linux/csvn/bin:/projects/cad/license_server/lmgrd/bin.Linux/lmgrd.current:/tools/cad/cliosoft/sos/current/Linux/bin:/inphi/tools/sge/bin/lx24-amd64:/usr/local/j2re1.4.2_04/bin:/tools/cad/inphi/inphitools/Released/bin:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/tools/cad/inphi/inphitools/Released/bin/amb:/usr/local/netscape:/inphi/tools/linux/netscape-mozilla:/inphi/tools/linux/Acrobat5/bin:/inphi/tools/linux/AdobeReader/bin:/inphi/tools/linux/hyperplot/bin:/tools/cad/mathworks/matlab/R2017a/Linux/bin:/tools/cad/cadence/mmsim/16.10.387/Linux/tools/bin:/tools/cad/cadence/PVS/15.23.000/Linux/bin:/tools/cad/cadence/EXT/17.10.000/Linux/tools/bin:/tools/cad/cadence/EXT/17.10.000/Linux/bin:/tools/cad/cadence/IC/06.16.14/Linux/tools/bin:/tools/cad/cadence/IC/06.16.14/Linux/tools/dfII/bin:/inphi/tools/linux/ccar/tools.lnx86/iccraft/bin:/inphi/tools/linux/ccar/tools.lnx86/iccraft/gds_if/bin:/inphi/tools/linux/ccar/tools.lnx86/iccraft/lefdef_if/bin:/inphi/tools/linux/ccar/tools.lnx86/iccraft/bin:/tools/cad/cadence/IUS/15.20.029/Linux/tools/bin:/tools/cad/cadence/MDV/2016.11.001/bin:/tools/cad/cadence/SPB/17.20.021/Linux/tools/pcb/bin:/tools/cad/cadence/SPB/17.20.021/Linux/tools/bin:/tools/cad/cadence/ASI/16.60.005/Linux/ASI:/tools/cad/cadence/EDI/17.10.000/Linux/tools/bin:/tools/cad/cadence/GENUS/16.23.000/Linux/tools/bin:/tools/cad/cadence/ETS/13.18.000/Linux/tools/bin:/tools/cad/cadence/SSV/17.10.000/Linux/tools/bin:/tools/cad/cadence/conformal/17.10.140/Linux/bin:/inphi/tools/linux/MVS09.21.081_Hotfix/tools/bin:/tools/cad/mentor/calibre/2017.2_28/Linux/aoi_cal_2017.2_28.22/bin:/tools/cad/mentor/tessent/2017.2/Linux/bin:/tools/cad/mentor/amsv/2017.2/Linux/bda_root/bin:/tools/cad/mentor/questacore/Linux/10.5d_1/questasim/bin:/tools/cad/mentor/vde/10.5d_1/Linux/visualizer/bin:/inphi/tools/linux/synopsys_vcs_2008.12/bin:/tools/cad/synopsys/vera/D-2009.12-15/vera_vD-2009.12-15_amd64/bin:/inphi/tools/linux/sisoft/2010.06/bin:/tools/cad/solido/VariationDesigner/4.2.11/Linux:/tools/cad/lorentz/peakview/4.0.4/Linux/bin:/tools/cad/atrenta/spyglass/5.5.1/Linux/SPYGLASS_HOME/bin:/tools/cad/ansys2/ansys_inc/17.2/v172/ansys/bin:/tools/cad/ansys2/ansys_inc/17.2/v172/Icepak/bin:/tools/cad/ansys2/ansys_inc/17.2/v172/Framework/bin/Linux64:/tools/cad/ansys2/EM/17.2/AnsysEM17.2/Linux64:/tools/cad/lumerical/device/2017a.R4/Linux/bin:/tools/cad/lumerical/mode/2017a.R4/Linux/bin:/tools/cad/ausdia/timevision/2016.Dec-SP3/Linux/2016.Dec-SP3/bin:/inphi/tools/linux/synopsys_custom_explorer_E-2011.03-1/platforms/i86_re4/bin:/tools/packages/ruby/1.9.3-p0/Linux/bin:/tools/cad/icscape/ClockExplorer/20160619/Linux/bin/:/tools/apache/PowerArtist_linux-x86_64_15.1.3p3/bin/:/tools/apache/PowerArtist_linux-x86_64_15.1.3p3/bin/:/tools/apache/PowerArtist_linux-x86_64_15.1.3p3/bin/:/tools/apache/PowerArtist_linux-x86_64_15.1.3p3/bin/ ANSLINKS_INSTALL_DIR /inphi/tools/linux/ansoft/ansofLink/alinks4 ANSOFTD_LICENSE_FILE 27010@las-lic01:27010@las-lic02 DFII_PATH /tools/cad/cadence/IC/06.16.14/Linux ETS_VERSION ETS13.18.000 INPHI_SITE_PROJECTS_PATH /home/nile/Projects MMSIM_DIR /tools/cad/cadence/mmsim/16.10.387/Linux VOV_ENV SNAPSHOT(/scratch/logs/nclogs/gbarbiani/snapshots/gbarbiani/linux64/env11150.env) SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass SOLIDOLD_LICENSE_FILE 27002@las-lic01 PWD /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc CDNS_QTDIR /tools/cad/cadence/RC/14.28.000/Linux/tools/Qt/64bit INPHITOOLPATH_NEW /tools/cad FTDT_VERSION 2017a.R4 SOS_ALLOW_CS_NAME 0 CVSROOT :pserver:gbarbiani@las-cvs01:/inphi/databases/cvs/wlv-2050a-cvs_home/inphi/ VOV_USE_VEP 1 EXT_HOME /tools/cad/cadence/EXT/17.10.000/Linux IFV_VERSION NONE CDS_AUTO_CKIN none SOC_INSTALL_PATH /tools/cad/cadence/EDI/17.10.000/Linux HOSTNAME las-ws-151.inphi-corp.local CSHRC_VERSION release RTL_COMMON /home/gbarbiani/RTL.COMMON/ ALGROPATH /tools/cad/cadence/SPB/17.20.021/Linux/tools/pcb/bin MODE_VERSION 2017a.R4 VOV_LIMIT_filesize unlimited SKILLCAD_PATH /tools/cad/skillcad/skillcad_v4.1O MAIL /var/spool/mail/gbarbiani SOLIDO_LICENSE_CHECKOUT_ORDER standard,premium WINDOWPATH 1 VARDES_HOME /tools/cad/solido/VariationDesigner/4.2.11/Linux SOLIDO_VERSION NONE PYTHONPATH /home/gbarbiani/projects/CHIP_DV/trunk/library CALIBRE_VERSION 2017.2_28 VOV_HOST_NAME las-gridmaster.inphi-corp.local CVS_RSH ssh TK_TABLE_LIBRARY /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tktable G_BROKEN_FILENAMES 1 ANSYS_VERSION 17.2 CLASSPATH /tools/cad/cadence/IC/06.16.14/Linux/share/cdssetup/hierEditor/plugins:/tools/cad/cadence/IC/06.16.14/Linux/share/java:. MVS_VERSION MVS09.21.081_Hotfix MQA_VERSION NONE VOV_RAM_SENTRY 0 SSV_INSTALL_PATH /tools/cad/cadence/SSV/17.10.000/Linux MATLABPATH /tools/cad/cadence/mmsim/16.10.387/Linux/tools/spectre/matlab/64bit:/tools/cad/mathworks/matlab/R2017a/Linux MC_TMPDIR /tmp/mc-gbarbiani GLIBCPP_FORCE_NEW 1 RC_VER 14.27.000_Hotfix VOVDIR /tools/cad/rtda/2013.03/linux64 SGE_CELL_PATH /inphi/tools/sge/default ASSURA_VERSION NONE INTEGRATOR_VERSION NONE MGLS_LICENSE_FILE 5286@las-lic01:5286@las-lic02 AFS_ROOT /tools/cad/mentor/amsv/2017.2/Linux/bda_root Inphi_NONC false LUMERICL_LICENSE_FILE 27011@las-lic04 XDG_SESSION_COOKIE 4bdb75baa5ab61c70e1da2870000000e-1498237205.495881-1568436396 CDSPATH /tools/cad/cadence/IUS/15.20.029/Linux BDA_INSTPATH /tools/cad/mentor/amsv/2017.2 HSPICE_VERSION NONE REMOTEHOST las-ws-151.inphi-corp.local PROJ_COMMON /projects/PROJ_COMMON ANLS_VERSION NONE INPHITOOLPATH /inphi/tools/linux BDA_VERSION 2017.2 OSTYPE linux SISOFTD_LICENSE_FILE 18500@las-lic01 RLM_LICENSE 7070@las-lic01 ASI_HOME /tools/cad/cadence/ASI/16.60.005 ADS_VERSION NONE Virtuoso_IPVS_enablePresets {} PROJ /projects/CL120020/RevA0/Work ANSYSLMD_LICENSE_FILE 27010@las-lic01:27010@las-lic02 ANSYSLIC_DIR /tools/cad/ansys2/ansys_inc/17.2/shared_files/licensing INPHI_SITE wlv VTCL_LIBRARY /tools/cad/rtda/2013.03/linux64/tcl SKILLCAD_LIC_FILE 5888@las-lic01 SISOFTPath /inphi/tools/linux/sisoft/2010.06 CDS_ROOT /tools/cad/cadence/IC/06.16.14/Linux DESKTOP_SESSION gnome BLT_LIBRARY /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/blt8.0 ANSYS172_DIR /tools/cad/ansys2/ansys_inc/17.2/v172/ansys KDEDIRS /usr COLORTERM gnome-terminal DBUS_SESSION_BUS_ADDRESS unix:abstract=/tmp/dbus-1OWCgzbH47,guid=fb47d016adfb3a7767687583006569c4 MLM_LICENSE_FILE 27001@las-lic01:27001@las-lic02 PROJ_COMMON_RTL_LIBRARY /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules CDS_LIC_FILE 5280@las-lic01:5280@las-lic02 INTEL_VERSION FBD_143 PEAKHOME /tools/cad/lorentz/peakview/4.0.4/Linux VOV_LIMIT_openfiles_hard 16384 SGE_EXECD_PORT 6445 SSH_CONNECTION {172.30.71.239 32780 172.30.78.192 22} TOTEM_VERSION 15.1.4p4 CDS_Netlisting_Mode Analog VOV_PORT_NUMBER 6271 BDA_HOME /tools/cad/mentor/amsv/2017.2/Linux EDITOR vi GENUSRTLCOMPILER /tools/cad/cadence/GENUS/16.23.000/Linux/tools MQA_LICENSE_FILE 5284@las-lic01 VOVARCH linux64 LESSOPEN {||/usr/bin/lesspipe.sh %s} PYCDESIGNER_VERSION 4.5-L4 VERA_VERSION D-2009.12-15 SSV_HOME /tools/cad/cadence/SSV/17.10.000/Linux/tools SOS_SHOW_DIFF 1 VERPLEX_HOME /tools/cad/cadence/conformal/17.10.140/Linux VENDOR unknown CDS_SITE /tools/cad/inphi/inphitools/Released/NCsetup DISPLAY las-ws-151.inphi-corp.local:0.0 GIO_LAUNCHED_DESKTOP_FILE_PID 25309 GNOME_KEYRING_SOCKET /tmp/keyring-5Y3gRy/socket MVS_HOME /inphi/tools/linux/MVS09.21.081_Hotfix DEVICE_HOME /tools/cad/lumerical/device/2017a.R4/Linux TK_TABLE_LIBRARY_FILE tkTable.tcl RC_VERSION RC14.28.000 VELOCITY_VERSION NONE GDM_USE_SHLIB_ENVVAR 1 USIMHOME /tools/cad/cadence/mmsim/16.10.387/Linux Inphi_NoDmAccess false HNAME las-ws-151.inphi-corp.local VOV_CONFLICT_CONTROL ABORT MGC_BNO 1 VOV_LIMIT_memoryuse unlimited SSH_AUTH_SOCK /tmp/keyring-5Y3gRy/socket.ssh SGE_CELL default QX_VERSION NONE CVL_101_TB_PATH /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/externals/asic_tb/training/tb SGE_CLUSTER_NAME p6444 A__z {"*SHLVL} XAUTHORITY /var/run/gdm/auth-for-gbarbiani-qZKmMr/database SGE_ROOT /inphi/tools/sge GIO_LAUNCHED_DESKTOP_FILE /home/gbarbiani/Desktop/terminal.desktop VOV_LICMON las-lic01:5555 AFS_ADE_HB 1 VOV_LIMIT_datasize unlimited CDS_PROMPT_CKIN none
+   errorCode = NONE
+   errorInfo = 1
+    while executing
+"redirect /dev/null {get_attr $attrName /}"
+   exe_sub_ver = .28
+   exe_ver = 14.28
+   fan = 43006
+   fanout = {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[0]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[1]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[2]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[3]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[0]/pins_in/CP} 16231 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[1]/pins_in/CP} 16230 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[2]/pins_in/CP} 16229 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[3]/pins_in/CP} 16228 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[4]/pins_in/CP} 16227 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[5]/pins_in/CP} 16226 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[6]/pins_in/CP} 16225 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[7]/pins_in/CP} 16224 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[8]/pins_in/CP} 16223 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[9]/pins_in/CP} 16222 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[0]/pins_in/CP} 15709 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[1]/pins_in/CP} 15708 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[2]/pins_in/CP} 15707 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[3]/pins_in/CP} 15706 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[4]/pins_in/CP} 15705 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[5]/pins_in/CP} 15704 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[6]/pins_in/CP} 15703 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[7]/pins_in/CP} 15702 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[8]/pins_in/CP} 15701 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[9]/pins_in/CP} 15700 /designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/extra_valid_reg/pins_in/CP 16200 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[0]/pins_in/CP} 2059 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[1]/pins_in/CP} 1962 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[2]/pins_in/CP} 1961 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[3]/pins_in/CP} 1960 /designs/gcm_aes_core/instances_hier/u_key_scheduler_switcher/instances_seq/muxing_enable_reg/pins_in/CP 3842 /designs/gcm_aes_core/instances_hier/u_key_scheduler_switcher/instances_seq/loading_enable_reg/pins_in/CP 5762 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__aad_i_sop/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 35924 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_trigger_pre_block_ciph/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 19143 {/designs/gcm_aes_core/instances_hier/u_gctr_function/instances_hier/genfor_gctr_base_0__u_aes_round_ladder_xor_data__ii/instances_hier/genfor_aes_rounds_14__u_round_block_and_pipe_ii/instances_hier/u_common_fix_delay_line_w_del_valid/instances_seq/genif_no_01_delay_delay_l_valid_reg[2]/pins_in/CP} 15700 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop_pre/instances_seq/genif_no_01_delay_delay_l_reg[2]/pins_in/CP} 18283 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop_pre_decipher/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 1033 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 17990 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[0]/pins_in/CP} 1437 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[1]/pins_in/CP} 1436 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[2]/pins_in/CP} 1435 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[3]/pins_in/CP} 1434 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[4]/pins_in/CP} 1433 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[5]/pins_in/CP} 1432 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[6]/pins_in/CP} 1431 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[7]/pins_in/CP} 1430 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/prod_done_d_reg/pins_in/CP 1034 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[0]/pins_in/CP} 1694 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[1]/pins_in/CP} 1693 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[2]/pins_in/CP} 1692 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[3]/pins_in/CP} 1691 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[4]/pins_in/CP} 1690 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[5]/pins_in/CP} 1689 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[6]/pins_in/CP} 1688 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[7]/pins_in/CP} 1687 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_trigger_d_reg/pins_in/CP 651 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_prod_ready_d_reg/pins_in/CP 651 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_hier/u_common_fix_delay_line_w_valid__hold_msg/instances_seq/genif_no_01_delay_delay_l_reg[3]/pins_in/CP} 1794 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_hier/u_common_fix_delay_line_w_valid__hash_done/instances_seq/genif_no_01_delay_delay_l_reg[10]/pins_in/CP} 7642 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_seq/o_last_cycle_reg/pins_in/CP 3139 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_seq/o_skip_msg_reg/pins_in/CP 513 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stage_reg[0]/pins_in/CP} 771 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stage_reg[1]/pins_in/CP} 770 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/sop_counter_reg/pins_in/CP 7651 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[0]/pins_in/CP} 7908 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[1]/pins_in/CP} 7907 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[2]/pins_in/CP} 7650 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[3]/pins_in/CP} 7649 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[4]/pins_in/CP} 7648 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[5]/pins_in/CP} 7647 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[6]/pins_in/CP} 7646 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[7]/pins_in/CP} 7645 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[8]/pins_in/CP} 7644 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[9]/pins_in/CP} 7643 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stall2_reg/pins_in/CP 640 /designs/gcm_aes_core/instances_seq/pre_block_calc_delay_reg_reg/pins_in/CP 17988 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[17]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[16]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[15]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[14]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[13]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[12]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[11]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[10]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[9]} 16862 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[8]} 16862 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[17]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[16]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[15]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[14]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[13]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[12]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[11]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[10]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[9]} 16863 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[8]} 16863 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[7]} 898 /designs/gcm_aes_core/ports_in/i_sop 18421 /designs/gcm_aes_core/ports_in/i_valid 16342 /designs/gcm_aes_core/ports_in/i_enable 11595 /designs/gcm_aes_core/ports_in/i_update_key 2440 /designs/gcm_aes_core/ports_in/i_rf_mode_gmac 17987 /designs/gcm_aes_core/ports_in/i_rf_static_encrypt 17439 /designs/gcm_aes_core/ports_in/i_reset 40719 /designs/gcm_aes_core/ports_in/i_clock 43006
+   fanout_limit = 500
+   fanout_outputfile = file36
+   fanout_sorted = /designs/gcm_aes_core/ports_in/i_clock 43006 /designs/gcm_aes_core/ports_in/i_reset 40719 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__aad_i_sop/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 35924 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[0]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[1]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[2]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_key_update_fsm/instances_seq/state_reg[3]/pins_in/CP} 20744 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_trigger_pre_block_ciph/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 19143 /designs/gcm_aes_core/ports_in/i_sop 18421 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop_pre/instances_seq/genif_no_01_delay_delay_l_reg[2]/pins_in/CP} 18283 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 17990 /designs/gcm_aes_core/instances_seq/pre_block_calc_delay_reg_reg/pins_in/CP 17988 /designs/gcm_aes_core/ports_in/i_rf_mode_gmac 17987 /designs/gcm_aes_core/ports_in/i_rf_static_encrypt 17439 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[9]} 16863 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[8]} 16863 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[9]} 16862 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[8]} 16862 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[17]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[16]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[15]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[14]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[13]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[12]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[11]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[10]} 16607 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[17]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[16]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[15]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[14]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[13]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[12]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[11]} 16606 {/designs/gcm_aes_core/ports_in/i_rf_static_length_aad[10]} 16606 /designs/gcm_aes_core/ports_in/i_valid 16342 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[0]/pins_in/CP} 16231 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[1]/pins_in/CP} 16230 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[2]/pins_in/CP} 16229 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[3]/pins_in/CP} 16228 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[4]/pins_in/CP} 16227 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[5]/pins_in/CP} 16226 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[6]/pins_in/CP} 16225 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[7]/pins_in/CP} 16224 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[8]/pins_in/CP} 16223 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_aad_reg[9]/pins_in/CP} 16222 /designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/extra_valid_reg/pins_in/CP 16200 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[0]/pins_in/CP} 15709 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[1]/pins_in/CP} 15708 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[2]/pins_in/CP} 15707 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[3]/pins_in/CP} 15706 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[4]/pins_in/CP} 15705 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[5]/pins_in/CP} 15704 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[6]/pins_in/CP} 15703 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[7]/pins_in/CP} 15702 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[8]/pins_in/CP} 15701 {/designs/gcm_aes_core/instances_hier/u_gcm_aes_ghash_fsm/instances_seq/timer_reg[9]/pins_in/CP} 15700 {/designs/gcm_aes_core/instances_hier/u_gctr_function/instances_hier/genfor_gctr_base_0__u_aes_round_ladder_xor_data__ii/instances_hier/genfor_aes_rounds_14__u_round_block_and_pipe_ii/instances_hier/u_common_fix_delay_line_w_del_valid/instances_seq/genif_no_01_delay_delay_l_valid_reg[2]/pins_in/CP} 15700 /designs/gcm_aes_core/ports_in/i_enable 11595 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[0]/pins_in/CP} 7908 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[1]/pins_in/CP} 7907 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/sop_counter_reg/pins_in/CP 7651 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[2]/pins_in/CP} 7650 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[3]/pins_in/CP} 7649 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[4]/pins_in/CP} 7648 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[5]/pins_in/CP} 7647 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[6]/pins_in/CP} 7646 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[7]/pins_in/CP} 7645 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[8]/pins_in/CP} 7644 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/msg_count_reg[9]/pins_in/CP} 7643 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_hier/u_common_fix_delay_line_w_valid__hash_done/instances_seq/genif_no_01_delay_delay_l_reg[10]/pins_in/CP} 7642 /designs/gcm_aes_core/instances_hier/u_key_scheduler_switcher/instances_seq/loading_enable_reg/pins_in/CP 5762 /designs/gcm_aes_core/instances_hier/u_key_scheduler_switcher/instances_seq/muxing_enable_reg/pins_in/CP 3842 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_seq/o_last_cycle_reg/pins_in/CP 3139 /designs/gcm_aes_core/ports_in/i_update_key 2440 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[0]/pins_in/CP} 2059 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[1]/pins_in/CP} 1962 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[2]/pins_in/CP} 1961 {/designs/gcm_aes_core/instances_hier/u_key_scheduler_sequential_shifter/instances_seq/index_bus_reg[3]/pins_in/CP} 1960 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_hier/u_common_fix_delay_line_w_valid__hold_msg/instances_seq/genif_no_01_delay_delay_l_reg[3]/pins_in/CP} 1794 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[0]/pins_in/CP} 1694 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[1]/pins_in/CP} 1693 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[2]/pins_in/CP} 1692 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[3]/pins_in/CP} 1691 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[4]/pins_in/CP} 1690 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[5]/pins_in/CP} 1689 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[6]/pins_in/CP} 1688 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_count_reg[7]/pins_in/CP} 1687 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[0]/pins_in/CP} 1437 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[1]/pins_in/CP} 1436 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[2]/pins_in/CP} 1435 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[3]/pins_in/CP} 1434 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[4]/pins_in/CP} 1433 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[5]/pins_in/CP} 1432 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[6]/pins_in/CP} 1431 {/designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/count_reg[7]/pins_in/CP} 1430 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_hier/genelse_null_power_u_gf_2to128_multiplier_sequential/instances_seq/prod_done_d_reg/pins_in/CP 1034 {/designs/gcm_aes_core/instances_hier/u_common_fix_delay_line_w_valid__gctr_o_sop_pre_decipher/instances_seq/genif_1_delay_delay_l_reg[0]/pins_in/CP} 1033 {/designs/gcm_aes_core/ports_in/i_rf_static_length_plaintext[7]} 898 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stage_reg[0]/pins_in/CP} 771 {/designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stage_reg[1]/pins_in/CP} 770 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_trigger_d_reg/pins_in/CP 651 /designs/gcm_aes_core/instances_hier/u_subkey_h_powers_generator/instances_seq/genelse_null_power_prod_ready_d_reg/pins_in/CP 651 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_seq/stall2_reg/pins_in/CP 640 /designs/gcm_aes_core/instances_hier/u_ghash_wrapper/instances_hier/genif_new_pipelined_u_ghash_core/instances_hier/u_ghash_control_signal_unit/instances_seq/o_skip_msg_reg/pins_in/CP 513
+   fileDir = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/gui
+   fileList = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/gui/vresources
+   first_incremental = true
+   flow_mode = base
+   func.sdc = constraints.sdc.tcl
+   generate_ple = 0
+   gui_cbk = callback,gui_sv {} callback,gui_sv_br1 {} callback,gui_tb {} callback,gui_pv {} callback,gui_lb_br1 {}
+   gui_include_derived_blockage = 0
+   gui_include_macro_blockage = 0
+   gui_layer_color_0 = #f4a460
+   gui_layer_color_1 = #0000ff
+   gui_layer_color_10 = #ffff00
+   gui_layer_color_11 = #008000
+   gui_layer_color_12 = #ff00ff
+   gui_layer_color_13 = #ffc0cb
+   gui_layer_color_14 = #00ffff
+   gui_layer_color_15 = #800080
+   gui_layer_color_2 = #ff0000
+   gui_layer_color_3 = #00d000
+   gui_layer_color_4 = #d0d000
+   gui_layer_color_5 = #a52a2a
+   gui_layer_color_6 = #ffa500
+   gui_layer_color_7 = #d000d0
+   gui_layer_color_8 = #00d0d0
+   gui_layer_color_9 = #a52a2a
+   gui_layer_control = 0
+   gui_layer_name_0 = 1
+   gui_layer_name_1 = 1
+   gui_layer_name_10 = 1
+   gui_layer_name_11 = 1
+   gui_layer_name_12 = 1
+   gui_layer_name_13 = 1
+   gui_layer_name_14 = 1
+   gui_layer_name_15 = 1
+   gui_layer_name_2 = 1
+   gui_layer_name_3 = 1
+   gui_layer_name_4 = 1
+   gui_layer_name_5 = 1
+   gui_layer_name_6 = 1
+   gui_layer_name_7 = 1
+   gui_layer_name_8 = 1
+   gui_layer_name_9 = 1
+   gui_layer_select_0 = 0
+   gui_layer_select_1 = 0
+   gui_layer_select_10 = 0
+   gui_layer_select_11 = 0
+   gui_layer_select_12 = 0
+   gui_layer_select_13 = 0
+   gui_layer_select_14 = 0
+   gui_layer_select_15 = 0
+   gui_layer_select_2 = 0
+   gui_layer_select_3 = 0
+   gui_layer_select_4 = 0
+   gui_layer_select_5 = 0
+   gui_layer_select_6 = 0
+   gui_layer_select_7 = 0
+   gui_layer_select_8 = 0
+   gui_layer_select_9 = 0
+   gui_layer_style_0 = 1
+   gui_layer_style_1 = 1
+   gui_layer_style_10 = 1
+   gui_layer_style_11 = 1
+   gui_layer_style_12 = 1
+   gui_layer_style_13 = 1
+   gui_layer_style_14 = 1
+   gui_layer_style_15 = 1
+   gui_layer_style_2 = 1
+   gui_layer_style_3 = 1
+   gui_layer_style_4 = 1
+   gui_layer_style_5 = 1
+   gui_layer_style_6 = 1
+   gui_layer_style_7 = 1
+   gui_layer_style_8 = 1
+   gui_layer_style_9 = 1
+   gui_layer_visible_0 = 1
+   gui_layer_visible_1 = 1
+   gui_layer_visible_10 = 1
+   gui_layer_visible_11 = 1
+   gui_layer_visible_12 = 1
+   gui_layer_visible_13 = 1
+   gui_layer_visible_14 = 1
+   gui_layer_visible_15 = 1
+   gui_layer_visible_2 = 1
+   gui_layer_visible_3 = 1
+   gui_layer_visible_4 = 1
+   gui_layer_visible_5 = 1
+   gui_layer_visible_6 = 1
+   gui_layer_visible_7 = 1
+   gui_layer_visible_8 = 1
+   gui_layer_visible_9 = 1
+   gui_pgrid_control = 0
+   histNum = 1
+   i = 208
+   include_paths = 
+   incremental_opt_en = true
+   indent =                   
+   inst_prop = clock_gated
+   inst_prop_list = 
+    leakage
+    internal
+    load
+    clock_gated
+
+   inter_setup_uncertainty = 0.32999999999999996
+   intra_setup_uncertainty = 0.3
+   lef =   clariphy_VHV.tcl  tcbn16ffplusglbwp7d5t16p96cpd.lef  tcbn16ffplusglbwp7d5t16p96cpdmb.lef  tcbn16ffplusllbwp7d5t16p96cpdlvt.lef  tcbn16ffplusllbwp7d5t16p96cpdulvt.lef  tcbn16ffplusglbwp7d5t16p96cpdmblvt.lef  tcbn16ffplusglbwp7d5t16p96cpdmbulvt.lef  
+   lib =   tcbn16ffplusglbwp7d5t16p96cpdssgnp0p63v0c_ccs.lib  tcbn16ffplusglbwp7d5t16p96cpdmbssgnp0p63v0c_ccs.lib  tcbn16ffplusllbwp7d5t16p96cpdlvtssgnp0p63v0c_ccs.lib  tcbn16ffplusllbwp7d5t16p96cpdulvtssgnp0p63v0c_ccs.lib  tcbn16ffplusglbwp7d5t16p96cpdmbulvtssgnp0p63v0c_ccs.lib  tcbn16ffplusglbwp7d5t16p96cpdmblvtssgnp0p63v0c_ccs.lib  
+   libscoreWorkDir = ./libscore_work
+   life = 15552000
+   line = 
+   line1 = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_posedge_det.v
+   load_file = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core//test/verilog_list.lst
+   lp_rc_cg_use_unified_cg_remove_flow = 1
+   m = (5 seconds elapsed)
+   mail_cc = 
+   mail_to = 
+   map_eff = high
+   max_capacitance = 0.39
+   max_fanout = 200
+   max_transition = 0.20
+   mbist.sdc = gcm_aes_core.mbist.sdc
+   mbist_dir = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core//test/../constraints
+   model_create = SDC_FILE_LIST {} VHDL_FILE_LIST {} OUTPUT_DIRECTORY /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc type blackbox VERILOG_FILE_LIST {} LIBRARY_FILE_LIST {}
+   modep = fe
+   net_prop = switching_power
+   net_prop_list = 
+    wire_cap
+    duty_cycle
+    avg_activity
+    frequency
+    cap_source
+    slew
+    switching_power
+
+   new = tixScrolledListBox
+   nlvPriv = 
+   nlvdata = 
+   ns = compat ::aeware rpt_hist ::aeware::rpt_hist utils ::aeware::utils time_info ::aeware measure ::aeware::measure applet ::aeware::applet compare ::aeware::compare
+   old = tixScrolledListbox
+   opgNumOfVts = 0
+   opt = -bg
+   optHVTCells = 0
+   optLVTCells = 2
+   optLkgCellList = 
+   optLkgLibPower = 
+   optLkgNumCells = 
+   optLkgTlibIndex = 
+   optLkgTlibList = 
+   optMVTCells = 1
+   optVtLibs = 
+   perc_for_small_bucket_detection = 40.0
+   phyPriv = world,ys 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,threshold 10 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,selectRegion,ye 0 world,ye 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,editBox 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,editBox,ys 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,s-bp-1 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,x 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,y 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,editBox,ye 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,c-br-1 0 world,vys 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,selectRegion,xs 0 world,xs 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,selectRegion 0 world,mouseMoved 0 world,vye 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,selectRegion,xe 0 world,xe 0 world,mode 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,editBox,xs 0 world,margin 10 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,editBox,xe 0 world,vxs 0 world,svx 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,bx 0 world,svy 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,by 0 world,vxe 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,wheel_scale 8 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,haveFocus 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,mouseMoved 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas,selectRegion,ys 0
+   phys_eff = medium
+   pin_prop = port_type
+   pin_prop_list = 
+    pin_cap
+    load_cap
+    port_type
+
+   pkgRev = 1.18
+   preserve_top = false
+   prop = line_number
+   qrc = /projects/M200/RevA0/RELEASE/APR/projdir7.5T/libraries/qrctech/cworst_CCworst_T/qrcTechFile
+   ratio_diff_for_joining_small_buckets = 0.2
+   ratio_thresh_for_joining_small_buckets = 100000
+   rc2rtls_op_map = 
+    add_signed add
+    add_signed_carry add
+    sub_signed sub
+    sub_signed_carry sub
+    addsub_signed add
+    addsub_signed_carry add
+    add_unsigned add
+    add_unsigned_carry add
+    sub_unsigned sub
+    sub_unsigned_carry sub
+    addsub_unsigned add
+    addsub_unsigned_carry add
+    add_equal_minus_one add
+    add_carry_gen add
+    sub_carry_gen sub
+    abs abs
+    increment_unsigned add
+    increment_signed add
+    decrement_unsigned sub
+    decrement_signed sub
+    shift_left_vlog_unsigned shift
+    shift_right_vlog_unsigned shift
+    arith_shift_left_vlog_unsigned shift
+    arith_shift_right_vlog_unsigned shift
+    rotate_left_vlog_unsigned shift
+    rotate_right_vlog_unsigned shift
+    shift_left_vlog_signed shift
+    shift_right_vlog_signed shift
+    arith_shift_left_vlog_signed shift
+    arith_shift_right_vlog_signed shift
+    rotate_left_vlog_signed shift
+    rotate_right_vlog_signed shift
+    shift_left_vhdl_unsigned shift
+    shift_right_vhdl_unsigned shift
+    arith_shift_left_vhdl_unsigned shift
+    arith_shift_right_vhdl_unsigned shift
+    rotate_left_vhdl_unsigned shift
+    rotate_right_vhdl_unsigned shift
+    shift_left_vhdl_signed shift
+    shift_right_vhdl_signed shift
+    arith_shift_left_vhdl_signed shift
+    arith_shift_right_vhdl_signed shift
+    rotate_left_vhdl_signed shift
+    rotate_right_vhdl_signed shift
+    complex_shift shift
+    combo_op comb_others
+    mult_unsigned mult
+    mult_signed mult
+    mult_unsigned_const mult
+    mult_signed_const mult
+    mult_mixed mult
+    square_mixed mult
+    square_signed mult
+    square_unsigned mult
+    inverse_square_signed mult
+    inverse_square_unsigned mult
+    wallace_csa mult
+    cmp6_unsigned comp
+    cmp6_signed comp
+    gt_leq_unsigned comp
+    gt_leq_signed comp
+    equal_unsigned comp
+    equal_signed comp
+    eq_neq_unsigned comp
+    eq_neq_signed comp
+    super_mult_signed mult
+    super_mult_unsigned mult
+    modulus_unsigned div
+    modulus_signed div
+    remainder_unsigned div
+    remainder_signed div
+    divide_unsigned div
+    divide_signed div
+    shared_div_rem_unsigned div
+    shared_div_rem_signed div
+    shared_div_mod_unsigned div
+    shared_div_mod_signed div
+    lead0 comb_others
+    lead1 comb_others
+    detect0 comb_others
+    detect1 comb_others
+    blend_unsigned comb_others
+    blend_signed comb_others
+    mux mux
+    bmux mmux
+    csa_mux add
+    csa_bmux add
+    nequal_unsigned comp
+    nequal_signed comp
+    lt_unsigned comp
+    lt_signed comp
+    leq_unsigned comp
+    leq_signed comp
+    gt_unsigned comp
+    gt_signed comp
+    geq_unsigned comp
+    geq_signed comp
+    csa_unsigned add
+    csa_signed add
+    mux_any mmux
+    csa_and_adder add
+    spl_carry_gen add
+
+   rc_dp = spl_carry_gen
+   rc_mode = true
+   result = 
+   rtls_dp = add
+   rtls_scripts_path = /tools/cad/cadence/RC/14.28.000/Linux/tools/../etc/rtls/tcl_scripts
+   scnd_incremental = true
+   sgnPriv = .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.sgn.sch,mouseMoved 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.sgn.sch,x 0 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.sgn.sch,y 0
+   sgndata = 
+   skip_internal_error = 0
+   skip_log = 0
+   srcclk = /designs/gcm_aes_core/timing/clock_domains/domain_1/vir_CORE_CLOCK
+   subinstance = 
+   sv_files = 
+   syn_eff = high
+   syn_result_path = /scratch/CL120020/RevA0/gbarbiani/gcm_aes_core/synthesis/rc/results_Jul03-13:56:48
+   t = 5
+   tcl_interactive = 0
+   tcl_level = 14.2.65
+   tcl_library = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tcl
+   tcl_nonwordchars = \W
+   tcl_patchLevel = 8.5.9
+   tcl_pkgPath = 
+   tcl_platform = osVersion 2.6.32-642.13.1.el6.x86_64 pointerSize 8 byteOrder littleEndian machine x86_64 platform unix os Linux user gbarbiani wordSize 8
+   tcl_prompt1 = puts -nonewline rc:[pwd]>\ 
+   tcl_prompt1_fmt = rc:[pwd]>\ 
+   tcl_prompt2 = puts -nonewline ==>\ 
+   tcl_prompt2_fmt = ==>\ 
+   tcl_version = 8.5
+   tcl_wordchars = \w
+   tclvar_data = var_data_hdl_enable_bitwidth_analysis_based_pruning 1 var_data_hdl_infer_macro 1 var_data_hdl_simplify_variable_part_selects 1 var_data_hdl_enable_xform_constant_shiftrotates 1 var_data_hdl_combine_sop_nodes 1 var_data_hdl_reduce_mux_chain 1
+   tix = -haspixmap true bmp:cbxarrow @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cbxarrow.xbm et 0 -scheme WmDefault bmp:cross @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/cross.xbm image 0 -grabmode global bitmapdirs /tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps className tixAppContext ClassName TixAppContext -percentsubst 0 -binding TK -fontset WmDefault -extracmdargs 1 -libdir /tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix bmp:tick @/tools/cad/cadence/RC/14.28.000/Linux/etc/synth/tcltk/tix/bitmaps/tick.xbm -schemepriority 20 -debug 0 context tixAppContext -filedialog tixFileSelectDialog initialized 1
+   tixAppContext = isWidget 0 staticOptions {} methods {
+	cget configure addbitmapdir filedialog getbitmap getimage
+	option platform resetoptions setbitmap initstyle
+    } defaults {} options {
+	-binding -debug -extracmdargs -filedialog -fontset -grabmode
+	-haspixmap -libdir -scheme -schemepriority -percentsubst
+    } superClass {} virtual 1 forceCall {} ClassName TixAppContext className tixAppContext
+   tixBalloon = defaults {
+	{*background 			#ffff60}
+	{*foreground 			black}
+	{*borderWidth 			0}
+	{.borderWidth 			1}
+	{.background 			black}
+	{*Label.anchor			w}
+	{*Label.justify			left}
+    } bals {} g_ignore,Menu {} forceCall {} options {
+	-installcolormap -initwait -state -statusbar -cursor
+    } staticOptions {} superClass tixShell virtual 1 g_ignore,Menubutton {} className tixBalloon ClassName TixBalloon isWidget 1 g_ignore,TixComboBox {} methods {
+	bind post unbind
+    }
+   tixBusy = cursor watch
+   tixButtonBox = isWidget 1 staticOptions {
+	-orientation
+    } methods {
+	add invoke button buttons
+    } defaults {
+	{.borderWidth 		1}
+	{.relief 		raised}
+	{.padX 			5}
+	{.padY 			10}
+	{*Button.anchor		c}
+	{*Button.padX		5}
+    } options {
+	-orientation -orient -padx -pady -state
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixButtonBox className tixButtonBox
+   tixCObjView = isWidget 1 staticOptions {
+    } methods {
+	adjustscrollregion
+    } defaults {
+	{.scrollbar			auto}
+	{*borderWidth			1}
+	{*canvas.background		#c3c3c3}
+	{*canvas.highlightBackground	#d9d9d9}
+	{*canvas.relief			sunken}
+	{*canvas.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+	-xscrollincrement -yscrollincrement
+    } superClass tixScrolledWidget virtual 1 forceCall {
+	-scrollbar
+    } ClassName TixCObjView className tixCObjView
+   tixCheckList = isWidget 1 staticOptions {
+	-radio
+    } methods {
+	getselection getstatus setstatus
+    } defaults {
+	{.scrollbar			auto}
+	{.doubleClick			false}
+	{*Scrollbar.takeFocus           0}
+	{*borderWidth                   1}
+	{*hlist.background              #c3c3c3}
+	{*hlist.drawBranch              1}
+	{*hlist.height                  10}
+	{*hlist.highlightBackground      #d9d9d9}
+	{*hlist.indicator               1}
+	{*hlist.indent                  20}
+	{*hlist.itemType                imagetext}
+	{*hlist.padX                    3}
+	{*hlist.padY                    0}
+	{*hlist.relief                  sunken}
+	{*hlist.takeFocus               1}
+	{*hlist.wideSelection           0}
+	{*hlist.width                   20}
+    } options {
+	-radio
+    } superClass tixTree virtual 1 forceCall {} ClassName TixCheckList className tixCheckList
+   tixComboBox = isWidget 1 staticOptions {
+	-dropdown -fancy
+    } methods {
+	addhistory align appendhistory flash invoke insert pick popdown
+    } defaults {
+	{*Entry.relief				sunken}
+	{*TixScrolledListBox.scrollbar		auto}
+	{*Listbox.exportSelection		false}
+	{*Listbox.takeFocus			false}
+	{*shell.borderWidth			2}
+	{*shell.relief				raised}
+	{*shell.cursor				arrow}
+	{*Button.anchor				c}
+	{*Button.borderWidth			1}
+	{*Button.highlightThickness		0}
+	{*Button.padX				0}
+	{*Button.padY				0}
+	{*tick.width				18}
+	{*tick.height				18}
+	{*cross.width				18}
+	{*cross.height				18}
+	{*arrow.anchor				c}
+	{*arrow.width				15}
+	{*arrow.height				18}
+    } options {
+	-anchor -arrowbitmap -browsecmd -command -crossbitmap
+	-disablecallback -disabledforeground -dropdown -editable
+	-fancy -grab -histlimit -historylimit -history -listcmd
+	-listwidth -prunehistory -selection -selectmode -state
+	-tickbitmap -validatecmd -value -variable
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-variable -selectmode -state
+    } ClassName TixComboBox className tixComboBox
+   tixControl = isWidget 1 staticOptions {} methods {
+	incr decr invoke update
+    } defaults {
+	{.borderWidth 			0}
+	{*entry.relief			sunken}
+	{*entry.width			5}
+	{*label.anchor			e}
+	{*label.borderWidth		0}
+	{*Button.anchor			c}
+	{*Button.borderWidth		2}
+	{*Button.highlightThickness	1}
+	{*Button.takeFocus		0}
+    } options {
+	-allowempty -autorepeat -command -decrcmd -disablecallback
+	-disabledforeground -incrcmd -initwait -integer -llimit
+	-repeatrate -max -min -selectmode -step -state -validatecmd
+	-value -variable -ulimit
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-variable -state
+    } ClassName TixControl className tixControl
+   tixDetailList = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{*grid.topMargin		1}
+	{*grid.leftMargin		0}
+    } options {
+	-hdrbackground
+    } superClass tixScrolledGrid virtual 1 forceCall {} ClassName TixDetailList className tixDetailList
+   tixDialogShell = isWidget 1 staticOptions {} methods {
+	popdown popup center
+    } defaults {} options {
+	-mapped -minheight -minwidth -parent -transient
+    } superClass tixShell virtual 1 forceCall {} ClassName TixDialogShell className tixDialogShell
+   tixDirList = isWidget 1 staticOptions {} methods {
+	chdir
+    } defaults {
+	{.scrollbar			auto}
+	{*borderWidth			1}
+	{*hlist.background		#c3c3c3}
+	{*hlist.indent			7}
+	{*hlist.relief			sunken}
+	{*hlist.height			10}
+	{*hlist.width			20}
+	{*hlist.padX			2}
+	{*hlist.padY			0}
+	{*hlist.wideSelection		0}
+	{*hlist.drawBranch		0}
+	{*hlist.highlightBackground	#d9d9d9}
+	{*hlist.itemType		imagetext}
+	{*hlist.takeFocus		1}
+    } options {
+	 -browsecmd -command -dircmd -disablecallback 
+	 -root -rootname -showhidden -value
+    } superClass tixScrolledHList virtual 1 forceCall {
+	-value
+    } ClassName TixDirList className tixDirList
+   tixDirSelectBox = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{*combo*listbox.height 		5}
+	{*combo.label.anchor		w}
+	{*combo.labelSide		top}
+	{*combo.history			true}
+	{*combo.historyLimit		20}
+    } options {
+	-command -disablecallback -value
+    } superClass tixPrimitive virtual 1 forceCall {
+	-value -label
+    } ClassName TixDirSelectBox className tixDirSelectBox
+   tixDirSelectDialog = isWidget 1 staticOptions {} methods {} defaults {
+	{*ok.text		"OK"}
+	{*ok.underline		0}
+	{*ok.width		6}
+	{*cancel.text		"Cancel"}
+	{*cancel.underline	0}
+	{*cancel.width		6}
+	{*dirbox.borderWidth	1}
+	{*dirbox.relief		raised}
+    } options {
+	-command
+    } superClass tixDialogShell virtual 1 forceCall {} ClassName TixDirSelectDialog className tixDirSelectDialog
+   tixDirTree = isWidget 1 staticOptions {} methods {
+	activate chdir refresh
+    } defaults {
+	{.scrollbar			auto}
+	{*Scrollbar.takeFocus           0}
+	{*borderWidth                   1}
+	{*hlist.indicator               1}
+	{*hlist.background              #c3c3c3}
+	{*hlist.drawBranch              1}
+	{*hlist.height                  10}
+	{*hlist.highlightBackground     #d9d9d9}
+	{*hlist.indent                  20}
+	{*hlist.itemType                imagetext}
+	{*hlist.padX                    3}
+	{*hlist.padY                    0}
+	{*hlist.relief                  sunken}
+	{*hlist.takeFocus               1}
+	{*hlist.wideSelection           0}
+	{*hlist.width                   20}
+    } options {
+	-browsecmd -command -directory -disablecallback -showhidden -value
+    } superClass tixVTree virtual 1 forceCall {} ClassName TixDirTree className tixDirTree
+   tixDragDropContext = isWidget 0 staticOptions {} methods {
+	cget configure drag drop set startdrag
+    } defaults {} options {
+	-command -source
+    } superClass {} virtual 1 forceCall {} ClassName TixDragDropContext className tixDragDropContext
+   tixDrop = TixHListSingle,<In> {tixHListSingle:Rec:DragIn %W %S %x %y} TixHListSingle,<Out> {tixHListSingle:Rec:DragOut %W %S %x %y} TixHListSingle,<Over> {tixHListSingle:Rec:DragOver %W %S %x %y} TixHListSingle,<Drop> {tixHListSingle:Rec:Drop %W %S %x %y} TixHListSingle 1
+   tixExFileSelectBox = isWidget 1 staticOptions {} methods {
+	filter invoke
+    } defaults {
+	{*dir.label 			{Directories:}}
+	{*dir.editable 			true}
+	{*dir.history 			true}
+	{*dir*listbox.height 		5}
+	{*file.label  			Files:}
+	{*file.editable 		true}
+	{*file.history 			false}
+	{*file*listbox.height 		5}
+	{*types.label 			{List Files of Type:}}
+	{*types*listbox.height 		3}
+	{*TixComboBox.labelSide 	top}
+	{*TixComboBox*Label.anchor 	w}
+	{*dir.label.underline 		0}
+	{*file.label.underline		0}
+	{*types.label.underline 	14}
+	{*TixComboBox.anchor 		e}
+	{*TixHList.height 		7}
+	{*filelist*listbox.height 	7}
+	{*hidden.wrapLength 		3c}
+	{*hidden.justify 		left}
+    } options {
+	-browsecmd -command -dialog -dir -dircmd -directory 
+	-disablecallback -filetypes -pattern -selection -showhidden -value
+    } superClass tixPrimitive virtual 1 forceCall {
+	-filetypes
+    } ClassName TixExFileSelectBox className tixExFileSelectBox
+   tixExFileSelectDialog = isWidget 1 staticOptions {} methods {} defaults {} options {
+	-command
+    } superClass tixDialogShell virtual 1 forceCall {} ClassName TixExFileSelectDialog className tixExFileSelectDialog
+   tixFileComboBox = isWidget 1 staticOptions {} methods {
+	invoke
+    } defaults {
+    } options {
+	-command -defaultfile -directory -text
+    } superClass tixPrimitive virtual 1 forceCall {
+	-directory
+    } ClassName TixFileComboBox className tixFileComboBox
+   tixFileEntry = isWidget 1 staticOptions {
+	-filebitmap
+    } methods {
+	invoke filedialog update
+    } defaults {
+	{*frame.borderWidth		2}
+	{*frame.relief			sunken}
+	{*Button.highlightThickness	0}
+	{*Entry.highlightThickness	0}
+	{*Entry.borderWidth 		0}
+    } options {
+	-activatecmd -command -dialogtype -disablecallback -disabledforeground
+	-filebitmap -selectmode -state -validatecmd -value -variable
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-variable
+    } ClassName TixFileEntry className tixFileEntry
+   tixFileSelectBox = isWidget 1 staticOptions {} methods {
+	filter invoke
+    } defaults {
+	{.relief			raised}
+	{*filelist*Listbox.takeFocus	true}
+	{.borderWidth 			1}
+	{*Label.anchor			w}
+	{*Label.borderWidth		0}
+	{*TixComboBox*scrollbar		auto}
+	{*TixComboBox*Label.anchor	w}
+	{*TixScrolledListBox.scrollbar	auto}
+	{*Listbox.exportSelection	false}
+	{*directory*Label.text  	"Directories:"}
+	{*directory*Label.underline	0}
+	{*file*Label.text		"Files:"}
+	{*file*Label.underline		2}
+	{*filter.label			"Filter:"}
+	{*filter*label.underline	3}
+	{*filter.labelSide		top}
+	{*selection.label		"Selection:"}
+	{*selection*label.underline	0}
+	{*selection.labelSide		top}
+    } options {
+	-browsecmd -command -dir -directory -disablecallback
+	-grab -pattern -selection -value
+    } superClass tixPrimitive virtual 1 forceCall {
+	-value
+    } ClassName TixFileSelectBox className tixFileSelectBox
+   tixFileSelectDialog = isWidget 1 staticOptions {} methods {
+    } defaults {} options {
+	-command
+    } superClass tixStdDialogShell virtual 1 forceCall {} ClassName TixFileSelectDialog className tixFileSelectDialog
+   tixFloatEntry = isWidget 1 staticOptions {} methods {
+	invoke post unpost
+    } defaults {
+	{.entry.highlightThickness	0}
+    } options {
+	-command -value
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixFloatEntry className tixFloatEntry
+   tixIconView = isWidget 1 staticOptions {
+    } methods {
+	add arrange
+    } defaults {
+	{.scrollbar			auto}
+	{*borderWidth			1}
+	{*canvas.background		#c3c3c3}
+	{*canvas.highlightBackground	#d9d9d9}
+	{*canvas.relief			sunken}
+	{*canvas.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+	-autoarrange
+    } superClass tixCObjView virtual 1 forceCall {
+    } ClassName TixIconView className tixIconView
+   tixLabelEntry = isWidget 1 staticOptions {
+    } methods {
+    } defaults {
+	{.borderWidth 			0}
+	{*entry.relief			sunken}
+	{*entry.width			7}
+	{*label.anchor			e}
+	{*label.borderWidth		0}
+    } options {
+	-disabledforeground -state
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-state
+    } ClassName TixLabelEntry className tixLabelEntry
+   tixLabelFrame = isWidget 1 staticOptions {} methods {
+	frame
+    } defaults {
+	{*Label.anchor          c}
+	{.frame.borderWidth	2}
+	{.frame.relief		groove}
+	{.border.borderWidth	2}
+	{.border.relief		groove}
+	{.borderWidth 	 	2}
+	{.padX 		 	2}
+	{.padY 		 	2}
+	{.anchor 	 	sw}
+    } options {} superClass tixLabelWidget virtual 1 forceCall {} ClassName TixLabelFrame className tixLabelFrame
+   tixLabelWidget = isWidget 1 staticOptions -labelside methods {} defaults {} options {
+	-label -labelside -padx -pady
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixLabelWidget className tixLabelWidget
+   tixListNoteBook = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{*Orientation		horizontal}
+    } options {
+	-height -width
+    } superClass tixVStack virtual 1 forceCall {
+	-dynamicgeometry -width -height
+    } ClassName TixListNoteBook className tixListNoteBook
+   tixMega = any,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.listbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.label .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame.entry .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.frame.arrow .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.label .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.listbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name any,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox.listbox .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.shell.slistbox TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame.entry .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name TixComboBox,.rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name.frame.arrow .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.bb.name TixComboBox,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name.shell.slistbox.listbox .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.name
+   tixMeter = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{.relief		sunken}
+	{.borderWidth		2}
+	{.width			150}
+    } options {
+	-foreground -text -value
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixMeter className tixMeter
+   tixMultiView = isWidget 1 staticOptions {} methods {
+	add
+    } defaults {
+    } options {
+	-browsecmd -command -view
+    } superClass tixPrimitive virtual 1 forceCall {
+	-view
+    } ClassName TixMultiView className tixMultiView
+   tixNoteBook = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{.nbframe.tabPadX	8}
+	{.nbframe.tabPadY	5}
+	{.nbframe.borderWidth	2}
+	{*nbframe.relief	raised}
+    } options {
+    } superClass tixVStack virtual 1 forceCall {} ClassName TixNoteBook className tixNoteBook
+   tixOption = fixed_font Courier prioLevel 20 courier_font Courier
+   tixOptionMenu = isWidget 1 staticOptions {} methods {
+	add delete disable enable entrycget entryconfigure entries
+    } defaults {
+	{.highlightThickness			0}
+	{.takeFocus				0}
+	{.frame.menubutton.relief		raised}
+	{.frame.menubutton.borderWidth		2}
+	{.frame.menubutton.anchor		w}
+	{.frame.menubutton.highlightThickness	2}
+	{.frame.menubutton.takeFocus		1}
+    } options {
+	-command -disablecallback -dynamicgeometry -value -variable
+	-validatecmd -state
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-variable -state
+    } ClassName TixOptionMenu className tixOptionMenu
+   tixPanedWindow = isWidget 1 staticOptions {
+	-orientation
+    } methods {
+	add delete forget manage panecget paneconfigure panes setsize
+    } defaults {} options {
+	-command -dynamicgeometry -handleactivebg -handlebg -orient
+	-orientation -panebd -paneborderwidth -panerelief
+	-separatoractivebg -separatorbg
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixPanedWindow className tixPanedWindow
+   tixPopupMenu = isWidget 1 staticOptions {
+	-buttons
+    } methods {
+	bind post unbind
+    } defaults {
+	{*Menu.tearOff			0}
+    } options {
+	 -buttons -installcolormap -postcmd -spring -state -title
+    } superClass tixShell virtual 1 forceCall {} ClassName TixPopupMenu className tixPopupMenu
+   tixPrimOpt = -borderwidth 1 -bd 1 -highlightcolor 1 -background 1 -highlightbackground 1 -bg 1 -takefocus 1 -cursor 1 -relief 1 -width 1 -height 1
+   tixPrimitive = isWidget 1 staticOptions {
+	-options
+    } methods {
+	cget configure subwidget subwidgets
+    } defaults {} options {
+	-background -borderwidth -cursor
+	-height -highlightbackground -highlightcolor -highlightthickness
+	-options -relief -takefocus -width -bd -bg
+    } superClass {} virtual 1 forceCall {} ClassName TixPrimitive className tixPrimitive
+   tixResizeHandle = isWidget 1 staticOptions {} methods {
+	attachwidget detachwidget hide show
+    } defaults {} options {
+	-command -cursorfg -cursorbg -handlesize -hintcolor -hintwidth -x -y
+    } superClass tixVResize virtual 1 forceCall {} ClassName TixResizeHandle className tixResizeHandle
+   tixScrolledGrid = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{.scrollbar			auto}
+	{*grid.borderWidth		1}
+	{*grid.Background		#c3c3c3}
+	{*grid.highlightBackground	#d9d9d9}
+	{*grid.relief			sunken}
+	{*grid.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+    } superClass tixScrolledWidget virtual 1 forceCall {} ClassName TixScrolledGrid className tixScrolledGrid
+   tixScrolledHList = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{.scrollbar			auto}
+	{*f1.borderWidth		1}
+	{*hlist.Background		#c3c3c3}
+	{*hlist.highlightBackground	#d9d9d9}
+	{*hlist.relief			sunken}
+	{*hlist.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+	 -highlightbackground -highlightcolor -highlightthickness
+    } superClass tixScrolledWidget virtual 1 forceCall {
+	-highlightbackground -highlightcolor -highlightthickness
+    } ClassName TixScrolledHList className tixScrolledHList
+   tixScrolledListBox = isWidget 1 staticOptions {
+	-anchor
+    } methods {
+    } defaults {
+	{.scrollbar			auto}
+	{*borderWidth			1}
+	{*listbox.highlightBackground	#d9d9d9}
+	{*listbox.relief		sunken}
+	{*listbox.background		#c3c3c3}
+	{*listbox.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+	-anchor -browsecmd -command -state
+    } superClass tixScrolledWidget virtual 1 forceCall {} ClassName TixScrolledListBox className tixScrolledListBox
+   tixScrolledTList = isWidget 1 staticOptions {} methods {
+    } defaults {
+	{.scrollbar			auto}
+	{*borderWidth			1}
+	{*tlist.background		#c3c3c3}
+	{*tlist.highlightBackground	#d9d9d9}
+	{*tlist.relief			sunken}
+	{*tlist.takeFocus		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+    } superClass tixScrolledWidget virtual 1 forceCall {} ClassName TixScrolledTList className tixScrolledTList
+   tixScrolledText = isWidget 1 staticOptions {
+    } methods {
+    } defaults {
+	{.scrollbar			both}
+	{*Scrollbar.takeFocus		0}
+    } options {
+    } superClass tixScrolledWidget virtual 1 forceCall {
+	-scrollbar
+    } ClassName TixScrolledText className tixScrolledText
+   tixScrolledWidget = isWidget 1 staticOptions {} methods {
+    } defaults {} options {
+	-scrollbar -scrollbarspace
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixScrolledWidget className tixScrolledWidget
+   tixScrolledWindow = isWidget 1 staticOptions {
+    } methods {
+    } defaults {
+	{.scrollbar			auto}
+	{*window.borderWidth		1}
+	{*f1.borderWidth		1}
+	{*Scrollbar.borderWidth		1}
+	{*Scrollbar.takeFocus		0}
+    } options {
+	-expandmode -shrink -xscrollincrement -yscrollincrement
+    } superClass tixScrolledWidget virtual 1 forceCall {} ClassName TixScrolledWindow className tixScrolledWindow
+   tixSelect = isWidget 1 staticOptions {
+	-allowzero -orientation -padx -pady -radio
+    } methods {
+	add button invoke
+    } defaults {
+	{*frame.borderWidth			1}
+	{*frame.relief				sunken}
+	{*Button.borderWidth			2}
+	{*Button.highlightThickness		0}
+    } options {
+	-allowzero -buttontype -command -disablecallback -orientation
+	-orient -padx -pady -radio -selectedbg -state -validatecmd
+	-value -variable
+    } superClass tixLabelWidget virtual 1 forceCall {
+	-variable -state
+    } ClassName TixSelect className tixSelect
+   tixShell = isWidget 1 staticOptions {} methods {} defaults {} options {
+	-title
+    } superClass tixPrimitive virtual 1 forceCall {
+	-title
+    } ClassName TixShell className tixShell
+   tixSimpleDialog = isWidget 1 staticOptions {} methods {} defaults {} options {
+	-buttons -message -type
+    } superClass tixDialogShell virtual 1 forceCall {} ClassName TixSimpleDialog className tixSimpleDialog
+   tixStackWindow = isWidget 1 staticOptions {} methods {
+    } defaults {} options {
+    } superClass tixVStack virtual 1 forceCall {} ClassName TixStackWindow className tixStackWindow
+   tixStatusBar = isWidget 1 staticOptions {
+	-fields
+    } methods {
+    } defaults {} options {
+	-fields
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixStatusBar className tixStatusBar
+   tixStdButtonBox = isWidget 1 staticOptions {} methods {} defaults {
+	{.borderWidth 	1}
+	{.relief 	raised}
+	{.padX 		5}
+	{.padY 		10}
+	{*Button.anchor	c}
+	{*Button.padX	5}
+    } options {
+	-applycmd -cancelcmd -helpcmd -okcmd
+    } superClass tixButtonBox virtual 1 forceCall {} ClassName TixStdButtonBox className tixStdButtonBox
+   tixStdDialogShell = isWidget 1 staticOptions {} methods {} defaults {} options {
+	-cached
+    } superClass tixDialogShell virtual 1 forceCall {} ClassName TixStdDialogShell className tixStdDialogShell
+   tixTree = isWidget 1 staticOptions {} methods {
+	autosetmode close getmode open setmode
+
+	addchild anchor column delete entrycget
+	entryconfigure header hide indicator info
+	item nearest see selection show
+    } defaults {
+	{.scrollbar			auto}
+	{*Scrollbar.takeFocus           0}
+	{*borderWidth                   1}
+	{*hlist.background              #c3c3c3}
+	{*hlist.drawBranch              1}
+	{*hlist.height                  10}
+	{*hlist.highlightBackground      #d9d9d9}
+	{*hlist.indicator               1}
+	{*hlist.indent                  20}
+	{*hlist.itemType                imagetext}
+	{*hlist.padX                    2}
+	{*hlist.padY                    2}
+	{*hlist.relief                  sunken}
+	{*hlist.takeFocus               1}
+	{*hlist.wideSelection           0}
+	{*hlist.width                   20}
+    } options {
+	-browsecmd -command -opencmd -closecmd
+    } superClass tixVTree virtual 1 forceCall {} ClassName TixTree className tixTree
+   tixVResize = isWidget 1 staticOptions {} methods {
+	drag dragend dragstart
+    } defaults {} options {
+	-gridded -gridx -gridy -minwidth -minheight
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixVResize className tixVResize
+   tixVStack = isWidget 1 staticOptions {} methods {
+	add delete pageconfigure pagecget pages raise raised
+    } defaults {} options {
+	-dynamicgeometry -ipadx -ipady
+    } superClass tixPrimitive virtual 1 forceCall {} ClassName TixVStack className tixVStack
+   tixVTree = isWidget 1 staticOptions {} methods {
+    } defaults {
+    } options {
+	-ignoreinvoke
+    } superClass tixScrolledHList virtual 1 forceCall {} ClassName TixVTree className tixVTree
+   tix_library = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tix
+   tix_patchLevel = 8.4.3
+   tix_priv = -schemepriority 20 -fontset WmDefault -debug 0 -binding TK -scheme WmDefault debug 0
+   tix_release = 8.4.3
+   tix_version = 8.4
+   tkPriv = screen las-ws-151.inphi-corp.local:0.0 focus {} inMenubutton {} activeMenu {} textanchoruid 0 menuBar {} activeItem {} dragging 0 popup {} pressX 0 pressY 0 postedMb {} prevPos {} buttons 0 window {} listboxPrev {} oldGrab {} mouseMoved 0 buttonWindow {} grab {} selectMode char initPos {} tearoff 1 afterId {}
+   tk_library = /tools/cad/cadence/RC/14.28.000/Linux/tools/lib/cdn/tcltk/tk
+   tk_patchLevel = 8.5.9
+   tk_strictMotif = 0
+   tk_version = 8.5
+   tmgbPriv = 
+   tmgtPriv = 
+   to_gen_eff = high
+   to_map_eff = high
+   to_place_eff = medium
+   use_joining_for_small_buckets = 1
+   use_mbit = false
+   use_stack_trace_for_mt = 1
+   use_vt_bucketing_usable_attribute = 0
+   vColor = sch,bw,boxcolor1 #000000 phy,color4 #bcbca8 xbrows,xprobe red sch,bw,boxcolor2 #000000 hdl,fg black phy,color5 #85fb67 sch,bw,boxcolor3 #000000 phy,cmap,0 yellow hdl,symbol blue phy,color6 #e7f50e sch,legacy,background #000000 phy,cmap,1 orange hdl,string #aa3030 hdl,directive #3030bb phy,color7 #eedc28 phy,cmap,2 red hdl,xprobe #c80000 phy,color8 #ff9836 xbrows,info #429db1 phy,cmap,3 maroon phy,color9 #db1353 sch,conformal,boxpincolor #ff8000 phy,cmap,4 purple xbrows,warning #efc818 sch,bw,background #ffffff phy,cmap,5 white sch,conformal,boxcolor1 #ff8000 sch,conformal,boxcolor2 #ff8000 hdl,keyword blue sch,conformal,boxcolor3 #ff0000 xbrows,error #a52a2a sch,legacy,rippercolor #00d1d1 hdl,strings red sch,conformal,background #000000 hdl,gatetype magenta hdl,operator brown pow,color0 #0047e6 sch,legacy,boxinstcolor #8fffff trw,highlight #555555 pow,color1 #769fda hdl,selection #555555 phy,fg white pow,color2 #c6d1f0 sch,legacy,boxcolor #00d1d1 sch,bw,portcolor #000000 hdl,stripe yellow pow,color3 #afd3a9 pow,color4 #bcbca8 sch,bw,boxinstcolor #000000 pow,color5 #85fb67 pow,color6 #e7f50e sch,bw,boxcolor #000000 hdl,comment #00aa00 pow,color7 #eedc28 rules,bg white pow,color8 #ff9836 pow,color9 #db1353 sch,legacy,fillcolor1 purple sch,legacy,boxpincolor #00d1eb xbrows,data blue sch,legacy,fillcolor2 green sch,conformal,portcolor #ff8000 sch,legacy,fillcolor3 #c80000 sch,legacy,boxcolor1 purple sch,legacy,boxcolor2 green sch,conformal,boxinstcolor #ff8000 hdl,number #00aa00 hdl,bg white sch,legacy,boxcolor3 #c80000 sch,bw,fillcolor1 #ffffff model,bg white sch,conformal,boxcolor #ff8000 sch,bw,fillcolor2 #ffffff sch,bw,fillcolor3 #ffffff hdl,ignore gray70 hdl,at #3030bb busy,off green sch,legacy,overlapcolor #bfa100 hdl,comparator brown busy,on red xbrows,viewed purple hdl,normal black progress #c80000 sch,conformal,fillcolor1 #ffffff sch,conformal,fillcolor2 #ffffff sch,bw,overlapcolor #000000 sch,conformal,fillcolor3 #ff0000 ctree,bg white hdl,dpsystask red hdl,single_quote red sch,legacy,buscolor #bfa100 hdl,pragma #cc0000 pow,domain,0 #0047e6 phy,bg black pow,domain,1 #769fda sch,legacy,portcolor #00d1d1 sch,conformal,overlapcolor #a5ffa5 xbrows,sticky red pow,domain,2 #c6d1f0 sch,bw,rippercolor #000000 sch,bw,buscolor #000000 hdl,replace pink logical,bg white pow,domain,3 #afd3a9 sch,objecthighlight0 red sch,legacy,netcolor #ffff00 trw,xprobe #c80000 pow,domain,4 #bcbca8 sch,objecthighlight10 #0047e6 sch,objecthighlight1 green pow,domain,5 #85fb67 sch,objecthighlight11 #769fda sch,objecthighlight2 blue pow,domain,6 #e7f50e sch,objecthighlight12 #c6d1f0 sch,objecthighlight3 white pow,domain,7 #eedc28 sch,objecthighlight13 #afd3a9 sch,objecthighlight4 yellow sch,bw,netcolor #000000 pow,domain,8 #ff9836 sch,objecthighlight14 #bcbca8 sch,objecthighlight5 cyan hdl,error red hdl,type #0040cc pow,domain,9 #db1353 sch,objecthighlight15 #85fb67 sch,objecthighlight6 magenta hdl,attr orange sch,objecthighlight16 #e7f50e sch,objecthighlight7 purple sch,conformal,rippercolor #a5ffa5 sch,conformal,buscolor #a5ffa5 tooltip,bg white sch,objecthighlight17 #eedc28 sch,objecthighlight8 salmon sch,objecthighlight {red green blue white yellow cyan magenta purple salmon #ff0000 #0047e6 #769fda #c6d1f0 #afd3a9 #bcbca8 #85fb67 #e7f50e #eedc28 #ff9836 #db1353} sch,objecthighlight18 #ff9836 sch,objecthighlight9 #ff0000 hdl,declaration red sch,objecthighlight19 #db1353 phy,color0 #27899e sch,conformal,netcolor #a5ffa5 busy,manual yellow phy,color1 #769fda sch,bw,boxpincolor #000000 phy,color2 #c6d1f0 phy,color3 #afd3a9
+   vDefaults = phy_layer,color,4 #d0d000 phy_blockage_placement_name 0 phy_blockage_placement_derived_color #7826a1 phy_cmap_label 0 f_status {-size 10 -family helvetica} phy_layer,color,5 #a52a2a phy_macro_select 0 phy_cmap_style 2 logical_phys_threshold 10 phy_layer,color,6 #ffa500 phy_layer,color,7 #d000d0 phy_blackbox_display 0 f_balloon {-size 10 -family courier} phy_layer,color,8 #00d0d0 phy_guide_color #f3b2e3 phy_layer,color,9 #a52a2a phy_port_style 1 phy_blockage_placement_display 1 phy_hier_pin_name 0 phy_layer,style,10 1 trw_air_bot_zoom 0 phy_layer,style,11 1 phy_layer,style,12 1 phy_blockage_placement_derived_select 0 f_text {-size 10 -family helvetica} phy_layer,style,13 1 phy_layer,style,14 1 phy_layer,visible,0 1 phy_region_select 0 phy_layer,style,15 1 phy_layer,visible,1 1 vdir_browser_d1 vdir phy_blackbox_color #d66922 phy_egcell_name 0 phy_layer,visible,2 1 sch_print_orientation auto phy_layer,visible,3 1 logical_threshold 50 phy_layer,visible,4 1 restore_geometry 1 phy_blockage_routing_name 0 phy_pcell_select 0 phy_layer,visible,5 1 phy_layer,visible,6 1 phy_layer,visible,7 1 phy_layer,visible,8 1 phy_layer,visible,9 1 phy_layer,color,10 #ffff00 sch_pinattrmax 20 phy_layer,color,11 #008000 sch_regenerate_fitpage false phy_layer,color,12 #ff00ff sch_balloon_cap 0 phy_macro_cover_select 1 phy_gcell_name 0 phy_layer,color,13 #ffc0cb phy_layer,color,14 #00ffff phy_layer,color,15 #800080 phy_hier_pin_display 0 phy_blockage_placement_soft_name 0 phy_egcell_style 0 wrap,lint none phy_macro_generic_select 0 phy_layer,name,0 1 phy_macro_cover_color #831fe4 phy_layer,name,1 1 phy_layer,name,2 1 phy_layer,name,3 1 sch_display_instname 0 number_separator none trw_show_sch 0 phy_layer,name,4 1 phy_umap_label 1 phy_layer,name,5 1 phy_umap_style 2 phy_layer,name,6 1 phy_layer,name,7 1 phy_layer,name,8 1 phy_layer,name,9 1 phy_cluster_display 0 phy_bump_color #e1bc71 sch_print_sheetname A sch_display_cellname 1 phy_guide_select 0 wrap,hdl none vdir_browser_ls_a 1 phy_blackbox_name 1 phy_gcell_select 0 vdir_browser_ls_c 0 phy_macro_cover_name 0 phy_fence_select 0 vdir_browser_ls_d 0 phy_egcell_display 0 sch_display_pinname 1 phy_cluster_style 0 trw_tbar_pin_fanout 0 logical_show_power_percent 0 phy_blockage_routing_style 1 phy_blockage_placement_derived_display 1 phy_row_select 0 vdir_browser_ls_l 0 phy_macro_fixed_name 0 phy_power_domain_name 0 phy_gcell_color #ffff00 phy_row_color #666666 sch_regenerate_sheetname None phy_blockage_placement_derived_style 1 phy_cmap_basis 1 phy_guide_style 0 phy_layer,name,10 1 phy_layer,name,11 1 phy_layer,name,12 1 phy_region_display 1 phy_layer,name,13 1 phy_layer,name,14 1 phy_layer,name,15 1 focus_mode 0 phy_blackbox_style 0 phy_row_name 0 vdir_browser_wrap 0 phy_track_display 0 phy_macro_fixed_display 1 phy_macro_generic_name 0 phy_pcell_color #00d0d0 phy_white_border 1 save_preferences 1 phy_airline_dcol 1 wrap,help none phy_macro_cover_style 2 phy_blockage_placement_soft_color #d26c6c phy_pinstance_color #d66922 f_dialog {-size 10 -family helvetica} phy_boundary_die 1 phy_guide_name 0 sch_rip_index 1 balloon_help 0 f_hlist {-size 10 -family courier} phy_airline_color blue message_msg_dft_fanout 0 phy_bump_style 2 phy_pin_color #efc818 phy_pcell_display 1 message_msg_popup 0 phy_blockage_placement_color #a52a2a message_msg_allow_multiple_browser 0 phy_macro_fixed_color #429db1 phy_macro_placed_color #2a6370 sch_print_scale full sch_display_netname 0 phy_macro_placed_name 0 phy_region_color #f3b283 phy_blockage_placement_soft_select 0 trw_tbar_color1 blue phy_border_color #00ccce phy_macro_generic_color #d66922 phy_boundary_core 1 trw_tbar_color2 white phy_blackbox_select 0 trw_tbar_color3 blue trw_tbar_color4 white phy_cluster_select 0 phy_fence_name 0 phy_blockage_placement_partial_display 1 phy_macro_style 0 phy_pdmap_style 2 phy_guide_display 1 phy_gcell_style 0 phy_airline_glyph yellow phy_row_style 0 phy_bump_display 1 phy_blockage_placement_derived_name 0 phy_bump_select 0 sch_instattrmax 50 phy_pinstance_select 0 phy_gcell_display 0 logical_show_pow_domain 0 busy_indicator 0 sch_balloon_power 0 phy_pinstance_display 0 phy_power_domain_color blue wrap,object none phy_pinstance_name 1 selection_format full trw_show_info 1 sch_color_scheme legacy phy_blockage_placement_partial_name 0 phy_fence_display 1 phy_pcell_style 2 sch_balloon_dft 0 show_toolbar 0 phy_layer,visible,10 1 phy_layer,visible,11 1 sch_print_colormode mono phy_layer,visible,12 1 phy_airline_arrow 1 phy_layer,visible,13 1 phy_layer,visible,14 1 phy_layer,visible,15 1 phy_blockage_placement_partial_color #ffcbcf phy_blockage_placement_soft_style 1 phy_hier_pin_color #efc818 phy_pinstance_style 0 phy_blockage_routing_select 0 phy_macro_placed_display 1 phy_pcell_name 0 phy_airline_pin 1 phy_airline_scale 0 phy_airline_label 1 phy_airline_style 2 sch_display_frame 0 use_file_cdir 0 logical_show_subdesign 1 sch_dft_status 0 phy_pin_style 0 phy_fence_color #ff9966 sch_autobundle 0 sch_balloon_mode 1 phy_blockage_placement_style 1 trw_show_text 0 phy_macro_fixed_style 2 phy_macro_placed_style 2 sch_balloon_timing 0 backing_store 0 phy_egcell_select 0 phy_pin_display 0 phy_region_style 0 sch_pin_permute 1 phy_macro_cover_display 1 phy_layer,select,10 0 phy_macro_generic_style 2 phy_layer,select,11 0 message_msg_no_validate 0 phy_layer,select,12 0 trw_tbar_wire_len 0 trw_show_bar 0 phy_layer,select,13 0 phy_cmap_course 0 phy_layer,select,14 0 phy_layer,select,15 0 phy_blockage_placement_partial_select 0 phy_blockage_routing_display 0 trw_tbar_wire_cap 0 hdl_crossprobe 0 sticky_tooltip 0 phy_port_color #efc818 logical_show_power_absolute 0 phy_pin_name 0 trw_tbar_pin_load 0 phy_power_domain_style 0 sch_print_job page phy_layer,select,0 0 phy_row_display 0 phy_layer,select,1 0 phy_layer,select,2 0 phy_layer,select,3 0 phy_layer,select,4 0 f_trw {-size 12 -family courier} phy_layer,select,5 0 phy_egcell_color #ffff00 phy_layer,select,6 0 phy_layer,select,7 0 number_digits 2 phy_bump_name 0 f_label {-size 10 -family helvetica -weight bold} phy_layer,select,8 0 phy_layer,select,9 0 phy_layer,style,0 1 phy_layer,style,1 1 phy_layer,style,2 1 phy_layer,style,3 1 phy_power_domain_display 1 phy_layer,style,4 1 phy_layer,style,5 1 phy_power_domain_select 0 phy_layer,style,6 1 phy_port_select 1 phy_region_name 0 phy_blockage_placement_partial_style 2 phy_layer,style,7 1 trw_air_top_zoom 0 phy_layer,style,8 1 phy_query 1 phy_hier_pin_style 0 phy_layer,style,9 1 phy_blockage_placement_select 0 phy_blockage_placement_soft_display 1 phy_track_display_line 0 phy_port_display 1 phy_macro_generic_display 0 phy_port_name 0 phy_core_color #00ccce phy_macro_display 0 logical_show_lib_domain 0 phy_macro_fixed_select 1 phy_cluster_color #d66922 phy_fence_style 0 phy_cluster_name 1 message_msg_single_file 0 logical_show_cghier 0 sch_regenerate_timelimit 5 phy_airline_wide 0 phy_layer,total 15 phy_blockage_routing_color #ffff00 phy_macro_placed_select 1 phy_macro_name 0 message_msg_dft_fanin 1 phy_layer,color,0 #f4a460 phy_layer,color,1 #0000ff phy_layer,color,2 #ff0000 phy_layer,color,3 #00d000
+   vGlobal = phy_layer,color,4 #d0d000 phy_cmap_label 0 phy_blockage_placement_derived_color #7826a1 phy_blockage_placement_name 0 phy_macro_type_display_place_buf 512 f_status {-size 10 -family helvetica} phy_layer,color,5 #a52a2a phy_cmap_style 2 phy_macro_type_select_phys_buf 256 phy_macro_select 0 phy_layer,color,6 #ffa500 logical_phys_threshold 10 phy_layer,color,7 #d000d0 phy_blackbox_display 0 f_balloon {-size 10 -family courier} phy_layer,color,8 #00d0d0 phy_guide_color #f3b2e3 phy_layer,color,9 #a52a2a phy_blockage_placement_display 1 lib_def_ext *.lib phy_port_style 1 phy_hier_pin_name 0 Linux,xwd /usr/bin/X11/xwd phy_layer,style,10 1 trw_air_bot_zoom 0 phy_layer,style,11 1 phy_layer,style,12 1 phy_blockage_placement_derived_select 0 phy_macro_type_color_place_buf white f_text {-size 10 -family helvetica} phy_layer,style,13 1 phy_layer,style,14 1 phy_layer,visible,0 1 phy_region_select 0 phy_layer,style,15 1 phy_layer,visible,1 1 phy_egcell_name 0 phy_blackbox_color #d66922 phy_macro_type_color_latch blue vdir_browser_d1 vdir phy_layer,visible,2 1 sch_print_orientation auto phy_layer,visible,3 1 Linux,pnmtopng /usr/bin/pnmtopng phy_layer,visible,4 1 phy_pcell_select 0 phy_blockage_routing_name 0 restore_geometry 1 logical_threshold 50 phy_layer,visible,5 1 phy_layer,visible,6 1 phy_layer,visible,7 1 phy_layer,visible,8 1 phy_layer,visible,9 1 help,use_netscape 0 phy,color_count 0 phy_layer,color,10 #ffff00 sch_pinattrmax 20 phy_layer,color,11 #008000 sch_regenerate_fitpage false phy_layer,color,12 #ff00ff phy_gcell_name 0 sch_balloon_cap 0 phy_macro_cover_select 1 phy_layer,color,13 #ffc0cb phy_layer,color,14 #00ffff phy_layer,color,15 #800080 phy_blockage_placement_soft_name 0 phy_macro_type_select_macro 128 phy_hier_pin_display 0 phy_egcell_style 0 phy_macro_type_name_mux 64 phy_macro_generic_select 0 wrap,lint none phy_layer,name,0 1 phy_macro_cover_color #831fe4 SunOS,xwd /usr/openwin/bin/xwd phy_layer,name,1 1 phy_layer,name,2 1 phy,pan_default 0.75 phy_layer,name,3 1 number_separator none sch_display_instname 0 trw_show_sch 0 phy_layer,name,4 1 phy_umap_label 1 phy_fit die phy_layer,name,5 1 phy_umap_style 2 phy_macro_type_name_place_buf 512 dialog,save 0 phy_layer,name,6 1 phy_layer,name,7 1 trw,id 0 phy_layer,name,8 1 io_def_ext *.io phy_layer,name,9 1 phy_cluster_display 0 jpg_def_ext *.jpg ps_def_ext *.ps phy_bump_color #e1bc71 sch_display_cellname 1 sch_print_sheetname A xbrows,hlist_sep ~ phy_guide_select 0 ctree,path_type {} phy_gcell_select 0 phy_blackbox_name 1 wrap,hdl none vdir_browser_ls_a 1 all_def_ext *.* phy_fence_select 0 vdir_browser_ls_c 0 phy_macro_cover_name 0 phy_egcell_display 0 vdir_browser_ls_d 0 phy_cluster_style 0 logical,hlist_sep + sch_display_pinname 1 phy_macro_type_name_other 2 gif_def_ext *.gif trw_tbar_pin_fanout 0 phy_row_select 0 phy_blockage_placement_derived_display 1 phy_blockage_routing_style 1 logical_show_power_percent 0 vdir_browser_ls_l 0 phy_macro_fixed_name 0 Linux,pnmtojpg /usr/bin/pnmtojpeg phy_power_domain_name 0 phy_macro_type_display_buf 4 phy_gcell_color #ffff00 tc_def_ext {*.tc *.tcf} phy_row_color #666666 sch_regenerate_sheetname None phy_cmap_basis 1 phy_blockage_placement_derived_style 1 phy_macro_type_select_flop 16 path_set,limit 3 phy_macro_type_display_inv 8 phy_guide_style 0 phy_layer,name,10 1 phy_layer,name,11 1 phy_layer,name,12 1 phy_region_display 1 sch_closeenough 15 phy_layer,name,13 1 ttk::scrollbar 1 phy_layer,name,14 1 ctree,path_append 0 phy_layer,name,15 1 focus_mode 0 phy_macro_type_select_latch 32 phy_blackbox_style 0 phy_row_name 0 vdir_browser_wrap 0 xwd_def_ext *.xwd phy_track_display 0 phy_macro_type_select_mux 64 phy_macro_type_name_flop 16 phy_white_border 1 phy_pcell_color #00d0d0 phy_macro_generic_name 0 phy_macro_fixed_display 1 save_preferences 1 phy_macro_type_color_other #2a6370 phy_airline_dcol 1 def_def_ext *.def wrap,help none phy_macro_cover_style 2 replay_interval 50 phy_blockage_placement_soft_color #d26c6c tcl_def_ext *.tcl phy_macro_type_color_mux red phy_pinstance_color #d66922 splash,interval 3000 f_dialog {-size 10 -family helvetica} Linux,xwdtopnm /usr/bin/xwdtopnm phy_boundary_die 1 phy_guide_name 0 balloon_help 0 sch_rip_index 1 phy_macro_type_display_flop 16 f_hlist {-size 10 -family courier} sch,hier_sep : phy_airline_color blue ctree,hlist_sep ~ phy_bump_style 2 message_msg_dft_fanout 0 Linux,pnmtops /usr/bin/pnmtops phy_pcell_display 1 phy_pin_color #efc818 selection {} phy_blockage_placement_color #a52a2a message_msg_popup 0 message_msg_allow_multiple_browser 0 phy_macro_fixed_color #429db1 model,hlist_sep ~ phy_macro_placed_color #2a6370 trw,hdl 0 phy_macro_type_display_macro 128 sch_print_scale full phy_blockage_placement_soft_select 0 phy_region_color #f3b283 sch_display_netname 0 phy_macro_placed_name 0 trw_tbar_color1 blue phy_boundary_core 1 phy_border_color #00ccce phy_macro_generic_color #d66922 trw_tbar_color2 white phy_blackbox_select 0 trw_tbar_color3 blue trw_tbar_color4 white phy_blockage_placement_partial_display 1 phy_fence_name 0 phy_cluster_select 0 phy_pdmap_style 2 phy_macro_style 0 phy_guide_display 1 phy_airline_glyph yellow phy_gcell_style 0 phy_row_style 0 phy,pan_threshold 20 phy_bump_display 1 phy_blockage_placement_derived_name 0 phy_bump_select 0 phy_gcell_display 0 phy_pinstance_select 0 sch_instattrmax 50 busy_indicator 0 logical_show_pow_domain 0 sch_balloon_power 0 dialog,html 0 pow,r1,level0 0.0 phy_power_domain_color blue phy_pinstance_display 0 pow,r1,level1 0.1 pow,r1,level2 0.25 fp_def_ext *.fp pow,r1,level3 0.5 phy_pinstance_name 1 wrap,object none pow,r1,level4 0.75 pow,r1,level5 1.0 selection_format full Linux,rgb /usr/X11R6/lib/X11/rgb.txt phy_macro_type_name_buf 4 wrap,xml word pow,r1,level6 2.0 trw_show_info 1 pow,r1,level7 5.0 sch_color_scheme legacy pow,r1,level8 10.0 cmd_def_ext *.cmd pow,r1,level9 20.0 phy_blockage_placement_partial_name 0 ctree,branch_count 100 phy_fence_display 1 phy_macro_type_name_inv 8 phy_pcell_style 2 sch_balloon_dft 0 trw,manage {} show_toolbar 0 phy_macro_type_select_other 2 ver_def_ext {*.v *.vpp *.vs *.vh *.h} tmg_mode {} phy_layer,visible,10 1 phy_layer,visible,11 1 sch_print_colormode mono phy_layer,visible,12 1 phy_airline_arrow 1 phy_layer,visible,13 1 phy_layer,visible,14 1 phy_layer,visible,15 1 phy_blockage_placement_partial_color #ffcbcf phy_blockage_placement_soft_style 1 phy_macro_type_display_latch 32 phy_hier_pin_color #efc818 phy_pinstance_style 0 edf_def_ext {*.edf *.edif} editor_command vi phy_blockage_routing_select 0 SunOS,rgb /usr/openwin/lib/X11/rgb.txt phy_macro_placed_display 1 phy_pcell_name 0 phy_airline_pin 1 phy_airline_label 1 phy_airline_scale 0 rc_def_ext *.rci phy_airline_style 2 use_file_cdir 0 sch_display_frame 0 logical_show_subdesign 1 sch_dft_status 0 phy_fence_color #ff9966 phy_pin_style 0 phy_blockage_placement_style 1 sch_balloon_mode 1 sch_autobundle 0 trw_show_text 0 phy_macro_fixed_style 2 phy_macro_type_name_phys_buf 256 phy_macro_placed_style 2 phy_egcell_select 0 backing_store 0 sch_balloon_timing 0 phy_region_style 0 phy_macro_type_name_macro 128 phy_pin_display 0 sch_pin_permute 1 phy_macro_cover_display 1 phy_layer,select,10 0 phy_macro_generic_style 2 phy_layer,select,11 0 phy_layer,select,12 0 message_msg_no_validate 0 trw_tbar_wire_len 0 trw_show_bar 0 phy_layer,select,13 0 phy_cmap_course 0 phy_layer,select,14 0 vbrows,hlist_sep ~ phy_layer,select,15 0 phy_blockage_placement_partial_select 0 tmg_group {} phy_blockage_routing_display 0 vdir,hlist_sep / trw_tbar_wire_cap 0 hdl_popup_threshold 25 hdl_crossprobe 0 sticky_tooltip 0 balloon,time 1000 phy_port_color #efc818 logical_show_power_absolute 0 help,cdnshelp cdnshelp phy_macro_type_select_buf 4 phy_pin_name 0 phy_macro_type_color_flop purple phy_macro_type_display_mux 64 trw_tbar_pin_load 0 balloon,width 50 phy_power_domain_style 0 phy_macro_type_select_inv 8 sdc_def_ext *.sdc liaho_on -1 sch_print_job page phy_layer,select,0 0 phy_row_display 0 phy_macro_type_color_buf yellow phy_layer,select,1 0 phy_layer,select,2 0 phy_layer,select,3 0 phy_layer,select,4 0 f_trw {-size 12 -family courier} phy_layer,select,5 0 phy_egcell_color #ffff00 phy_macro_type_color_macro bisque rules,hlist_sep / phy_layer,select,6 0 phy_layer,select,7 0 phy_bump_name 0 number_digits 2 f_label {-size 10 -family helvetica -weight bold} phy_layer,select,8 0 phy_macro_type_color_inv green phy_layer,select,9 0 phy_layer,style,0 1 phy_layer,style,1 1 phy_layer,style,2 1 phy_layer,style,3 1 phy_power_domain_display 1 phy_layer,style,4 1 phy_layer,style,5 1 phy_power_domain_select 0 phy_layer,style,6 1 phy_blockage_placement_partial_style 2 phy_region_name 0 phy_port_select 1 phy_layer,style,7 1 tmg,skip_inputs 0 lef_def_ext *.lef sch_box_scale 10 trw_air_top_zoom 0 phy_layer,style,8 1 phy_macro_type_name_latch 32 hdl,file_size 20000000 phy_query 1 phy_hier_pin_style 0 phy_layer,style,9 1 phy_blockage_placement_select 0 phy_macro_type_display_phys_buf 256 phy_blockage_placement_soft_display 1 phy_macro_type_color_phys_buf cyan vhd_def_ext {*.vhd *.vhdl} trw,nlength 100 phy_layer,override 0 phy_track_display_line 0 phy_port_display 1 phy_macro_type_select_place_buf 512 phy_macro_generic_display 0 top_design {} phy_port_name 0 SunOS,xpr /usr/openwin/bin/xpr phy,pan_fine1 0.10 phy_core_color #00ccce cpf_def_ext *.cpf phy,pan_fine2 0.05 phy_macro_display 0 phy_cluster_color #d66922 logical_show_lib_domain 0 phy_macro_fixed_select 1 phy_fence_style 0 phy_macro_type_display_other 2 phy_cluster_name 1 phy,color_limit 9 printer_command lpr message_msg_single_file 0 phy_airline_wide 0 logical_show_cghier 0 sch_regenerate_timelimit 5 phy_layer,total 15 phy_blockage_routing_color #ffff00 sch_balloon_wait 500 phy_macro_placed_select 1 phy_macro_name 0 png_def_ext *.png message_msg_dft_fanin 1 phy_layer,color,0 #f4a460 phy_layer,color,1 #0000ff phy_layer,color,2 #ff0000 phy_layer,color,3 #00d000
+   vHdl = .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl,column {} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl,hdltype verilog .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl,line {} .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl,text .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl.text.text
+   vMenu = 
+   vPhy = pinstance,airlines 0 lineup_macro_dir top pcanvas_list .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas lineup_macro_spc {}
+   vSch = cone,debug 0 fanout,sas -stop_at_seqs cone,append {} fanout,netlist {} fanin,tmc -tim_model_comb fanin,depth 999 fanin,sas -stop_at_seqs highlight {} fanin,netlist {} cone,netlist {} fanout,tmc -tim_model_comb sgn,symbols {} fanout,depth 999
+   vSession = 
+   vSgn = .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic,tpage {} .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic,cpage_wid .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.tb.cpage .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic,tpage_wid .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.tb.tpage .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic,cpage {}
+   vTiming = tbar,tbscale 0.3333333333333333 line,pin 2 line,net 3 line,delay 12 hier,nvd 5 tbar,hwidth 5 line,arrival 13 tbar,cell,inv green hier,pvd 4 line,type 8 tbar,hbscale 0.3333333333333333 line,ivd 6 line,info 7 tbar,htscale 0.3333333333333333 line,fanout 9 tbar,cell,model purple hier,net 3 hier,pin 2 tbar,net blue tbar,hcolor {white yellow purple brown} line,rf 14 line,nvd 5 line,load 10 tbar,cell bisque tbar,cell,buf yellow line,pvd 4 hier,ivd 6 line,slew 11
+   vWin = statusbar,info .rc.statusbar.info.canvas main,menubar .rc.menubar dialog,x 0 dialog,y 0 mainWinTitle {Cadence Encounter(R) RTL Compiler RC14.28 - v14.20-s067_1} phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,undo .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.undo statusbar,busy .rc.statusbar.busy.canvas phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,zgrid .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zgrid phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,commit .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.commit redline,suspend_count 0 model,show_current_view 0 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,rotatel .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.rotatel phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,plan .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.plan main,pane .rc.pane sgn,state .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic.db.state panehide,workarea default phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,bar2 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.bar2 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,bar3 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.bar3 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,bar4 .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.bar4 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,rotater .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.rotater sgn,main .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.schematic phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,editd .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.editd nb,sch .rc.pane.workarea.fr.pane.viewer.fr.nb phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,util .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.util phy,pcanvas .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.fr.canvas phy,main .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,fliph .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.fliph model,show_db 1 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,delete .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.erase workPaneWin .rc.pane.workarea.fr.pane phy,loaded 1 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,zsel .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zsel logical,tree .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,layers .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.layers phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,snet .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.snet nb,hdl .rc.pane.workarea.fr.pane.browser.fr.nb.nb panesize,browser 250 phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,move .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.move phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,cong .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.cong phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,pden .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.pden phy_world .rc.pane.workarea.fr.pane.browser.fr.pw phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,flipv .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.flipv main,statusbar .rc.statusbar logical,hlist .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical.tree.f1.hlist phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,options .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.options panesize,viewer 796 panesize,workarea 682 nb,logical .rc.pane.workarea.fr.pane.browser.fr.nb.nb phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,savei .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.savei phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,fplan .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.fplan statusbar,progress .rc.statusbar.progress.canvas dialogs {} main,toolbar .rc.toolbar statusbar,msg .rc.statusbar.msg.canvas phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,print .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.print toolbar,selection_count .rc.toolbar.sel.ce phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,gcell .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.gcell nb,phys .rc.pane.workarea.fr.pane.viewer.fr.nb statusbar,busycount 1 hdl,main .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.hdl phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,rows .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.rows phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,icons {.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.refr .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zfit .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zin .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zout .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zsel .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.zprev .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.panl .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.panr .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.panu .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.pand .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.erase .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.savei .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.print} mainWinName .rc logical,main .rc.pane.workarea.fr.pane.browser.fr.nb.nb.nbframe.logical phy,world .rc.pane.workarea.fr.pane.browser.fr.pw.world.wv.canvas phy,.rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical,edit .rc.pane.workarea.fr.pane.viewer.fr.nb.nbframe.physical.tb.edit panehide,main default
+   vWmgr = sch,title Schematic wcount 0 hdl,wprefix .hdl sgn,wprefix .sgn phy,wprefix .phy hdl,title HDL sgn,title SGN win,0 {} phy,title Physical sch,wprefix .sch
+   v_files = /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/j0_generator.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/inc32_block.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_update_fsm.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/pulse_sequencer_fsm.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_ghash_fsm.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_shifter.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_nwords.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subbytes_block.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_box.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_algorithm.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/multiplicative_inversion.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_isomorphic_mapping.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_squarer.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier_with_constant_lambda.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to2_multiplier.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to2_multiplier_with_constant_phi.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplicative_inversion.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_inverse_isomorphic_mapping.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subkey_h_powers_generator.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to128_multiplier_sequential.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gctr_function.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/aes_round_ladder_xor_data.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/shiftrows_block.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/mixcolumns_block.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/ax_modular_multiplier.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/time_03.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/xtime.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_cipher_tag_fsm.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/ghash_wrapper.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_core.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_control_signal_unit.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_msg_and_h_pow_picker.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage1_pipe.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter_line.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_multiplier_no_rem.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger_line.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage2_pipe.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2to128_multiplier_booth1_subrem.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage3_pipe.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_koa_n_blocks/ghash_koa_n_blocks.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_koa_n_blocks/polinomial_mult_koa.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_koa_n_blocks/multiplier_without_pipe.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/common_fix_delay_line_w_del_valid.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_flag_check.v /projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_posedge_det.v
+   vbgTcolor = 
+   vbgw_file_dialog_button = 
+   vbgw_find = 
+   vbgw_progress = 
+   vdft = 
+   vep_toggle = 
+   vfrc = 
+   vii_toggle = 
+   vmenus = file .rc.menubar.file.menu main,window .rc.menubar.window main,help .rc.menubar.help main,logo .rc.menubar.logo main .rc.menubar sch_pcld 0 main,file .rc.menubar.file main,timing .rc.menubar.timing main,tools .rc.menubar.tools sch_pcpd 0 main,power .rc.menubar.power main,dft .rc.menubar.dft main,fp .rc.menubar.fp
+   vraPriv = 
+   vra_toggle = 
+   vrcSave = 
+   vrcSch = 
+   vrc_bdpy = 
+   vrc_colorsel = 
+   vrc_dpa_table = 
+   vrc_dparea = 
+   vrc_fonts_labels = f_balloon Balloon f_label {Label frame} f_dialog {Dialog box} f_hlist {List widgets} f_status {Status bar} f_text Text
+   vrc_fontsel = 
+   vrc_gates = 
+   vrc_ii_table = 
+   vrc_instance_info_table = 
+   vrc_progress = 
+   vrc_ra_table = 
+   vrc_rd_table = 
+   vrc_rdc_table = 
+   vrc_rde_id = 
+   vrc_rde_table = 
+   vrc_rdp_table = 
+   vrc_rds_table = 
+   vrc_rdse_table = 
+   vrc_rdv_table = 
+   vrc_report_area_table = 
+   vrc_report_datapath_table = 
+   vrc_report_dft_chains_table = 
+   vrc_report_dft_elements_table = 
+   vrc_report_dft_segment_elements_table = 
+   vrc_report_dft_segments_table = 
+   vrc_report_dft_table = 
+   vrc_report_dftv_table = 
+   vrc_report_dparea_table = 
+   vrc_report_drv_table1 = 
+   vrc_report_drv_table1_priv = 
+   vrc_report_drv_table1_toggle = 
+   vrc_report_drv_table2 = 
+   vrc_report_drv_table2_priv = 
+   vrc_report_drv_table2_toggle = 
+   vrc_report_drv_table3 = 
+   vrc_report_drv_table3_priv = 
+   vrc_report_drv_table3_toggle = 
+   vrc_report_gates_table = 
+   vrc_report_library_domain_table = 
+   vrc_report_mux_table = 
+   vrc_report_power_domain_table = 
+   vrc_report_power_rtl_table = 
+   vrc_report_power_table = 
+   vrc_report_stats_table = 
+   vrc_rg_table = 
+   vrc_rld_table = 
+   vrc_rm_table = 
+   vrc_rp_table = 
+   vrc_rpd_table = 
+   vrc_rpr_table = 
+   vrc_rs_table = 
+   vrc_rtlp = 
+   vrc_slack = 
+   vrc_stats = 
+   vrc_tch = id -1
+   vrc_trw_btable = 
+   vrc_trw_color = 
+   vrc_trw_data = 
+   vrc_trw_tbar = 
+   vrc_trw_tbar_data = 
+   vrc_trw_tbar_info = 
+   vrc_trw_toggle = 
+   vrc_trw_ttable = 
+   vrc_trw_win = 
+   vrdPriv = 
+   vrd_toggle = 
+   vrdcPriv = 
+   vrdc_toggle = 
+   vrdePriv = 
+   vrde_toggle = 
+   vrdpPriv = 
+   vrdp_toggle = 
+   vrdsPriv = 
+   vrds_toggle = 
+   vrdsePriv = 
+   vrdse_toggle = 
+   vrdvPriv = 
+   vrdv_toggle = 
+   vrg_toggle = 
+   vrldPriv = 
+   vrld_toggle = 
+   vrmPriv = 
+   vrm_toggle = 
+   vrpPriv = 
+   vrp_toggle = 
+   vrpdPriv = 
+   vrpd_toggle = 
+   vrprPriv = 
+   vrpr_toggle = 
+   vtPartition_exponent = 1
+   vwPriv = 
+   welcome_str = Welcome to Cadence Encounter(R) RTL Compiler
+   write_def_no_copy_snet = 1
+   write_vlog_undo_bus_net_blasting = 0
+   wwid = 80
+   x = /designs/gcm_aes_core/ports_in/i_clock
