@@ -48,7 +48,10 @@ end
 
 always@( posedge clock )
 begin
-    if( i_valid )
+    if( i_reset )
+        for( i=1; i<DELAY; i=i+1 )
+            shift_reg[i]    <=  1'b0 ;
+    else if( i_valid )
         for( i=1; i<DELAY; i=i+1 )
             shift_reg[i]    <=  shift_reg[i-1] ;
 end
