@@ -1,0 +1,32 @@
+Logica de Update Key
+
+1 -	Se solicita hacer Key Update: i_update_key -> ctrl_o_trigger_key_sched_vector_calc [0 clks delay]
+2 - Se desecadena Key Schedule (calculo de keys para las rounds del algoritmo AES): ctrl_o_trigger_key_sched_vector_calc -> key_sched_done [15 clks delay = 14 rounds + 1]
+3 - Aqui no se hace nada, solo se cambia de estado y se pasa a esperar la señal i_sop_pre (a nivel top es i_sop): key_sched_done -> ctrl_o_key_sched_done [0 clks delay]
+4 - Un vez que llega la señal i_sop se desencadena el cifrado del pre-block: i_sop -> ctrl_o_trigger_pre_block_ciph [0 clks delay]
+5*- ctrl_o_trigger_pre_block_ciph -> gctr_trigger_pre_block_ciph [1 clk delay] => Se le dice a GCTR (o sea al AES) que calcule cifre el pre-block, PERO tambien a a la gcm_aes_fsm donde se le aplica un retardo de 44 clks: gctr_trigger_pre_block_ciph -> ctrl_o_gctr_triggered_o_sop_pre [44 clks delay]
+6*- ctrl_o_gctr_triggered_o_sop_pre significa que se termino de cifrar el pre-block, o sea que ya estan disponible H y J0. Por lo que hay que comenzar a calcular las potencias de H, el cual es un proceso que demora mucho ya que es secuencial. Pero mientras tanto veamos como avanza la key_update_fsm: ctrl_o_gctr_triggered_o_sop_pre -> ctrl_o_trigger_h_power_vector_calc [0 clks delay]
+7 - Se calculan las potencias de H: ctrl_o_trigger_h_power_vector_calc -> h_power_vector_done [912 clks delay = 128*7 + 16(2*8(H powers))]
+8 - h_power_vector_done -> ctrl_o_h_powers_done [0 clks delay]
+9 -	+ Ya con las potencias de H calculadas, se espera a un i_sop_d (i_sop + 1 clk delay) para lockear el nuevo vector de potencias de H: i_sop_d -> ctrl_o_switch_h_powers [0 clks delay]
+    + Y por otro lado comenzar a cargar, ronda por ronda el nuevo Key Schedule en el GCTR: i_sop_d -> ctrl_o_key_sched_lock [0 clk delay] -> key_switch_load_done [45 clks delay = 44(ROUND_FULL_DELAY = ROUND_FIRST_DELAY(1) + (N_ROUNDS(14)-1)*ROUND_MIDDLE_DELAY(3) + ROUND_LAST_DELAY(3) + 1)+ 1]
+10- Una vez completa la carga de todas las rounds del Key Schedule (o sea que se reemplazo completamente el Key Schedule viejo) se dispara la flag: ctrl_o_key_update_done [0 clks delay] => Si es esta encriptando entonces es disparada por key_switch_load_done; pero si se esta DESencriptando, entonces es disparada por o_tag_ready
+--------------
+11- Una vez terminado todas las actualizaciones de Key Schedules y H Powers, es necesario lockear el J0 Tag para el calculo final de TAG de salida (hash). Para ello la señal ctrl_o_gctr_o_sop_pre dispara el la j0_tag_fsm la logica necesaria: ctrl_o_gctr_o_sop_pre -> ctrl_o_trigger_j0_tag_new_locking [0 clks delay]
+
+DELAY_LOCK_H_POW_VECTOR = 0 + 15 + [(espera de i_sop_pre) + 0] + 1 + 44 + 0 + 912 + 0 +[(espera de i_sop_d*) + 0] 	= 970 -> OJO! Delay minimo para lockear el nuevo vector de potencias de H. A esto hay que sumarle la espera del i_sop_pre una vez que las potencias de H ya esten caluladas
+DELAY_KEY_UPDATE_DONE 	= 0 + 15 + [(espera de i_sop_pre) + 0] + 1 + 44 + 0 + 912 + 0 + 45 + 0 						= 1017 clks delay -> OJO! Esto es el delay minimo, hay q sumarle la espera del primer i_sop_pre luego de solicitar el Key Update
+
+================================================================================================================================================
+================================================================================================================================================
+5*- La logica para encriptar el pre-block no es trivial. Se necesita realizar un muxing en el algoritmo GCTR (AES) para que en las etapas (rounds) en que se esta encriptando el pre-block se use el Key Schedule de la nueva key, pero que en el resto del pipe se mantengan el Key Schedule "viejo": i_trigger_muxing -> None
+6*- {j0_tag_fsm} key_switch_load_done -> Logica de lockeo de J0 Tag
+
+
+
+Delay medido de la simulacion									= 	1108
+																  -
+59(1er i_sop despues de i_key_update) + 1017(calculo teorico) 	= 	1076
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+																	  32 -> De donde salen???
+

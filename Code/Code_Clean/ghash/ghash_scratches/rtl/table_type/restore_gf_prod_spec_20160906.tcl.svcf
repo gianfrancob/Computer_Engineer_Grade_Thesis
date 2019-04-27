@@ -1,0 +1,240 @@
+# SimVision Command Script (Tue Sep 06 02:03:36 PM ART 2016)
+#
+# Version 09.20.s020
+#
+# You can restore this configuration with:
+#
+#      ncsim -cdslib /home/gbarbiani/Documents/gf_2to128_mult/prueba_final/run2/cds.lib -logfile ncsim.log -errormax 15 -status worklib.t_gf_multiplier_gcm_spec:module -input /home/gbarbiani/Documents/gf_2to128_mult/prueba_final/restore_gf_prod_spec_20160906.tcl
+#
+
+
+#
+# Preferences
+#
+preferences set toolbar-Standard-WatchWindow {
+  usual
+  shown 0
+}
+preferences set toolbar-SimControl-WatchList {
+  usual
+  hide set_break
+  hide vplan
+}
+preferences set toolbar-SimControl-SrcBrowser {
+  usual
+  hide vplan
+}
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  hide vplan
+}
+preferences set toolbar-Windows-WatchWindow {
+  usual
+  shown 0
+}
+preferences set toolbar-SimControl-SchematicWindow {
+  usual
+  hide vplan
+}
+preferences set toolbar-OperatingMode-WaveWindow {
+  usual
+  position -pos 4
+  name OperatingMode
+}
+preferences set toolbar-SimControl-WatchWindow {
+  usual
+  hide set_break
+  hide vplan
+  shown 0
+}
+preferences set toolbar-Edit-WatchWindow {
+  usual
+  shown 0
+}
+preferences set toolbar-TimeSearch-WatchWindow {
+  usual
+  shown 0
+}
+
+#
+# Simulator
+#
+database require simulator -hints {
+	simulator "ncsim -gui -cdslib /home/gbarbiani/Documents/gf_2to128_mult/prueba_final/run2/cds.lib -logfile ncsim.log -errormax 15 -status worklib.t_gf_multiplier_gcm_spec:module -input restore_gf_prod_spec_20160906.tcl"
+}
+
+#
+# Cursors
+#
+set time 0
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+cursor set -using TimeA -marching 1
+
+#
+# Mnemonic Maps
+#
+mmap new -reuse -name {Boolean as Logic} -radix %b -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -radix %x -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new browser -name "Design Browser 1" -geometry 700x500+243+14}] != ""} {
+    window geometry "Design Browser 1" 700x500+243+14
+}
+window target "Design Browser 1" on
+browser using "Design Browser 1"
+browser set -scope [subst -nobackslashes -nocommands simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec ]
+browser yview see [subst -nobackslashes -nocommands simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec ]
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1323x744+43+24}] != ""} {
+    window geometry "Waveform 1" 1323x744+43+24
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ns \
+    -valuewidth 75
+cursor set -using TimeA -time 0
+cursor set -using TimeA -marching 1
+waveform baseline set -time 0
+
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.NB_DATA
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.comp
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.count
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.data_length[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.expected_out[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.i_clock
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.i_data_key[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.i_data_x[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.i_data_x_prev[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.i_reset
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.i_valid
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.o_data[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.o_data2[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.o_data3[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.o_data4[127:0]}
+} ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.BYTE
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.NB_DATA
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.aux[14:0]}
+} ]]
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_H[127:0]}
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_clock
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_data_x[127:0]}
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_data_x_prev[127:0]}
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_reset
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.i_valid
+} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.m0_table_index[15:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.m0_table_value[16511:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.m0_table_value_aux[15:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.m0_value[15:0]}
+} ]]
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.o_value[127:0]}
+} ]]
+waveform format $id -color #ff00ff
+set id [waveform add -signals [subst -nobackslashes -nocommands {
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.r_table_index[15:1]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.r_table_value[4095:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.x_byte[15:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.x_xor[127:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.z_subprods[15:0]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.z_subprods1[15:1]}
+	{simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.z_subprods2[15:1]}
+	simulator::t_gf_multiplier_gcm_spec.u_gf_mult_gcm_spec.z_subprods_final
+} ]]
+
+waveform xview limits 0 2000ns
+
+#
+# Waveform Window Links
+#
+
+#
+# Console windows
+#
+console set -windowname Console
+window geometry Console 600x250+33+14

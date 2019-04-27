@@ -1,0 +1,34 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<> COVERAGE FILE: /scratch/otarif/simulations/encr_datapath/cov_work/scope/test/icc_0edd78ce_00000000.ucd <>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+        Uncovered Block Detail Report, Module/Entity-Based
+        ==================================================
+        [No uncovered module block coverage data to report]
+
+
+        Uncovered Expression Detail Report, Module/Entity-Based
+        =======================================================
+
+Coverage Table Legend
+---------------------
+  -      don't care
+  e      event for event-or expressions
+  O (odd), E (even), B (both), X (not scored), V (marked covered),
+         I (marked ignore) for parity trees
+  COV    Marked covered by user - included in covered and totals
+  IGN    Marked ignore by user or through COM - excluded from 
+         uncovered and totals
+  CON    Impossible expression term as determined by instrumentation
+         due to literal constants - excluded from uncovered and totals
+  rval   Resulting value of the expression for coverage purposes given
+         the input values
+  <-n->  Shows the n-th term composition
+        [No uncovered module expression coverage data to report]
+
+
+        Uncovered FSM Detail Report, Module/Entity-Based
+        ================================================
+        [No uncovered module FSM coverage data to report]
+
+

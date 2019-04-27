@@ -1,0 +1,387 @@
+
+===============================================================================
+Goal setup Summary Report
+===============================================================================
+Group Goal(s): name_lint,rtl_lint,connectivity,simulation,structure,arith_lint, 
+===============================================================================
+Top Name: encr_datapath
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+RuleName                  Severity     Related Parameter/Option
+===============================================================================
+                                       
+Info_Case_Analysis        Info         <no parameter>
+                                       
+STARC05-3.2.3.2           Warning      <no parameter>
+                                       
+STARC02-3.2.3.2           Warning      -check_pad_concat
+                                       -new_flow_width
+                                       -nocheckoverflow
+                                       
+STARC05-3.2.4.3           Warning      <no parameter>
+                                       
+STARC05-1.1.1.1           Warning      <no parameter>
+                                       
+STARC05-1.1.4.7           Warning      <no parameter>
+                                       
+STARC-2.1.2.2             Warning      <no parameter>
+                                       
+STARC02-2.1.3.5           Warning      <no parameter>
+                                       
+STARC-2.1.3.5             Warning      <no parameter>
+                                       
+STARC05-2.1.4.5           Recommended1 <no parameter>
+                                       
+STARC05-2.1.5.3           Warning      <no parameter>
+                                       
+STARC05-2.2.2.1           Warning      <no parameter>
+                                       
+STARC05-2.2.3.3           Warning      <no parameter>
+                                       
+STARC05-2.3.1.5b          Warning      <no parameter>
+                                       
+STARC05-2.3.4.2           Mandatory    <no parameter>
+                                       
+STARC05-2.8.1.5           Warning      <no parameter>
+                                       
+STARC05-2.8.1.6           Warning      <no parameter>
+                                       
+STARC02-2.8.3.5           Warning      <no parameter>
+                                       
+STARC05-2.8.5.4           Warning      <no parameter>
+                                       
+STARC05-2.10.2.3          Recommended1 <no parameter>
+                                       
+STARC05-2.10.3.2b         Warning      <no parameter>
+                                       
+STARC-2.10.6.1            Warning      <no parameter>
+                                       
+STARC05-2.2.3.1           Warning      <no parameter>
+                                       
+STARC-1.4.3.4             Mandatory    -clk_EnableLatch
+                                       -report_allclk
+                                       
+STARC05-2.1.3.1           Warning      <no parameter>
+                                       
+STARC05-2.8.3.4a          Warning      <no parameter>
+                                       
+STARC05-2.10.3.1          Warning      <no parameter>
+                                       
+STARC05-2.10.8.1          Warning      <no parameter>
+                                       
+STARC05-3.1.5.2           Warning      <no parameter>
+                                       
+STARC05-3.2.2.1           Warning      -check_index
+                                       
+W348                      Warning      <no parameter>
+                                       
+W110                      Warning      -report_blackbox_inst
+                                       
+W163                      Warning      -verilint_compat
+                                       
+W328                      Warning      -verilint_compat
+                                       
+W19                       Warning      <no parameter>
+                                       
+W116                      Warning      -disable_rtl_deadcode
+                                       -reportconstassign
+                                       
+W123                      Info         -ignoreModuleInstance
+                          Warning      
+                                       
+W154                      Warning      <no parameter>
+                                       
+W263                      Warning      <no parameter>
+                                       
+W289                      Warning      <no parameter>
+                                       
+W307                      Warning      <no parameter>
+                                       
+W309                      Warning      <no parameter>
+                                       
+W310                      Warning      <no parameter>
+                                       
+W311                      Warning      <no parameter>
+                                       
+W316                      Warning      -verilint_compat
+                                       
+W337                      Warning      <no parameter>
+                                       
+W342                      Warning      <no parameter>
+                                       
+W352                      Warning      <no parameter>
+                                       
+W415a                     Warning      -check_initialization_assignment
+                                       -checkblocking
+                                       -checknonblocking
+                                       -ignore_multi_assign_in_forloop
+                                       -ignore_nonBlockCondition
+                                       -reportsimilarassgn
+                                       
+W426                      Warning      <no parameter>
+                                       
+W486                      Warning      -disable_rtl_deadcode
+                                       
+W491                      Warning      <no parameter>
+                                       
+W499                      Warning      <no parameter>
+                                       
+W502                      Warning      -check_implicit_senselist
+                                       
+W428                      Warning      -fast
+                                       
+W164c                     Warning      -disable_rtl_deadcode
+                                       
+W146                      Warning      <no parameter>
+                                       
+W164a                     Warning      -check_counter_assignment
+                                       -check_shifted_only
+                                       -disable_rtl_deadcode
+                                       
+W210                      Warning      <no parameter>
+                                       
+W257                      Warning      <no parameter>
+                                       
+W287a                     Warning      -fast
+                                       
+W287b                     Warning      -fast
+                                       
+W398                      Warning      <no parameter>
+                                       
+W421                      Warning      <no parameter>
+                                       
+W424                      Warning      <no parameter>
+                                       
+W505                      Warning      <no parameter>
+                                       
+W392                      Warning      -check_complete_design
+                                       -checksyncreset
+                                       -fast
+                                       
+W415                      Warning      -assume_driver_load
+                                       -checkconstassign
+                                       -fast
+                                       
+W391                      Warning      -check_complete_design
+                                       -fast
+                                       
+W120                      Warning      <no parameter>
+                                       
+UndrivenInTerm-ML         Warning      -checkInHierarchy
+                                       -checkRTLCInst
+                                       -check_default_value
+                                       -handle_greybox
+                                       -ignoreRtlBuffer
+                                       -ignore_unloaded_inst
+                                       -report_floating_source
+                                       
+ModuleName-ML             Warning      -modulename
+                                       
+NoBitArray-ML             Warning      <no parameter>
+                                       
+DisallowDWComp-ML         Warning      -dw_name
+                                       
+MaxFanoutCount-ML         Warning      -int_net_fanout
+                                       
+NoSigCaseX-ML             Warning      <no parameter>
+                                       
+ParamWidthMismatch-ML     Warning      <no parameter>
+                                       
+NoWidthInBasedNum-ML      Warning      -min_based_width
+                                       
+CheckDelayTimescale-ML    Warning      <no parameter>
+                                       
+DuplicateCaseLabel-ML     Warning      -ignore_dup_label_stmt
+                                       
+SignedUnsignedExpr-ML     Warning      <no parameter>
+                                       
+OneModule-ML              Warning      <no parameter>
+                                       
+NoGenLabel-ML             Warning      -check_dup_label
+                                       -genlabeltype
+                                       
+CheckShiftOperator-ML     Warning      <no parameter>
+                                       
+ReserveName               Warning      -allReserveWords
+                                       -reserve_names
+                                       
+ConstName                 Warning      -constname
+                                       
+NonBlockAssign            Warning      <no parameter>
+                                       
+DefaultState              Warning      <no parameter>
+                                       
+SepStateMachine           Warning      <no parameter>
+                                       
+OnePortLine               Warning      <no parameter>
+                                       
+ArrayIndex                Warning      -checkLowToHigh
+                                       -checkalldimension
+                                       
+PortName                  Warning      -portname
+                                       
+PortComment               Warning      <no parameter>
+                                       
+NoTab                     Warning      <no parameter>
+                                       
+InstName                  Warning      -instname
+                                       
+ActLowName                Warning      -actlowname
+                                       -report_all_actlow
+                                       
+SigName                   Warning      -signame
+                                       
+InferLatch                Warning      -reportLibLatch
+                                       -reportalwayslatch
+                                       
+ClkName                   Warning      -clkname
+                                       
+BufClock                  Guideline    <no parameter>
+                                       
+CombLoop                  Warning      -enableE2Q
+                                       -ignoreSRlatch
+                                       -ignore_iopad
+                                       -report_flop_reset_loop
+                                       -report_mux_select
+                                       
+DeadCode                  Warning      <no parameter>
+                                       
+FlopClockConstant         Warning      -report_inferred_cell
+                                       
+FlopSRConst               Warning      -report_inferred_cell
+                                       
+FlopEConst                Warning      -report_inferred_cell
+                                       
+MuxSelConst               Warning      <no parameter>
+                                       
+checkPinConnectedToSupply Warning      -supplyHigh
+                                       -supplyLow
+                                       
+sim_race01                Race         -check_complete_sensitivity_list
+                                       
+sim_race02                Race         <no parameter>
+                                       
+LatchReset                Info         -latch_reset
+                          Warning      -latch_reset_file
+                                       -latch_verbose
+                                       
+LatchFeedback             Info         -overlappingLatchLoops
+                                       
+STARC02-2.4.1.4           Info         <no parameter>
+                          Mandatory    
+                                       
+STARC02-2.4.1.5           Warning      <no parameter>
+                                       
+STARC02-2.1.2.2           Warning      <no parameter>
+                                       
+STARC05-2.1.6.5           Warning      <no parameter>
+                                       
+STARC05-2.10.5.5          Warning      <no parameter>
+                                       
+ShiftReg                  Warning      -sr_max
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Parameters in the current scope:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Parameter Name                  Current Value                                                                                           Default Value
+===============================================================================
+actlowname                      /_n$/ or /_b$/                                                                                          /_n$/ or /_b$/
+allReserveWords                 no                                                                                                      no
+allviol                         no                                                                                                      no
+assign_check                    0                                                                                                       0
+assume_driver_load              yes                                                                                                     yes
+cdc_dump_assertions             <empty value>                                                                                           <empty value>
+checkInHierarchy                yes                                                                                                     yes
+checkLowToHigh                  no                                                                                                      no
+checkRTLCInst                   yes                                                                                                     yes
+check_complete_design           no                                                                                                      no
+check_complete_sensitivity_list yes                                                                                                     yes
+check_counter_assignment        no                                                                                                      no
+check_default_value             yes                                                                                                     yes
+check_dup_label                 no                                                                                                      no
+check_implicit_senselist        no                                                                                                      no
+check_index                     no                                                                                                      no
+check_initialization_assignment no                                                                                                      no
+check_pad_concat                no                                                                                                      no
+check_param_association         yes                                                                                                     yes
+check_shifted_only              no                                                                                                      no
+check_static_value              no                                                                                                      no
+check_unsign_overflow           no                                                                                                      no
+checkalldimension               no                                                                                                      no
+checkblocking                   no                                                                                                      no
+checkconstassign                yes                                                                                                     yes
+checkfullbus                    no                                                                                                      no
+checknonblocking                no                                                                                                      no
+checksyncreset                  yes                                                                                                     yes
+clk_EnableLatch                 yes                                                                                                     yes
+clkname                         /^clk$/ or /.*_clk$/ or /^clock$/ or /.*_clock$/                                                        /^clk$/ or /.*_clk$/ or /^clock$/ or /.*_clock$/
+clock_reduce_pessimism          latch_en                                                                                                latch_en
+constname                       /^[A-Z][A-Z0-9_]*$/  and /^.{1,32}$/ and not /__/                                                       /^[A-Z][A-Z0-9_]*$/  and /^.{1,32}$/ and not /__/
+dccompat                        no                                                                                                      no
+disable_rtl_deadcode            no                                                                                                      no
+disable_seq_clock_prop          no                                                                                                      no
+dw_name                         /DW.*mult.*|DW.*mac.*|DW.*prod.*|DW.*div.*|DW.*sqrt.*|DW.*_square.*/i                                   /DW.*mult.*|DW.*mac.*|DW.*prod.*|DW.*div.*|DW.*sqrt.*|DW.*_square.*/i
+effort_level                    100                                                                                                     100
+enableE2Q                       no                                                                                                      no
+fast                            no                                                                                                      no
+filter_named_clocks             rst,reset,scan,set                                                                                      rst,reset,scan,set
+filter_named_resets             clk,clock,scan                                                                                          clk,clock,scan
+formal_setup_rules_check        no                                                                                                      no
+format_report                   no                                                                                                      no
+genlabeltype                    generate-if,generate-for,generate-case                                                                  generate-if,generate-for,generate-case
+handle_combo_arc                no                                                                                                      no
+handle_greybox                  yes                                                                                                     yes
+handle_large_bus                no                                                                                                      no
+ignoreModuleInstance            yes                                                                                                     yes
+ignoreRtlBuffer                 no                                                                                                      no
+ignoreSRlatch                   no                                                                                                      no
+ignore_dup_label_stmt           no                                                                                                      no
+ignore_hanging_flop             no                                                                                                      no
+ignore_iopad                    no                                                                                                      no
+ignore_latches                  yes                                                                                                     yes
+ignore_multi_assign_in_forloop  no                                                                                                      no
+ignore_nonBlockCondition        no                                                                                                      no
+ignore_unloaded_inst            no                                                                                                      no
+instname                        /^u_/ and /^.{5,40}$/   and not /__/                                                                    /^u_/ and /^.{5,40}$/   and not /__/
+int_net_fanout                  500                                                                                                     500
+latch_reset                     SI                                                                                                      SI
+latch_reset_file                latch_reset                                                                                             latch_reset
+latch_verbose                   off                                                                                                     off
+lp_allow_parent_scope_supply    0                                                                                                       0
+lp_auto_infer_ip_off_state      0                                                                                                       0
+lp_auto_infer_port_states       1                                                                                                       1
+lp_ignore_SGDC_rules            <empty value>                                                                                           <empty value>
+lp_output_pg_pin_as_supply_port 0                                                                                                       0
+lp_report_unused_nets_in_pst    1                                                                                                       1
+min_based_width                 0                                                                                                       0
+modulename                      /^[a-z][a-z0-9_]*$/ and /^.{3,32}$/ and not /__/                                                        /^[a-z][a-z0-9_]*$/ and /^.{3,32}$/ and not /__/
+new_flow_width                  yes                                                                                                     yes
+nocheckoverflow                 no                                                                                                      no
+overlappingLatchLoops           yes                                                                                                     yes
+overlappingLoops                yes                                                                                                     yes
+portname                        (/^[io]_[a-z0-9_]*$/ and /^.{5,32}$/ and not /__/) or /^clk$/ or /.*_clk$/ or /^clock$/ or /.*_clock$/} (/^[io]_[a-z0-9_]*$/ and /^.{5,32}$/ and not /__/) or /^clk$/ or /.*_clk$/ or /^clock$/ or /.*_clock$/}
+reportLibLatch                  no                                                                                                      no
+report_all_actlow               no                                                                                                      no
+report_allclk                   no                                                                                                      no
+report_blackbox_inst            no                                                                                                      no
+report_floating_source          no                                                                                                      no
+report_flop_reset_loop          no                                                                                                      no
+report_inferred_cell            yes                                                                                                     yes
+report_mux_select               yes                                                                                                     yes
+report_nonstatic_actlow         no                                                                                                      no
+reportalwayslatch               no                                                                                                      no
+reportconstassign               no                                                                                                      no
+reportsimilarassgn              no                                                                                                      no
+reserve_names                   spy_default_list                                                                                        spy_default_list
+reset_reduce_pessimism          none                                                                                                    none
+run_cells_in_cktree_rules       no                                                                                                      no
+signame                         /^[a-z][a-z0-9_]*$/ and /^.{5,32}$/ and not /__/ and not /_[0-9]*$/                                     /^[a-z][a-z0-9_]*$/ and /^.{5,32}$/ and not /__/ and not /_[0-9]*$/
+sr_max                          20                                                                                                      20
+starc_file_ext_vlog             .v,.sv                                                                                                  .v,.sv
+strict                          W342,W343                                                                                               W342,W343
+supplyHigh                      __null__                                                                                                __null__
+supplyLow                       __null__                                                                                                __null__
+use_inferred_clocks             no                                                                                                      no
+use_inferred_resets             no                                                                                                      no
+use_lrm_width                   no                                                                                                      no
+verilint_compat                 1                                                                                                       1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,10 @@
+Recodrdatorio
+
+Lo ultimo en lo que te quedaste era ver xq falla el ciphertext y el tag al hacer el switcheo final en el cambio de clave.
+
+# POst monitor nuevo xD
+Bueno estas probando a ver si las cosas basicas andan. Por ahora anda todo OK, ya sea con largo par o impar de ptx -> dan OK las compraciones del test, por lo que aparenta que esta bien la logica
+Lo siguietne seria hacer un update keya  ver q onda, pero siguiendo con la misma emetodologia de testeo unitario y con pruebas chicas
+
+---
+Bueno, perfecto je. Ahora hay q calcular los tiempos que demora en hacer el key update. En realidad no termina con solo eso, luego hace el key loading (switching) y luego calcula el j0_tag y recien ahi hace el cambio total de key y hash key. Una vez averiguado eso, calcular los tiempos en el tiempos el la funcion time_wizard, la cual va a ayudar a ver en que momento solapar el nuevo frame con la key nueva.

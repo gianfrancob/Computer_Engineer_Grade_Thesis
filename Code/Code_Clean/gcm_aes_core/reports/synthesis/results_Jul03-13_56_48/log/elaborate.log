@@ -1,0 +1,446 @@
+  Libraries have 371 usable logic and 137 usable sequential lib-cells.
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'gcm_aes_core' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gcm_aes_core' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_update_fsm' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_update_fsm.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'key_update_fsm' with default parameters value.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_h_ready_pre' is not used in module 'key_update_fsm' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_update_fsm.v' on line 44.
+        : The value of the input port is not used within the design.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_h_hash_subkey_lock' of instance 'u_key_update_fsm' of module 'key_update_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 247.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_state' of instance 'u_key_update_fsm' of module 'key_update_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 247.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'i_h_ready_pre' of instance 'u_key_update_fsm' of module 'key_update_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 247.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gcm_aes_ghash_fsm' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_ghash_fsm.v'.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'extra_valid_aad' in module 'gcm_aes_ghash_fsm' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_ghash_fsm.v' on line 127.
+        : A flip-flop or latch that was inferred for an unused signal or variable was removed. Use 'set_attribute hdl_preserve_unused_registers true /' to preserve the flip-flop or latch.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_aad' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_aad_d' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_data' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_data_d' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_length' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_length_d' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_ghash_d' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid_tag' of instance 'u_gcm_aes_ghash_fsm' of module 'gcm_aes_ghash_fsm' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 291.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'j0_generator' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/j0_generator.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'j0_generator' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'inc32_block' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/inc32_block.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'inc32_block' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_scheduler_sequential_shifter' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_shifter.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'key_scheduler_sequential_shifter' with default parameters value.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'index_word' [7] doesn't match the width of right hand side [32] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_shifter.v' on line 96.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_scheduler_sequential_nwords' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_nwords.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_scheduler_sequential_1word' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v'.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'rcon' in module 'key_scheduler_sequential_1word' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 86.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'subbytes_block' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subbytes_block.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'byte_substitution_box' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_box.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'byte_substitution_box' with default parameters value.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'sub_bytes_lut_array' in module 'byte_substitution_box' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_box.v' on line 40.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'byte_substitution_box' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_box.v' on line 32.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'byte_substitution_box' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_box.v' on line 34.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_reset' is not used in module 'subbytes_block' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subbytes_block.v' on line 35.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid' of instance 'genif_complex_case_u_subbytes_block' of module 'subbytes_block' inside module 'key_scheduler_sequential_1word' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 137.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_scheduler_sequential_1word' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v'.
+    Renamed user module 'key_scheduler_sequential_1word' to 'key_scheduler_sequential_1word_0'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_index' is not used in module 'key_scheduler_sequential_1word_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 38.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'key_scheduler_sequential_1word_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 39.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_reset' is not used in module 'key_scheduler_sequential_1word_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 40.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'key_scheduler_sequential_1word_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_sequential_1word.v' on line 42.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'key_scheduler_switcher' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v'.
+Info    : Replaced logic with a constant value. [CDFG-771]
+        : Constant Replacement in Module 'key_scheduler_switcher' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v' on line 99.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'update_bus' in module 'key_scheduler_switcher' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v' on line 126.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'timer' in module 'key_scheduler_switcher' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v' on line 139.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'timer_limit' in module 'key_scheduler_switcher' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/key_scheduler_switcher.v' on line 148.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_muxing_done' of instance 'u_key_scheduler_switcher' of module 'key_scheduler_switcher' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 467.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_0'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'common_fix_delay_line_w_valid_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v' on line 33.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_reset' is not used in module 'common_fix_delay_line_w_valid_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v' on line 34.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'clock' is not used in module 'common_fix_delay_line_w_valid_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v' on line 36.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gctr_function' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gctr_function.v'.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'counter_block_array' in module 'gctr_function' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gctr_function.v' on line 90.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'aes_round_ladder_xor_data' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/aes_round_ladder_xor_data.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_1'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_del_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/common_fix_delay_line_w_del_valid.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_0'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'subbytes_block' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subbytes_block.v'.
+    Renamed user module 'subbytes_block' to 'subbytes_block_0'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'byte_substitution_algorithm' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_algorithm.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'byte_substitution_algorithm' with default parameters value.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'subprod' in module 'byte_substitution_algorithm' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_substitution_algorithm.v' on line 59.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'multiplicative_inversion' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/multiplicative_inversion.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'multiplicative_inversion' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'byte_isomorphic_mapping' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_isomorphic_mapping.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'byte_isomorphic_mapping' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to4_squarer' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_squarer.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to4_squarer' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to4_multiplier_with_constant_lambda' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier_with_constant_lambda.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to4_multiplier_with_constant_lambda' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to4_multiplier' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to4_multiplier' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to2_multiplier' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to2_multiplier.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to2_multiplier' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to2_multiplier_with_constant_phi' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to2_multiplier_with_constant_phi.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to2_multiplier_with_constant_phi' with default parameters value.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_reset' is not used in module 'gf_2to4_multiplier' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier.v' on line 14.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2to4_multiplier' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier.v' on line 16.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid' of instance 'u_gf_2to4_multiplier1' of module 'gf_2to4_multiplier' inside module 'multiplicative_inversion' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/multiplicative_inversion.v' on line 104.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to4_multiplicative_inversion' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplicative_inversion.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to4_multiplicative_inversion' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to4_multiplier' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to4_multiplier.v'.
+    Renamed user module 'gf_2to4_multiplier' to 'gf_2to4_multiplier_0'
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_valid' of instance 'u_gf_2to4_multiplier2_2' of module 'gf_2to4_multiplier_0' inside module 'multiplicative_inversion' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/multiplicative_inversion.v' on line 174.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'byte_inverse_isomorphic_mapping' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/byte_inverse_isomorphic_mapping.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'byte_inverse_isomorphic_mapping' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'shiftrows_block' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/shiftrows_block.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'shiftrows_block' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'mixcolumns_block' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/mixcolumns_block.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'mixcolumns_block' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ax_modular_multiplier' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/ax_modular_multiplier.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ax_modular_multiplier' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'time_03' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/time_03.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'time_03' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'xtime' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/xtime.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'xtime' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_del_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/common_fix_delay_line_w_del_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_del_valid' to 'common_fix_delay_line_w_del_valid_0'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_1'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_2'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_3'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_4'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_5'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_6'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_7'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_8'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_9'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_10'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_11'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_12'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'round_block_and_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/round_block_and_pipe.v'.
+    Renamed user module 'round_block_and_pipe' to 'round_block_and_pipe_13'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_2'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_3'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'subkey_h_powers_generator' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/subkey_h_powers_generator.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to128_multiplier_sequential' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gf_2to128_multiplier_sequential.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2to128_multiplier_sequential' with default parameters value.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'ghash_h_power_vector_locked' [1024] doesn't match the width of right hand side [256] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 711.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'ghash_n_messages' [10] doesn't match the width of right hand side [56] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 718.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'ghash_n_aad' [10] doesn't match the width of right hand side [56] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 719.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_wrapper' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/ghash_wrapper.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_wrapper' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_core' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_core.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_core' with default parameters value.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'q' in module 'ghash_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_core.v' on line 142.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'n_total_msgs' [11] doesn't match the width of right hand side [10] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_core.v' on line 166.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_control_signal_unit' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_control_signal_unit.v'.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'bubbles_plus_1' [3] doesn't match the width of right hand side [2] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_control_signal_unit.v' on line 60.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_4'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_fix_delay_line_w_valid' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_fix_delay_line_w_valid.v'.
+    Renamed user module 'common_fix_delay_line_w_valid' to 'common_fix_delay_line_w_valid_5'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_msg_and_h_pow_picker' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_msg_and_h_pow_picker.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_msg_and_h_pow_picker' with default parameters value.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'message_buffer' in module 'ghash_msg_and_h_pow_picker' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_msg_and_h_pow_picker.v' on line 63.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'ghash_msg_and_h_pow_picker' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_msg_and_h_pow_picker.v' on line 112.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_stage1_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage1_pipe.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_stage1_pipe' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_generated' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'gf_2toN_koa_generated' with default parameters value.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 265.
+        : Loop body will not be synthesized.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 283.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 224.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter_line.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v'.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_splitter' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 32.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_splitter' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 34.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter_line.v'.
+    Renamed user module 'gf_2toN_koa_splitter_line' to 'gf_2toN_koa_splitter_line_0'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v'.
+    Renamed user module 'gf_2toN_koa_splitter' to 'gf_2toN_koa_splitter_0'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_splitter_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 32.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_splitter_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 34.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter_line.v'.
+    Renamed user module 'gf_2toN_koa_splitter_line' to 'gf_2toN_koa_splitter_line_1'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v'.
+    Renamed user module 'gf_2toN_koa_splitter' to 'gf_2toN_koa_splitter_1'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_splitter_1' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 32.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_splitter_1' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 34.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter_line.v'.
+    Renamed user module 'gf_2toN_koa_splitter_line' to 'gf_2toN_koa_splitter_line_2'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_splitter' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v'.
+    Renamed user module 'gf_2toN_koa_splitter' to 'gf_2toN_koa_splitter_2'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_splitter_2' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 32.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_splitter_2' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_splitter.v' on line 34.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_multiplier_no_rem' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_multiplier_no_rem.v'.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'a_subprods' in module 'gf_2toN_multiplier_no_rem' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_multiplier_no_rem.v' on line 46.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'b_subprods' in module 'gf_2toN_multiplier_no_rem' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_multiplier_no_rem.v' on line 47.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 301.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 265.
+Warning : Loop condition is always false. [CDFG-485]
+        : 'for' loop condition is always false in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_generated.v' on line 245.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger_line.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v'.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_merger' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 30.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_merger' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 32.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger_line.v'.
+    Renamed user module 'gf_2toN_koa_merger_line' to 'gf_2toN_koa_merger_line_0'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v'.
+    Renamed user module 'gf_2toN_koa_merger' to 'gf_2toN_koa_merger_0'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_merger_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 30.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_merger_0' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 32.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger_line.v'.
+    Renamed user module 'gf_2toN_koa_merger_line' to 'gf_2toN_koa_merger_line_1'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v'.
+    Renamed user module 'gf_2toN_koa_merger' to 'gf_2toN_koa_merger_1'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_merger_1' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 30.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_merger_1' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 32.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger_line' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger_line.v'.
+    Renamed user module 'gf_2toN_koa_merger_line' to 'gf_2toN_koa_merger_line_2'
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2toN_koa_merger' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v'.
+    Renamed user module 'gf_2toN_koa_merger' to 'gf_2toN_koa_merger_2'
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_valid' is not used in module 'gf_2toN_koa_merger_2' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 30.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clock' is not used in module 'gf_2toN_koa_merger_2' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2toN_koa_merger.v' on line 32.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'stg1_stall_shift_reg' [1] doesn't match the width of right hand side [2] in assignment in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_core.v' on line 367.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_stage2_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage2_pipe.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_stage2_pipe' with default parameters value.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'gf_2to128_multiplier_booth1_subrem' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2to128_multiplier_booth1_subrem.v'.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'a_subprods' in module 'gf_2to128_multiplier_booth1_subrem' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2to128_multiplier_booth1_subrem.v' on line 56.
+Info    : Processing multi-dimensional arrays. [CDFG-250]
+        : Variable 'o_sub_remainder_aux' in module 'gf_2to128_multiplier_booth1_subrem' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2to128_multiplier_booth1_subrem.v' on line 57.
+Warning : Detected non-positive value for replication prefix. [CDFG-236]
+        : Prefix value = 0; replication evaluates to null in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/gf_2to128_multiplier_booth1_subrem.v' on line 83.
+        : The prefix expression of a replication generally must evaluate to a positive constant.  The value of a replication with a non-positive prefix depends on the setting of the attribute 'hdl_zero_replicate_is_null'.  If true, the replication is treated as a zero-width expression.  If false, the replication evaluates to 1'b0.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ghash_stage3_pipe' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/ghash_core/rtl/ghash_stage3_pipe.v'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'ghash_stage3_pipe' with default parameters value.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_aad' is not used in module 'ghash_wrapper' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/ghash_wrapper.v' on line 17.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'common_posedge_det' from file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/utils/rtl/common_posedge_det.v'.
+Info    : Unused instance port. [ELABUTL-132]
+        : Unused Port 'o_data_del' of instance 'u_common_posedge_det_ghash_done_detect' of module 'common_posedge_det' inside module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 905.
+Info    : Unused module input port. [CDFG-500]
+        : Input port 'i_clear_fault_flags' is not used in module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 56.
+Info    : Unconnected instance input port detected. [ELABUTL-129]
+        : Assuming a logic '0' value for unconnected input port 'i_h_ready_pre' of instance 'u_key_update_fsm' of module 'key_update_fsm' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 247, column 1.
+Info    : Undriven module output port. [ELABUTL-128]
+        : Assuming a logic '0' value for undriven bits of output port 'o_fault_sop_and_keyupdate' in module 'gcm_aes_core' in file '/projects/CL120020/RevA0/Work/gbarbiani/DIGITAL/trunk/rtl/modules/gcm_aes_core/rtl/gcm_aes_core.v' on line 41, column 89.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating 'gcm_aes_core'.
+        Computing net loads.

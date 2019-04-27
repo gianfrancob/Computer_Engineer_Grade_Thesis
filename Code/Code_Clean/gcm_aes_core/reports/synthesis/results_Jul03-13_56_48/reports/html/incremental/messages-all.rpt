@@ -1,0 +1,162 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev        Id                        Message Text                    
+---------------------------------------------------------------------------
+  1 Warning CDFG-236    Detected non-positive value for replication        
+                        prefix.                                            
+                        The prefix expression of a replication generally   
+                        must evaluate to a positive constant.  The value   
+                        of a replication with a non-positive prefix        
+                        depends on the setting of the attribute            
+                        'hdl_zero_replicate_is_null'.  If true, the        
+                        replication is treated as a zero-width             
+                        expression.  If false, the replication evaluates   
+                        to 1'b0.                                           
+ 10   Info  CDFG-250    Processing multi-dimensional arrays.               
+  7   Info  CDFG-372    Bitwidth mismatch in assignment.                   
+ 10 Warning CDFG-472    Unreachable statements for case item.              
+  6 Warning CDFG-485    Loop condition is always false.                    
+                        Loop body will not be synthesized.                 
+ 31   Info  CDFG-500    Unused module input port.                          
+                        The value of the input port is not used within     
+                        the design.                                        
+  4 Warning CDFG-508    Removing unused register.                          
+                        A flip-flop or latch that was inferred for an      
+                        unused signal or variable was removed. Use         
+                        'set_attribute hdl_preserve_unused_registers true  
+                        /' to preserve the flip-flop or latch.             
+  1   Info  CDFG-771    Replaced logic with a constant value.              
+ 29 Warning CDFG-818    Using default parameter value for module           
+                        elaboration.                                       
+  1   Info  ELAB-1      Elaborating Design.                                
+ 83   Info  ELAB-2      Elaborating Subdesign.                             
+  1   Info  ELAB-3      Done Elaborating Design.                           
+  1   Info  ELABUTL-128 Undriven module output port.                       
+  1   Info  ELABUTL-129 Unconnected instance input port detected.          
+ 16   Info  ELABUTL-132 Unused instance port.                              
+  1   Info  GLO-12      Replacing a flip-flop with a logic constant 0.     
+                        This optimization was enabled by the root          
+                        attribute 'optimize_constant_0_flops'.             
+  3   Info  GLO-32      Deleting sequential instances not driving any      
+                        primary outputs.                                   
+                        Optimizations such as constant propagation or      
+                        redundancy removal could change the connections    
+                        so an instance does not drive any primary outputs  
+                        anymore. To see the list of deleted sequential,    
+                        set the 'information_level' attribute to 2 or      
+                        above.                                             
+  2   Info  GLO-34      Deleting instances not driving any primary         
+                        outputs.                                           
+                        Optimizations such as constant propagation or      
+                        redundancy removal could change the connections    
+                        so an instance does not drive any primary outputs  
+                        anymore. To see the list of deleted instances,     
+                            set the 'information_level' attribute to 2 or  
+                        above.                                             
+  1   Info  GLO-45      Replacing the synchronous part of an always        
+                        feeding back flip-flop with a logic constant.      
+                        The value used to replace the flop can be set by   
+                        the root attribute 'optimize_seq_x_to'. The        
+                        assigned constant might also conflict with the     
+                        simulation and/or verification setup.              
+ 20   Info  LBR-170     Ignoring specified timing sense.                   
+                        Timing sense should never be set with              
+                        'rising_edge' or 'falling_edge' timing type.       
+  6   Info  LBR-412     Created nominal operating condition.               
+                        The nominal operating condition represents either  
+                        the nominal PVT values if specified in the         
+                        library source, or the default PVT values (1.0,    
+                        1.0, 1.0).                                         
+  1 Warning LBR-500     Found CCS construct in one or more libraries.      
+ 20 Warning LBR-66      Library cell only has usable test_cell function.   
+                        This library has a valid test_cell function, but   
+                        its regular cell function is either missing or     
+                        not completely understood (e.g. if the cell has a  
+                        state_table construct).                            
+ 20 Warning LBR-9       Library cell has no output pins defined.           
+                        Add the missing output pin(s), then reload the     
+                        library. Otherwise, the library cell will be       
+                        marked as unusable and as timing model.            
+  2   Info  MAP-127     Enabling some advanced optimizations in            
+                        incremental optimization.                          
+                        Enabling this attribute can potentially improve    
+                        Qor and increase runtime.                          
+ 29 Warning MESG-6      Message truncated because it exceeds the maximum   
+                        length of 4096 characters.                         
+                        By default messages are limited to 4096            
+                        characters. All characters after the 4096          
+                        character limit are truncated. To remove this      
+                        limit, set the message attribute 'truncate' to     
+                        'false'. However, this may dramatically increase   
+                        the size of the log file.                          
+  1 Warning PA-17       Did not find power models for RTL power analysis.  
+                        The RTL power analysis results are more accurate   
+                        when detailed power models are used. Use command   
+                        'build_rtl_power_models' to build detailed power   
+                        models.                                            
+631   Info  PHYS-129    Via with no resistance will have a value of '0.0'  
+                        assigned.                                          
+ 47 Warning PHYS-15     Wire parameter is missing.                         
+                        Check the parameter in technology section.         
+  1   Info  POPT-12     Could not find any user created clock-gating       
+                        module.                                            
+                        Looking for Integrated clock-gating cell in        
+                        library.                                           
+483   Info  POPT-56     Clock-gating instances are decloned.               
+  1   Info  POPT-92     A potential clock gating enable was not            
+                        considered due to the presence of timing           
+                        exceptions.                                        
+                        Clock gating timing exception awareness can be     
+                        disabled with the                                  
+                        'lp_clock_gating_exceptions_aware' attribute.      
+  3   Info  POPT-96     One or more cost groups were automatically         
+                        created for clock gate enable paths.               
+                        This feature can be disabled by setting the        
+                        attribute lp_clock_gating_auto_cost_grouping       
+                        false.                                             
+  1   Info  RTLOPT-1    Optimizing RTL.                                    
+  1   Info  RTLOPT-16   Downsized instance.                                
+ 18   Info  RTLOPT-19   Grouping carry-save logic.                         
+  1   Info  RTLOPT-2    Done optimizing RTL.                               
+ 14   Info  RTLOPT-20   Accepted carry-save configuration.                 
+  5   Info  RTLOPT-21   Rejected carry-save configuration.                 
+ 18   Info  RTLOPT-23   Done grouping carry-save logic.                    
+  1   Info  RTLOPT-40   Transformed datapath macro.                        
+ 12   Info  ST-110      Connection established with super-threading        
+                        server.                                            
+                        RC is entering super-threading mode and has        
+                        established a connection with a CPU server         
+                        process.  This is enabled by the root attributes   
+                        'super_thread_servers' or 'auto_super_thread'.     
+ 12   Info  ST-112      A super-threading server has been shut down        
+                        normally.                                          
+                        A super-threaded optimization is complete and a    
+                        CPU server was successfully shut down.             
+ 12   Info  ST-120      Attempting to launch a super-threading server.     
+                        RC is entering super-threading mode and is         
+                        launching a CPU server process.  This is enabled   
+                        by the root attribute 'super_thread_servers' or    
+                        'auto_super_thread'.                               
+  1   Info  SYNTH-1     Synthesizing.                                      
+  1   Info  SYNTH-2     Done synthesizing.                                 
+  1   Info  SYNTH-4     Mapping.                                           
+  1   Info  SYNTH-5     Done mapping.                                      
+  1   Info  SYNTH-7     Incrementally optimizing.                          
+  1   Info  SYNTH-8     Done incrementally optimizing.                     
+  2 Warning WDO-205     The parameter naming style is not LEC-friendly.    
+                        To correctly translate the parameter naming        
+                        style, value of the hdl_parameter_naming_style     
+                        attr must end with '%d'.  There should not be      
+                        anything after the '%d' descriptor.  Should there  
+                        be black boxes in the design, the incorrect        
+                        translation may induce false negative in LEC       
+                        comparison.                                        
+  2   Info  WDO-600     'Conformal LEC14.2-p100' or later builds is        
+                        recommended for verification.                      
+                        The use of 'Conformal LEC14.2-p100' or later       
+                        builds is recommended to get better verification   
+                        results.                                           
+

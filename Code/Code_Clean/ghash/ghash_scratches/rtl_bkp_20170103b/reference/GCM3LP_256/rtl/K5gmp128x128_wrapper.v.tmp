@@ -1,0 +1,45 @@
+`timescale 1 ns / 1 ps
+//
+// Copyright (c) 2016 by IP Cores, Inc.   All rights reserved.  This text
+// contains proprietary, confidential information of IP Cores, Inc.,  and
+// may be used, copied,  and/or disclosed only pursuant to the terms of a
+// valid license agreement with IP Cores, Inc. This copyright notice must
+// be retained as part of this text at all times.
+//
+// Rev. 1.0
+//
+
+module GCM3LP_256(
+   input       clk, 
+   input       reset,
+   input       [127:0] x,
+   input       [127:0] y,
+   output wire [127:0] z
+);
+
+   reg [127:0] xreg;
+   reg [127:0] yreg;
+   reg [127:0] zreg;
+   wire [127:0] ztemp;
+always @ (posedge clk)
+	if (reset == 1'b1) begin
+		xreg <= 0;
+		yreg <= 0;
+		zreg <= 0;
+	end
+	else begin
+		xreg <= x;
+		yreg <= y;
+		zreg <= ztemp;
+	end
+			
+assign z = zreg;
+			
+   K5gmp128x128 u_K5gmp128x128 (
+      .x ( xreg   ),
+      .y ( yreg   ),
+      .z ( ztemp   )
+   );
+
+
+endmodule

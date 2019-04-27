@@ -1,0 +1,16 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev      Id                      Message Text                    
+-----------------------------------------------------------------------
+  1 Warning WDO-205 The parameter naming style is not LEC-friendly.    
+                    To correctly translate the parameter naming        
+                    style, value of the hdl_parameter_naming_style     
+                    attr must end with '%d'.  There should not be      
+                    anything after the '%d' descriptor.  Should there  
+                    be black boxes in the design, the incorrect        
+                    translation may induce false negative in LEC       
+                    comparison.                                        
+

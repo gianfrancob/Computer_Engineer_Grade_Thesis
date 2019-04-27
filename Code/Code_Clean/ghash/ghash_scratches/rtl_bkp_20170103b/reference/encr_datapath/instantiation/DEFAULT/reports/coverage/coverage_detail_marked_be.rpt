@@ -1,0 +1,358 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<> COVERAGE FILE: /scratch/otarif/simulations/encr_datapath/cov_work/scope/test/icc_0edd78ce_00000000.ucd <>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+        Marked Block Detail Report, Module/Entity-Based
+        ===============================================
+
+
+        Module/Entity name: frame_disassembler
+        File name: /design/M200/RevA0/Work/otarif/DIGITAL/trunk/externals/asic_rtl/library/encr_datapath/rtl/frame_disassembler.v
+        Number of blocks marked COV: 1
+        Number of blocks marked IGN: 0
+
+index    mark block line number            line origin description
+-----------------------------------------------------------------------
+(  65)   COV     272     true part of          271   if( row_counter_limit & col_counter_limit)
+
+
+        Module/Entity name: Sbox
+        File name: /design/M200/RevA0/Work/otarif/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/Sbox.v
+        Number of blocks marked COV: 258
+        Number of blocks marked IGN: 0
+
+index    mark block line number            line origin description
+-----------------------------------------------------------------------
+(   1)   COV      17                            17   always @(Din) begin
+(   2)   COV      19     a case item of         18   case  (Din)
+(   3)   COV      20     a case item of         18   case  (Din)
+(   4)   COV      21     a case item of         18   case  (Din)
+(   5)   COV      22     a case item of         18   case  (Din)
+(   6)   COV      23     a case item of         18   case  (Din)
+(   7)   COV      24     a case item of         18   case  (Din)
+(   8)   COV      25     a case item of         18   case  (Din)
+(   9)   COV      26     a case item of         18   case  (Din)
+(  10)   COV      27     a case item of         18   case  (Din)
+(  11)   COV      28     a case item of         18   case  (Din)
+(  12)   COV      29     a case item of         18   case  (Din)
+(  13)   COV      30     a case item of         18   case  (Din)
+(  14)   COV      31     a case item of         18   case  (Din)
+(  15)   COV      32     a case item of         18   case  (Din)
+(  16)   COV      33     a case item of         18   case  (Din)
+(  17)   COV      34     a case item of         18   case  (Din)
+(  18)   COV      35     a case item of         18   case  (Din)
+(  19)   COV      36     a case item of         18   case  (Din)
+(  20)   COV      37     a case item of         18   case  (Din)
+(  21)   COV      38     a case item of         18   case  (Din)
+(  22)   COV      39     a case item of         18   case  (Din)
+(  23)   COV      40     a case item of         18   case  (Din)
+(  24)   COV      41     a case item of         18   case  (Din)
+(  25)   COV      42     a case item of         18   case  (Din)
+(  26)   COV      43     a case item of         18   case  (Din)
+(  27)   COV      44     a case item of         18   case  (Din)
+(  28)   COV      45     a case item of         18   case  (Din)
+(  29)   COV      46     a case item of         18   case  (Din)
+(  30)   COV      47     a case item of         18   case  (Din)
+(  31)   COV      48     a case item of         18   case  (Din)
+(  32)   COV      49     a case item of         18   case  (Din)
+(  33)   COV      50     a case item of         18   case  (Din)
+(  34)   COV      51     a case item of         18   case  (Din)
+(  35)   COV      52     a case item of         18   case  (Din)
+(  36)   COV      53     a case item of         18   case  (Din)
+(  37)   COV      54     a case item of         18   case  (Din)
+(  38)   COV      55     a case item of         18   case  (Din)
+(  39)   COV      56     a case item of         18   case  (Din)
+(  40)   COV      57     a case item of         18   case  (Din)
+(  41)   COV      58     a case item of         18   case  (Din)
+(  42)   COV      59     a case item of         18   case  (Din)
+(  43)   COV      60     a case item of         18   case  (Din)
+(  44)   COV      61     a case item of         18   case  (Din)
+(  45)   COV      62     a case item of         18   case  (Din)
+(  46)   COV      63     a case item of         18   case  (Din)
+(  47)   COV      64     a case item of         18   case  (Din)
+(  48)   COV      65     a case item of         18   case  (Din)
+(  49)   COV      66     a case item of         18   case  (Din)
+(  50)   COV      67     a case item of         18   case  (Din)
+(  51)   COV      68     a case item of         18   case  (Din)
+(  52)   COV      69     a case item of         18   case  (Din)
+(  53)   COV      70     a case item of         18   case  (Din)
+(  54)   COV      71     a case item of         18   case  (Din)
+(  55)   COV      72     a case item of         18   case  (Din)
+(  56)   COV      73     a case item of         18   case  (Din)
+(  57)   COV      74     a case item of         18   case  (Din)
+(  58)   COV      75     a case item of         18   case  (Din)
+(  59)   COV      76     a case item of         18   case  (Din)
+(  60)   COV      77     a case item of         18   case  (Din)
+(  61)   COV      78     a case item of         18   case  (Din)
+(  62)   COV      79     a case item of         18   case  (Din)
+(  63)   COV      80     a case item of         18   case  (Din)
+(  64)   COV      81     a case item of         18   case  (Din)
+(  65)   COV      82     a case item of         18   case  (Din)
+(  66)   COV      83     a case item of         18   case  (Din)
+(  67)   COV      84     a case item of         18   case  (Din)
+(  68)   COV      85     a case item of         18   case  (Din)
+(  69)   COV      86     a case item of         18   case  (Din)
+(  70)   COV      87     a case item of         18   case  (Din)
+(  71)   COV      88     a case item of         18   case  (Din)
+(  72)   COV      89     a case item of         18   case  (Din)
+(  73)   COV      90     a case item of         18   case  (Din)
+(  74)   COV      91     a case item of         18   case  (Din)
+(  75)   COV      92     a case item of         18   case  (Din)
+(  76)   COV      93     a case item of         18   case  (Din)
+(  77)   COV      94     a case item of         18   case  (Din)
+(  78)   COV      95     a case item of         18   case  (Din)
+(  79)   COV      96     a case item of         18   case  (Din)
+(  80)   COV      97     a case item of         18   case  (Din)
+(  81)   COV      98     a case item of         18   case  (Din)
+(  82)   COV      99     a case item of         18   case  (Din)
+(  83)   COV     100     a case item of         18   case  (Din)
+(  84)   COV     101     a case item of         18   case  (Din)
+(  85)   COV     102     a case item of         18   case  (Din)
+(  86)   COV     103     a case item of         18   case  (Din)
+(  87)   COV     104     a case item of         18   case  (Din)
+(  88)   COV     105     a case item of         18   case  (Din)
+(  89)   COV     106     a case item of         18   case  (Din)
+(  90)   COV     107     a case item of         18   case  (Din)
+(  91)   COV     108     a case item of         18   case  (Din)
+(  92)   COV     109     a case item of         18   case  (Din)
+(  93)   COV     110     a case item of         18   case  (Din)
+(  94)   COV     111     a case item of         18   case  (Din)
+(  95)   COV     112     a case item of         18   case  (Din)
+(  96)   COV     113     a case item of         18   case  (Din)
+(  97)   COV     114     a case item of         18   case  (Din)
+(  98)   COV     115     a case item of         18   case  (Din)
+(  99)   COV     116     a case item of         18   case  (Din)
+( 100)   COV     117     a case item of         18   case  (Din)
+( 101)   COV     118     a case item of         18   case  (Din)
+( 102)   COV     119     a case item of         18   case  (Din)
+( 103)   COV     120     a case item of         18   case  (Din)
+( 104)   COV     121     a case item of         18   case  (Din)
+( 105)   COV     122     a case item of         18   case  (Din)
+( 106)   COV     123     a case item of         18   case  (Din)
+( 107)   COV     124     a case item of         18   case  (Din)
+( 108)   COV     125     a case item of         18   case  (Din)
+( 109)   COV     126     a case item of         18   case  (Din)
+( 110)   COV     127     a case item of         18   case  (Din)
+( 111)   COV     128     a case item of         18   case  (Din)
+( 112)   COV     129     a case item of         18   case  (Din)
+( 113)   COV     130     a case item of         18   case  (Din)
+( 114)   COV     131     a case item of         18   case  (Din)
+( 115)   COV     132     a case item of         18   case  (Din)
+( 116)   COV     133     a case item of         18   case  (Din)
+( 117)   COV     134     a case item of         18   case  (Din)
+( 118)   COV     135     a case item of         18   case  (Din)
+( 119)   COV     136     a case item of         18   case  (Din)
+( 120)   COV     137     a case item of         18   case  (Din)
+( 121)   COV     138     a case item of         18   case  (Din)
+( 122)   COV     139     a case item of         18   case  (Din)
+( 123)   COV     140     a case item of         18   case  (Din)
+( 124)   COV     141     a case item of         18   case  (Din)
+( 125)   COV     142     a case item of         18   case  (Din)
+( 126)   COV     143     a case item of         18   case  (Din)
+( 127)   COV     144     a case item of         18   case  (Din)
+( 128)   COV     145     a case item of         18   case  (Din)
+( 129)   COV     146     a case item of         18   case  (Din)
+( 130)   COV     147     a case item of         18   case  (Din)
+( 131)   COV     148     a case item of         18   case  (Din)
+( 132)   COV     149     a case item of         18   case  (Din)
+( 133)   COV     150     a case item of         18   case  (Din)
+( 134)   COV     151     a case item of         18   case  (Din)
+( 135)   COV     152     a case item of         18   case  (Din)
+( 136)   COV     153     a case item of         18   case  (Din)
+( 137)   COV     154     a case item of         18   case  (Din)
+( 138)   COV     155     a case item of         18   case  (Din)
+( 139)   COV     156     a case item of         18   case  (Din)
+( 140)   COV     157     a case item of         18   case  (Din)
+( 141)   COV     158     a case item of         18   case  (Din)
+( 142)   COV     159     a case item of         18   case  (Din)
+( 143)   COV     160     a case item of         18   case  (Din)
+( 144)   COV     161     a case item of         18   case  (Din)
+( 145)   COV     162     a case item of         18   case  (Din)
+( 146)   COV     163     a case item of         18   case  (Din)
+( 147)   COV     164     a case item of         18   case  (Din)
+( 148)   COV     165     a case item of         18   case  (Din)
+( 149)   COV     166     a case item of         18   case  (Din)
+( 150)   COV     167     a case item of         18   case  (Din)
+( 151)   COV     168     a case item of         18   case  (Din)
+( 152)   COV     169     a case item of         18   case  (Din)
+( 153)   COV     170     a case item of         18   case  (Din)
+( 154)   COV     171     a case item of         18   case  (Din)
+( 155)   COV     172     a case item of         18   case  (Din)
+( 156)   COV     173     a case item of         18   case  (Din)
+( 157)   COV     174     a case item of         18   case  (Din)
+( 158)   COV     175     a case item of         18   case  (Din)
+( 159)   COV     176     a case item of         18   case  (Din)
+( 160)   COV     177     a case item of         18   case  (Din)
+( 161)   COV     178     a case item of         18   case  (Din)
+( 162)   COV     179     a case item of         18   case  (Din)
+( 163)   COV     180     a case item of         18   case  (Din)
+( 164)   COV     181     a case item of         18   case  (Din)
+( 165)   COV     182     a case item of         18   case  (Din)
+( 166)   COV     183     a case item of         18   case  (Din)
+( 167)   COV     184     a case item of         18   case  (Din)
+( 168)   COV     185     a case item of         18   case  (Din)
+( 169)   COV     186     a case item of         18   case  (Din)
+( 170)   COV     187     a case item of         18   case  (Din)
+( 171)   COV     188     a case item of         18   case  (Din)
+( 172)   COV     189     a case item of         18   case  (Din)
+( 173)   COV     190     a case item of         18   case  (Din)
+( 174)   COV     191     a case item of         18   case  (Din)
+( 175)   COV     192     a case item of         18   case  (Din)
+( 176)   COV     193     a case item of         18   case  (Din)
+( 177)   COV     194     a case item of         18   case  (Din)
+( 178)   COV     195     a case item of         18   case  (Din)
+( 179)   COV     196     a case item of         18   case  (Din)
+( 180)   COV     197     a case item of         18   case  (Din)
+( 181)   COV     198     a case item of         18   case  (Din)
+( 182)   COV     199     a case item of         18   case  (Din)
+( 183)   COV     200     a case item of         18   case  (Din)
+( 184)   COV     201     a case item of         18   case  (Din)
+( 185)   COV     202     a case item of         18   case  (Din)
+( 186)   COV     203     a case item of         18   case  (Din)
+( 187)   COV     204     a case item of         18   case  (Din)
+( 188)   COV     205     a case item of         18   case  (Din)
+( 189)   COV     206     a case item of         18   case  (Din)
+( 190)   COV     207     a case item of         18   case  (Din)
+( 191)   COV     208     a case item of         18   case  (Din)
+( 192)   COV     209     a case item of         18   case  (Din)
+( 193)   COV     210     a case item of         18   case  (Din)
+( 194)   COV     211     a case item of         18   case  (Din)
+( 195)   COV     212     a case item of         18   case  (Din)
+( 196)   COV     213     a case item of         18   case  (Din)
+( 197)   COV     214     a case item of         18   case  (Din)
+( 198)   COV     215     a case item of         18   case  (Din)
+( 199)   COV     216     a case item of         18   case  (Din)
+( 200)   COV     217     a case item of         18   case  (Din)
+( 201)   COV     218     a case item of         18   case  (Din)
+( 202)   COV     219     a case item of         18   case  (Din)
+( 203)   COV     220     a case item of         18   case  (Din)
+( 204)   COV     221     a case item of         18   case  (Din)
+( 205)   COV     222     a case item of         18   case  (Din)
+( 206)   COV     223     a case item of         18   case  (Din)
+( 207)   COV     224     a case item of         18   case  (Din)
+( 208)   COV     225     a case item of         18   case  (Din)
+( 209)   COV     226     a case item of         18   case  (Din)
+( 210)   COV     227     a case item of         18   case  (Din)
+( 211)   COV     228     a case item of         18   case  (Din)
+( 212)   COV     229     a case item of         18   case  (Din)
+( 213)   COV     230     a case item of         18   case  (Din)
+( 214)   COV     231     a case item of         18   case  (Din)
+( 215)   COV     232     a case item of         18   case  (Din)
+( 216)   COV     233     a case item of         18   case  (Din)
+( 217)   COV     234     a case item of         18   case  (Din)
+( 218)   COV     235     a case item of         18   case  (Din)
+( 219)   COV     236     a case item of         18   case  (Din)
+( 220)   COV     237     a case item of         18   case  (Din)
+( 221)   COV     238     a case item of         18   case  (Din)
+( 222)   COV     239     a case item of         18   case  (Din)
+( 223)   COV     240     a case item of         18   case  (Din)
+( 224)   COV     241     a case item of         18   case  (Din)
+( 225)   COV     242     a case item of         18   case  (Din)
+( 226)   COV     243     a case item of         18   case  (Din)
+( 227)   COV     244     a case item of         18   case  (Din)
+( 228)   COV     245     a case item of         18   case  (Din)
+( 229)   COV     246     a case item of         18   case  (Din)
+( 230)   COV     247     a case item of         18   case  (Din)
+( 231)   COV     248     a case item of         18   case  (Din)
+( 232)   COV     249     a case item of         18   case  (Din)
+( 233)   COV     250     a case item of         18   case  (Din)
+( 234)   COV     251     a case item of         18   case  (Din)
+( 235)   COV     252     a case item of         18   case  (Din)
+( 236)   COV     253     a case item of         18   case  (Din)
+( 237)   COV     254     a case item of         18   case  (Din)
+( 238)   COV     255     a case item of         18   case  (Din)
+( 239)   COV     256     a case item of         18   case  (Din)
+( 240)   COV     257     a case item of         18   case  (Din)
+( 241)   COV     258     a case item of         18   case  (Din)
+( 242)   COV     259     a case item of         18   case  (Din)
+( 243)   COV     260     a case item of         18   case  (Din)
+( 244)   COV     261     a case item of         18   case  (Din)
+( 245)   COV     262     a case item of         18   case  (Din)
+( 246)   COV     263     a case item of         18   case  (Din)
+( 247)   COV     264     a case item of         18   case  (Din)
+( 248)   COV     265     a case item of         18   case  (Din)
+( 249)   COV     266     a case item of         18   case  (Din)
+( 250)   COV     267     a case item of         18   case  (Din)
+( 251)   COV     268     a case item of         18   case  (Din)
+( 252)   COV     269     a case item of         18   case  (Din)
+( 253)   COV     270     a case item of         18   case  (Din)
+( 254)   COV     271     a case item of         18   case  (Din)
+( 255)   COV     272     a case item of         18   case  (Din)
+( 256)   COV     273     a case item of         18   case  (Din)
+( 257)   COV     274     a case item of         18   case  (Din)
+( 258)   COV      18  *  implicit default:      18   case  (Din)
+
+
+        Module/Entity name: encr_frame_reassembler
+        File name: /design/M200/RevA0/Work/otarif/DIGITAL/trunk/externals/asic_rtl/library/encr_datapath/rtl/encr_frame_reassembler.v
+        Number of blocks marked COV: 2
+        Number of blocks marked IGN: 0
+
+index    mark block line number            line origin description
+-----------------------------------------------------------------------
+(  55)   COV     284     a case item of        279   case(row_counter)
+(  61)   COV     300     a case item of        295   case(row_counter)
+
+
+        Marked Expression Detail Report, Module/Entity-Based
+        ====================================================
+
+Coverage Table Legend
+---------------------
+  -      don't care
+  e      event for event-or expressions
+  O (odd), E (even), B (both), X (not scored), V (marked covered),
+         I (marked ignore) for parity trees
+  COV    Marked covered by user - included in covered and totals
+  IGN    Marked ignore by user or through COM - excluded from 
+         uncovered and totals
+  CON    Impossible expression term as determined by instrumentation
+         due to literal constants - excluded from uncovered and totals
+  rval   Resulting value of the expression for coverage purposes given
+         the input values
+  <-n->  Shows the n-th term composition
+
+
+        Module/Entity name: encr_datapath
+        File name: /design/M200/RevA0/Work/otarif/DIGITAL/trunk/externals/asic_rtl/library/encr_datapath/rtl/encr_datapath.v
+        Number of covered expressions: 51 of 51
+        Number of expr items marked COV: 4
+        Number of expr items marked IGN: 0
+
+Line    Index  Coverage         Expression description
+--------------------------------------------------------------------------------
+  238 (  10) 100% (3/3)         assign start    = (i_rf_static_in_boot_up || core_idle) ? i_single_cycle_start      : core_input_start  ;
+
+            (i_rf_static_in_boot_up || core_idle) ? i_single_cycle_start :
+            <-----------1-----------> <----2----->
+
+            core_input_start
+
+              index  hit | <1> <2> 
+          || ----------------------
+             (   1)  COV |  1   -  
+
+  239 (  11) 100% (3/3)         assign last     = (i_rf_static_in_boot_up || core_idle) ? i_single_cycle_last       : core_input_last   ;
+
+            (i_rf_static_in_boot_up || core_idle) ? i_single_cycle_last :
+            <-----------1-----------> <----2----->
+
+            core_input_last
+
+              index  hit | <1> <2> 
+          || ----------------------
+             (   1)  COV |  1   -  
+
+  241 (  12) 100% (3/3)         assign data_in  = (i_rf_static_in_boot_up || i_single_cycle_data_valid) ? i_single_cycle_data  : core_data_in      ;
+
+            (i_rf_static_in_boot_up || i_single_cycle_data_valid) ?
+            <-----------1-----------> <------------2------------->
+
+            i_single_cycle_data : core_data_in
+
+              index  hit | <1> <2> 
+          || ----------------------
+             (   1)  COV |  1   -  
+             (   2)  COV |  -   1  
+
+

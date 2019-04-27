@@ -1,0 +1,33 @@
+Test summary
+-------------------------------------------------------------------
+[32m[       OK ][0m encr_datapath.default_tb.Case_000
+[32m[       OK ][0m encr_datapath.default_tb.Case_001
+[32m[       OK ][0m encr_datapath.default_tb.Case_002
+[32m[       OK ][0m encr_datapath.default_tb.Case_003
+[32m[       OK ][0m encr_datapath.default_tb.Case_004
+[32m[       OK ][0m encr_datapath.default_tb.Case_005
+[32m[       OK ][0m encr_datapath.default_tb.Case_006
+[32m[       OK ][0m encr_datapath.default_tb.Case_007
+[32m[       OK ][0m encr_datapath.default_tb.Case_008
+[32m[       OK ][0m encr_datapath.default_tb.Case_009
+[32m[       OK ][0m encr_datapath.default_tb.Case_010
+[32m[==========][0m 11 tests ran
+[32m[  PASSED  ][0m 11 tests
+-------------------------------------------------------------------
+SystemC: simulation stopped by user.
+
+
+SC simulation stopped by user.
+
+SystemC : SystemC stopped at time 1057765
+ncsim> exit
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  sc_main.encr_datapath_default_tb.UUT(encr_datapath)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_0edd78ce_00000000.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_0edd78ce_00000000.ucd

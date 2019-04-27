@@ -1,0 +1,24 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev      Id                      Message Text                    
+-----------------------------------------------------------------------
+ 29 Warning MESG-6  Message truncated because it exceeds the maximum   
+                    length of 4096 characters.                         
+                    By default messages are limited to 4096            
+                    characters. All characters after the 4096          
+                    character limit are truncated. To remove this      
+                    limit, set the message attribute 'truncate' to     
+                    'false'. However, this may dramatically increase   
+                    the size of the log file.                          
+  1 Warning WDO-205 The parameter naming style is not LEC-friendly.    
+                    To correctly translate the parameter naming        
+                    style, value of the hdl_parameter_naming_style     
+                    attr must end with '%d'.  There should not be      
+                    anything after the '%d' descriptor.  Should there  
+                    be black boxes in the design, the incorrect        
+                    translation may induce false negative in LEC       
+                    comparison.                                        
+

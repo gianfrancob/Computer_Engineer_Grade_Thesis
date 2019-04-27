@@ -1,0 +1,24 @@
+
+=============================================================================================================
+Goal Status Summary Report
+=============================================================================================================
+Methodology Name:	/projects/CL40010/RevA0/Work/otarif/RTL_COMMON/work/lint/spyglass/LintRules
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Goal            Setup Status          Run Status       Results by Severity
+=============================================================================================================
+arith_lint      Setup Optional        Not Run Yet      
+connectivity    Setup Optional        Not Run Yet      
+name_lint       Setup Optional        Not Run Yet      
+rtl_audit       Setup Optional        Not Run Yet      
+rtl_lint        Setup Optional        Not Run Yet      
+simulation      Setup Optional        Not Run Yet      
+structure       Setup Optional        Not Run Yet      
+structure_audit Setup Optional        Not Run Yet      
+top_lint        Setup Optional        Not Run Yet      
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Note: The format of the "Results By Severity" column is: ( Fatal / Errors / Warnings / Info )
+
+  * - Goal(s) has one or more prerequisite goals which must be run prior to running this goal.
+The batch process has been configured to enforce this and will indicate which, if any, goals need to be run
+first. For details on the prerequisites requirements, please see the documentation for this methodology.

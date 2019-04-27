@@ -1,0 +1,2 @@
+#!/usr/bin/python
+cpi_reflex_generator.py Cpi_Encr_Datapath > cpi_reflex_init.h

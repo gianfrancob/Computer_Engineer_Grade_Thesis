@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" measure v1.136>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title>RTL Compiler Gates Report - "Metric: count"</title>
+  <style type="text/css">
+    .stripe td, .stripe th { border-top: 5px solid rgb(0,0,234); }
+    .summary { text-align: left; color: black; font-family: "Courier New"; white-space: pre; font-size: 14pt;}
+  </style>
+</head>
+<body>
+<table cellpadding="4" cellspacing="0" border="1" style="text-align: left; margin-left: auto; margin-right: auto;">
+  <tbody>
+    <tr align="center">
+      <td nowrap style="vertical-align: top; background-color: rgb(255,204,51);" rowspan="1" colspan="5"><big><span style="font-weight: bold;">RTL Compiler Gates Report - "Metric: count"</span></big>
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Run Name
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">map
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">incremental
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">incremental2
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Version
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">RC14.28 - v14.20-s067_1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">RC14.28 - v14.20-s067_1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">RC14.28 - v14.20-s067_1
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Date: MM/DD/YYYY
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">07/03/2017
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">07/03/2017
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">07/03/2017
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Date: Time
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">02:34:17 PM
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">02:47:16 PM
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">02:58:00 PM
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Runtime
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">00:33:08
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">00:44:35
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">00:53:38
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">Hostname
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">las-ge448
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">las-ge448
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">las-ge448
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(adder)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">602
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">564
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">564
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(buffer)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2598
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">866
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">721
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(clock-gating)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1758
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">635
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">634
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(flop + AR|AS)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5073
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5073
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5073
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(flop + SR|SS)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">29481
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">29481
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">29481
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(flop)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7576
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7576
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7576
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">(inverter)
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">15993
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">8974
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">8594
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AN2D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4367
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4345
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4310
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AN3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">227
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">232
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">233
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AN4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AO21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">979
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">981
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">978
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AO22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">650
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">657
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">660
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOAI211D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">8
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1193
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1169
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1122
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">858
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">694
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">721
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI31D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">142
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">143
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">143
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI32D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">5
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI211D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI221D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">718
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">718
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">718
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">AOI222D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">499
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">498
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">498
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">CKMUX2D1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2720
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2732
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2743
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">CKND2D1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">32314
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">31471
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">31391
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">CKNR2D1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7131
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6622
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6557
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">CKOR2D1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">615
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">294
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">281
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">CKXOR2D1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">27804
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">33400
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">33487
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">FCICOD0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">FCICOND0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">FIICOND0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">GMUX2NMCOD1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">635
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">637
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">637
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">GND3MCOD1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">74
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">70
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">70
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">GNR3MCOD1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">714
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">706
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">704
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">GOAI21MCOD1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">871
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">897
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">905
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">GXNR2MCOD1BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6505
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11346
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11368
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IAO21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">102
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">126
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">123
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IAO22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">682
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">548
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">535
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IAOI21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">99
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">117
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">117
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IIND3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">25
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">26
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IIND4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IINR3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">120
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">181
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">186
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IINR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IND2D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1640
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">447
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">418
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IND3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">21
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">22
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IND4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">9
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">10
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">INR2D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2060
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2081
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2082
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">INR3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">44
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">47
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">49
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">INR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">47
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">49
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">49
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IOA21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1099
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1140
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1142
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IOA22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2965
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">928
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">891
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">IOAI21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">749
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">740
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">732
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">MAOI22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">693
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">206
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">180
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">MOAI22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7883
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">293
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">282
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">MUX3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">ND4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">11
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">13
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">13
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">NR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">8
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">8
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OA21D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">461
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">477
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">477
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OA22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">17
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI22D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">530
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">317
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">306
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI31D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI32D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">452
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">450
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">450
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI33D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI211D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">9
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">12
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI221D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">139
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">139
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">140
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAI222D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">74
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">73
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">73
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OAOI211D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">148
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">149
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">148
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OR3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">OR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">1
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">2
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">3
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">XNR3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">6978
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7120
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">7130
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">XNR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">797
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">821
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">822
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">XOR3D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4072
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4227
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4233
+      </td>
+    </tr>
+    <tr>
+      <td nowrap style="vertical-align: top; text-align: left; background-color: rgb(234,234,234);" rowspan="1" colspan="2">XOR4D0BWP7D5T16P96CPD
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4814
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4832
+      </td>
+      <td nowrap style="vertical-align: top; text-align: right;">4832
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>
+
+

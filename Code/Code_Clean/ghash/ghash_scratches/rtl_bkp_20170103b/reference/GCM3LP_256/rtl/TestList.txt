@@ -1,0 +1,6 @@
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/lp_mix.txt
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/lp_dec.txt
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/lp_enc.txt
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/lp_decgmac.txt
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/lp_encgmac.txt
+/design/M200/RevA0/Work/bmaliatski/DIGITAL/trunk/externals/asic_rtl/library/GCM3LP_256/rtl/vectors/single.txt
